@@ -1,0 +1,198 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Ski Bums · Alpine Ski Resorts 2026/27</title>
+<meta name="description" content="Sortable, filterable guide to major Alpine ski resorts in France, Italy, Austria, Switzerland and Germany: opening dates, day-pass prices, driving time from Milan, freeride and ski-touring scores, weather, avalanche and webcam links.">
+<meta name="color-scheme" content="light dark">
+<meta name="theme-color" content="#f6f8fa" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#151a21" media="(prefers-color-scheme: dark)">
+<link rel="manifest" href="assets/manifest.webmanifest">
+<link rel="icon" href="assets/favicon-32.png" sizes="32x32" type="image/png">
+<link rel="icon" href="assets/favicon-48.png" sizes="48x48" type="image/png">
+<link rel="apple-touch-icon" href="assets/apple-touch-icon.png">
+<meta name="apple-mobile-web-app-title" content="Ski Bums">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="default">
+<link rel="preload" href="data/resorts.json" as="fetch" crossorigin>
+<link rel="preload" href="data/meta.json" as="fetch" crossorigin>
+<link rel="stylesheet" href="css/app.css">
+<script>
+  // Apply the saved theme before first paint to avoid a flash.
+  try {
+    var t = localStorage.getItem('theme');
+    if (t === 'light' || t === 'dark') document.documentElement.setAttribute('data-theme', t);
+  } catch (e) {}
+</script>
+</head>
+<body>
+<a class="skip-link" href="#main">Skip to results</a>
+
+<svg class="sprite" aria-hidden="true" focusable="false" width="0" height="0" style="position:absolute">
+  <defs>
+    <!-- Flags (4:3) -->
+    <symbol id="flag-FR" viewBox="0 0 3 2"><rect width="1" height="2" fill="#0055A4"/><rect x="1" width="1" height="2" fill="#fff"/><rect x="2" width="1" height="2" fill="#EF4135"/></symbol>
+    <symbol id="flag-IT" viewBox="0 0 3 2"><rect width="1" height="2" fill="#009246"/><rect x="1" width="1" height="2" fill="#fff"/><rect x="2" width="1" height="2" fill="#CE2B37"/></symbol>
+    <symbol id="flag-AT" viewBox="0 0 3 2"><rect width="3" height="2" fill="#fff"/><rect width="3" height=".667" fill="#ED2939"/><rect y="1.333" width="3" height=".667" fill="#ED2939"/></symbol>
+    <symbol id="flag-CH" viewBox="0 0 3 2"><rect width="3" height="2" fill="#D52B1E"/><rect x="1.3" y=".4" width=".4" height="1.2" fill="#fff"/><rect x=".9" y=".8" width="1.2" height=".4" fill="#fff"/></symbol>
+    <symbol id="flag-DE" viewBox="0 0 3 2"><rect width="3" height=".667" fill="#000"/><rect y=".667" width="3" height=".667" fill="#DD0000"/><rect y="1.333" width="3" height=".667" fill="#FFCE00"/></symbol>
+    <symbol id="flag-SI" viewBox="0 0 3 2"><rect width="3" height=".667" fill="#fff"/><rect y=".667" width="3" height=".667" fill="#005DA4"/><rect y="1.333" width="3" height=".667" fill="#ED1C24"/><path d="M.55.3h.6v.55c0 .2-.3.35-.3.35S.55 1.05.55.85z" fill="#005DA4" stroke="#ED1C24" stroke-width=".04"/><path d="M.62.9l.23-.36.23.36z" fill="#fff"/></symbol>
+    <!-- Icons: 24x24, stroke based -->
+    <symbol id="i-map" viewBox="0 0 24 24"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></symbol>
+    <symbol id="i-dir" viewBox="0 0 24 24"><polygon points="3 11 22 2 13 21 11 13 3 11"/></symbol>
+    <symbol id="i-weather" viewBox="0 0 24 24"><path d="M18 10h-1.26A8 8 0 1 0 9 20h9a5 5 0 0 0 0-10z"/></symbol>
+    <symbol id="i-avalanche" viewBox="0 0 24 24"><path d="M10.29 3.86L1.82 18a2 2 0 0 0 1.71 3h16.94a2 2 0 0 0 1.71-3L13.71 3.86a2 2 0 0 0-3.42 0z"/><line x1="12" y1="9" x2="12" y2="13"/><line x1="12" y1="17" x2="12.01" y2="17"/></symbol>
+    <symbol id="i-webcam" viewBox="0 0 24 24"><polygon points="23 7 16 12 23 17 23 7"/><rect x="1" y="5" width="15" height="14" rx="2" ry="2"/></symbol>
+    <symbol id="i-search" viewBox="0 0 24 24"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></symbol>
+    <symbol id="i-x" viewBox="0 0 24 24"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></symbol>
+    <symbol id="i-sun" viewBox="0 0 24 24"><circle cx="12" cy="12" r="5"/><line x1="12" y1="1" x2="12" y2="3"/><line x1="12" y1="21" x2="12" y2="23"/><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"/><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"/><line x1="1" y1="12" x2="3" y2="12"/><line x1="21" y1="12" x2="23" y2="12"/><line x1="4.22" y1="19.78" x2="5.64" y2="18.36"/><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"/></symbol>
+    <symbol id="i-moon" viewBox="0 0 24 24"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/></symbol>
+    <symbol id="i-monitor" viewBox="0 0 24 24"><rect x="2" y="3" width="20" height="14" rx="2" ry="2"/><line x1="8" y1="21" x2="16" y2="21"/><line x1="12" y1="17" x2="12" y2="21"/></symbol>
+    <symbol id="i-sliders" viewBox="0 0 24 24"><line x1="4" y1="21" x2="4" y2="14"/><line x1="4" y1="10" x2="4" y2="3"/><line x1="12" y1="21" x2="12" y2="12"/><line x1="12" y1="8" x2="12" y2="3"/><line x1="20" y1="21" x2="20" y2="16"/><line x1="20" y1="12" x2="20" y2="3"/><line x1="1" y1="14" x2="7" y2="14"/><line x1="9" y1="8" x2="15" y2="8"/><line x1="17" y1="16" x2="23" y2="16"/></symbol>
+    <symbol id="i-columns" viewBox="0 0 24 24"><rect x="3" y="3" width="18" height="18" rx="2"/><line x1="9" y1="3" x2="9" y2="21"/><line x1="15" y1="3" x2="15" y2="21"/></symbol>
+    <symbol id="i-link" viewBox="0 0 24 24"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"/><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"/></symbol>
+    <symbol id="i-snow" viewBox="0 0 24 24"><line x1="12" y1="2" x2="12" y2="22"/><line x1="3.3" y1="7" x2="20.7" y2="17"/><line x1="3.3" y1="17" x2="20.7" y2="7"/><path d="M9 4l3 2 3-2M9 20l3-2 3 2M4 9.5l3 1 1-3M20 9.5l-3 1-1-3M4 14.5l3-1 1 3M20 14.5l-3-1-1 3"/></symbol>
+    <symbol id="i-up" viewBox="0 0 24 24"><polyline points="6 15 12 9 18 15"/></symbol>
+    <symbol id="i-down" viewBox="0 0 24 24"><polyline points="6 9 12 15 18 9"/></symbol>
+    <symbol id="i-check" viewBox="0 0 24 24"><polyline points="20 6 9 17 4 12"/></symbol>
+    <symbol id="i-external" viewBox="0 0 24 24"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></symbol>
+  </defs>
+</svg>
+
+<header class="site-header" id="site-header">
+  <a class="brand" href="./" aria-label="Alpine Ski Resorts, home">
+    <img class="logo" src="assets/logo.png" alt="" width="157" height="160" decoding="async">
+    <span class="titles">
+      <span class="title" id="title">Alpine Ski Resorts 2026/27</span>
+      <span class="subtitle" id="subtitle">Loading resorts…</span>
+    </span>
+  </a>
+  <div class="header-tools">
+    <form class="search" id="search-form" role="search" autocomplete="off">
+      <label class="sr-only" for="search">Search resort, ski area or region</label>
+      <svg class="ic search-ic" aria-hidden="true"><use href="#i-search"/></svg>
+      <input type="search" id="search" name="q" placeholder="Search resort, area, region" enterkeyhint="search" spellcheck="false">
+      <button type="button" class="icon-btn clear" id="search-clear" aria-label="Clear search" hidden><svg class="ic" aria-hidden="true"><use href="#i-x"/></svg></button>
+    </form>
+    <button type="button" class="icon-btn only-mobile" id="search-toggle" aria-label="Search" aria-expanded="false" aria-controls="search-form"><svg class="ic" aria-hidden="true"><use href="#i-search"/></svg></button>
+    <button type="button" class="icon-btn" id="theme-toggle" aria-label="Theme: follows system" title="Theme: follows system"><svg class="ic" aria-hidden="true"><use href="#i-monitor"/></svg></button>
+  </div>
+</header>
+
+<div class="banner" id="sample-banner" role="note" hidden>
+  <strong>Sample data.</strong> These rows are illustrative placeholders, not researched resort data.
+</div>
+
+<dialog class="filters-dialog" id="filters-dialog" aria-labelledby="filters-title">
+  <form class="filters" id="filters" novalidate>
+    <div class="filters-head">
+      <h2 id="filters-title">Filters</h2>
+      <button type="button" class="icon-btn" id="filters-close" aria-label="Close filters"><svg class="ic" aria-hidden="true"><use href="#i-x"/></svg></button>
+    </div>
+
+    <fieldset class="chipset" id="f-country">
+      <legend>Country</legend>
+      <div class="chips" id="country-chips"></div>
+    </fieldset>
+
+    <fieldset class="chipset" id="f-type">
+      <legend>Type</legend>
+      <div class="chips" id="type-chips"></div>
+    </fieldset>
+
+    <div class="field">
+      <label for="f-openby">Open by</label>
+      <div class="inline">
+        <input type="date" id="f-openby" name="by" min="2026-09-01" max="2027-06-30">
+        <button type="button" class="text-btn" id="openby-clear" hidden>Clear</button>
+      </div>
+      <p class="hint" id="openby-note" hidden>Resorts with a TBD date are hidden while this filter is active. Year-round glaciers are always shown.</p>
+    </div>
+
+    <div class="field">
+      <label for="f-hours">Max driving time from Milan <output id="hours-out" for="f-hours">No limit</output></label>
+      <input type="range" id="f-hours" name="h" min="1" max="8" step="0.25" value="8" aria-valuetext="No limit">
+    </div>
+
+    <div class="field-row">
+      <div class="field">
+        <label for="f-fr">Min freeride <output id="fr-out" for="f-fr">0</output></label>
+        <div class="stepper">
+          <button type="button" class="icon-btn" data-step="f-fr" data-delta="-0.5" aria-label="Decrease minimum freeride score">−</button>
+          <input type="range" id="f-fr" name="fr" min="0" max="5" step="0.5" value="0">
+          <button type="button" class="icon-btn" data-step="f-fr" data-delta="0.5" aria-label="Increase minimum freeride score">+</button>
+        </div>
+      </div>
+      <div class="field">
+        <label for="f-to">Min ski touring <output id="to-out" for="f-to">0</output></label>
+        <div class="stepper">
+          <button type="button" class="icon-btn" data-step="f-to" data-delta="-0.5" aria-label="Decrease minimum ski-touring score">−</button>
+          <input type="range" id="f-to" name="to" min="0" max="5" step="0.5" value="0">
+          <button type="button" class="icon-btn" data-step="f-to" data-delta="0.5" aria-label="Increase minimum ski-touring score">+</button>
+        </div>
+      </div>
+    </div>
+
+    <label class="check">
+      <input type="checkbox" id="f-hidelow" name="hl">
+      <span>Hide low-confidence rows</span>
+    </label>
+
+    <div class="filters-foot">
+      <span class="count-copy" id="count-copy" aria-hidden="true"></span>
+      <button type="button" class="text-btn" id="reset">Reset all</button>
+      <button type="button" class="primary-btn only-mobile" id="filters-done">Show results</button>
+    </div>
+  </form>
+</dialog>
+
+<div class="toolbar" id="toolbar">
+  <button type="button" class="tool-btn only-mobile" id="filters-open" aria-haspopup="dialog" aria-controls="filters-dialog">
+    <svg class="ic" aria-hidden="true"><use href="#i-sliders"/></svg> Filters <span class="badge-count" id="filter-badge" hidden></span>
+  </button>
+  <label class="only-mobile sort-select">
+    <span class="sr-only">Sort by</span>
+    <select id="mobile-sort">
+      <option value="opens:asc">Opens soonest</option>
+      <option value="milan:asc">Closest to Milan</option>
+      <option value="freeride:desc">Best freeride</option>
+      <option value="touring:desc">Best touring</option>
+      <option value="top:desc">Highest</option>
+      <option value="resort:asc">Name A–Z</option>
+    </select>
+  </label>
+  <p class="count" id="count" role="status" aria-live="polite">Loading…</p>
+  <div class="tool-right">
+    <button type="button" class="tool-btn" id="copy-link" title="Copy a link to this exact view"><svg class="ic" aria-hidden="true"><use href="#i-link"/></svg><span class="only-desktop"> Copy link</span></button>
+    <details class="menu only-desktop" id="col-menu">
+      <summary class="tool-btn" role="button" aria-haspopup="true"><svg class="ic" aria-hidden="true"><use href="#i-columns"/></svg> Columns</summary>
+      <div class="menu-body" id="col-body"></div>
+    </details>
+    <button type="button" class="tool-btn only-desktop" id="reset-top">Reset all</button>
+  </div>
+</div>
+
+<main id="main" tabindex="-1">
+  <div id="results" class="results" aria-busy="true"></div>
+  <p class="empty" id="empty" hidden>No resorts match these filters. <button type="button" class="text-btn" id="empty-reset">Reset all filters</button></p>
+  <p class="error" id="load-error" hidden>The resort data could not be loaded. Check your connection and reload.</p>
+</main>
+
+<footer class="site-footer" id="footer">
+  <span id="footer-data">Data as of …</span> ·
+  <span id="footer-season">Season 2026/27</span> ·
+  <a href="https://github.com/Gcarassai/ski_bums" id="repo-link" target="_blank" rel="noopener noreferrer">Source &amp; data on GitHub</a> ·
+  <span>Dates and prices marked “~” are estimates carried over from the 2025/26 season; check the resort before travelling.</span>
+</footer>
+
+<dialog class="detail" id="detail" aria-labelledby="detail-title">
+  <div class="detail-inner" id="detail-inner"></div>
+</dialog>
+
+<div class="toast" id="toast" role="status" aria-live="polite"></div>
+
+<script src="js/app.js" defer></script>
+</body>
+</html>

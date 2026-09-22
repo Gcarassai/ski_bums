@@ -1,0 +1,30 @@
+# Checks that data/resorts.json matches the committed workbook after every push.
+# Fails when the workbook has invalid cells or when the JSON was not regenerated.
+name: Validate data
+
+on:
+  push:
+    paths:
+      - "alpine_ski_resorts_2026_27.xlsx"
+      - "data/**"
+      - "scripts/xlsx_to_json.py"
+  pull_request:
+  workflow_dispatch:
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install openpyxl
+      - name: Validate the workbook
+        run: python scripts/xlsx_to_json.py alpine_ski_resorts_2026_27.xlsx --check
+      - name: Check that the committed JSON is up to date
+        run: |
+          python scripts/xlsx_to_json.py alpine_ski_resorts_2026_27.xlsx --out-dir /tmp/regen
+          # meta.json carries today's date, so compare resorts.json only.
+          diff -q /tmp/regen/resorts.json data/resorts.json \
+            || { echo "data/resorts.json is stale: run python scripts/xlsx_to_json.py alpine_ski_resorts_2026_27.xlsx and commit."; exit 1; }

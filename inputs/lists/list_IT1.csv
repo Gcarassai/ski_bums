@@ -1,0 +1,21 @@
+id,batch,resort_name,local_name,country,region,ski_area,inclusion_basis,road_head_hint,skiresort_url,notes_for_agent
+70,IT1,Sestriere,,IT,"Turin, Piedmont",Via Lattea (Vialattea),km≥60,,https://www.skiresort.com/en/ski-resort/via-lattea-sestriere-sauze-doulx-san-sicario-claviere-montgenevre/,Pragelato noted as linked village
+71,IT1,Sauze d'Oulx,,IT,"Turin, Piedmont",Via Lattea (Vialattea),km≥60,,https://www.skiresort.com/en/ski-resort/via-lattea-sestriere-sauze-doulx-san-sicario-claviere-montgenevre/,
+72,IT1,Cesana–Sansicario,,IT,"Turin, Piedmont",Via Lattea (Vialattea),km≥60,,https://www.skiresort.com/en/ski-resort/via-lattea-sestriere-sauze-doulx-san-sicario-claviere-montgenevre/,
+73,IT1,Claviere,,IT,"Turin, Piedmont",Via Lattea (Vialattea),km≥60,,https://www.skiresort.com/en/ski-resort/via-lattea-sestriere-sauze-doulx-san-sicario-claviere-montgenevre/,
+74,IT1,Bardonecchia,,IT,"Turin, Piedmont",Bardonecchia,km≥60; alt 2800,,https://www.skiresort.com/en/ski-resort/bardonecchia/,
+75,IT1,Alagna Valsesia,,IT,"Vercelli, Piedmont",Monterosa Ski,km≥60; glacier (Indren); alt 3275; FWQ/freeride mecca,,https://www.skiresort.com/en/ski-resort/alagna-valsesia-gressoney-la-trinite-champoluc-frachey-monterosa-ski/,
+76,IT1,Prato Nevoso – Mondolè Ski,,IT,"Cuneo, Piedmont",Mondolè Ski (Prato Nevoso–Artesina–Frabosa),km≥60 (105 km),,https://www.skiresort.com/en/ski-resort/mondole-ski-artesina-frabosa-soprana-prato-nevoso/,Ligurian Alps; one row for Mondolè
+77,IT1,Macugnaga,,IT,"Verbano-Cusio-Ossola, Piedmont",Macugnaga (Monte Moro),alt 2900; glacier per skiresort.com (verify),,https://www.skiresort.com/en/ski-resort/macugnaga/,Check current lift operation
+78,IT1,Cervinia,Breuil-Cervinia,IT,"Aosta, Valle d'Aosta",Matterhorn Ski Paradise (Zermatt–Cervinia–Valtournenche),km≥60; glacier (Plateau Rosa); alt 3480,,https://www.skiresort.com/en/ski-resort/zermatt-breuil-cervinia-valtournenche-matterhorn/,Valtournenche on same local pass; autumn glacier opening
+79,IT1,Courmayeur,,IT,"Aosta, Valle d'Aosta",Courmayeur Mont Blanc,km≥60? (approx 100 km incl. skyway?) ; glacier (Vallée Blanche via Skyway); alt 3466,,https://www.skiresort.com/en/ski-resort/monte-bianco-courmayeur/,Skyway Monte Bianco separate ticket – note
+80,IT1,La Thuile,,IT,"Aosta, Valle d'Aosta",Espace San Bernardo,km≥60,,https://www.skiresort.com/en/ski-resort/espace-san-bernardo-la-rosiere-la-thuile/,
+81,IT1,Pila,,IT,"Aosta, Valle d'Aosta",Pila,km≥60,,https://www.skiresort.com/en/ski-resort/pila/,Gondola from Aosta town; road to Pila open
+82,IT1,Gressoney-La-Trinité,,IT,"Aosta, Valle d'Aosta",Monterosa Ski,km≥60,,https://www.skiresort.com/en/ski-resort/alagna-valsesia-gressoney-la-trinite-champoluc-frachey-monterosa-ski/,
+83,IT1,Champoluc,,IT,"Aosta, Valle d'Aosta",Monterosa Ski,km≥60,,https://www.skiresort.com/en/ski-resort/alagna-valsesia-gressoney-la-trinite-champoluc-frachey-monterosa-ski/,Ayas valley; Antagnod noted
+84,IT1,Livigno,,IT,"Sondrio, Lombardy",Livigno,km≥60,,https://www.skiresort.com/en/ski-resort/livigno/,Access via Foscagno pass (open) from Bormio; Forcola di Livigno closed in winter; Munt la Schera tunnel (toll) from CH
+85,IT1,Bormio,,IT,"Sondrio, Lombardy",Bormio (Cima Bianca),alt 3012,,https://www.skiresort.com/en/ski-resort/bormio-cima-bianca/,Stelvio pass closed in winter
+86,IT1,Santa Caterina Valfurva,,IT,"Sondrio, Lombardy",Santa Caterina Valfurva,alt 2880,,https://www.skiresort.com/en/ski-resort/santa-caterina-valfurva/,Gavia closed in winter
+87,IT1,Madesimo,,IT,"Sondrio, Lombardy",Valchiavenna (Madesimo–Campodolcino),alt 2948,,https://www.skiresort.com/en/ski-resort/valchiavenna-madesimo-campodolcino/,Splügen pass closed in winter
+88,IT1,Passo dello Stelvio,,IT,"Sondrio, Lombardy",Passo dello Stelvio,glacier (summer/autumn only),,https://www.skiresort.com/en/ski-resort/passo-dello-stelvio-stelvio-pass/,Summer-only glacier ski area; pass road closed in winter – no winter operation
+89,IT1,Ponte di Legno–Passo Tonale,,IT,"Brescia, Lombardy / Trento, Trentino",Pontedilegno-Tonale (Adamello Ski),km≥60; glacier (Presena); alt 3000,,https://www.skiresort.com/en/ski-resort/ponte-di-legno-tonale-presena-glacier-temu-pontedilegno-tonale/,Presena glacier early-season

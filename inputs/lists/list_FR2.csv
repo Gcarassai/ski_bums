@@ -1,0 +1,19 @@
+id,batch,resort_name,local_name,country,region,ski_area,inclusion_basis,road_head_hint,skiresort_url,notes_for_agent
+20,FR2,Le Corbier,,FR,Savoie,Les Sybelles,km≥60,,https://www.skiresort.com/en/ski-resort/les-sybelles-le-corbier-la-toussuire-les-bottieres-st-sorlin-st-jean-darves/,
+21,FR2,La Toussuire,,FR,Savoie,Les Sybelles,km≥60,,https://www.skiresort.com/en/ski-resort/les-sybelles-le-corbier-la-toussuire-les-bottieres-st-sorlin-st-jean-darves/,
+22,FR2,Saint-Sorlin-d'Arves,,FR,Savoie,Les Sybelles,km≥60,,https://www.skiresort.com/en/ski-resort/les-sybelles-le-corbier-la-toussuire-les-bottieres-st-sorlin-st-jean-darves/,
+23,FR2,Saint-Jean-d'Arves,,FR,Savoie,Les Sybelles,km≥60,,https://www.skiresort.com/en/ski-resort/les-sybelles-le-corbier-la-toussuire-les-bottieres-st-sorlin-st-jean-darves/,
+24,FR2,Valloire,,FR,Savoie,Galibier-Thabor,km≥60,,https://www.skiresort.com/en/ski-resort/galibier-thabor-valmeinier-valloire/,Col du Galibier closed in winter
+25,FR2,Valmeinier,,FR,Savoie,Galibier-Thabor,km≥60,,https://www.skiresort.com/en/ski-resort/galibier-thabor-valmeinier-valloire/,
+26,FR2,Val Cenis,,FR,Savoie,Val Cenis (Haute Maurienne Vanoise),km≥60; alt 2800,,https://www.skiresort.com/en/ski-resort/val-cenis-lanslevillard-lanslebourg-termignon/,Lanslevillard/Lanslebourg/Termignon = one row; Mont-Cenis pass closed in winter
+27,FR2,Valfréjus,,FR,Savoie,Valfréjus,km≥60,,https://www.skiresort.com/en/ski-resort/valfrejus/,Fréjus tunnel exit
+28,FR2,La Norma,,FR,Savoie,La Norma,km≥60,,https://www.skiresort.com/en/ski-resort/la-norma/,
+29,FR2,Les Karellis,,FR,Savoie,Les Karellis,km≥60,,https://www.skiresort.com/en/ski-resort/les-karellis/,
+30,FR2,Bonneval-sur-Arc,,FR,Savoie,Bonneval-sur-Arc,alt 2947; touring hub,,,Col de l'Iseran closed in winter
+31,FR2,Alpe d'Huez,,FR,Isère,Alpe d'Huez Grand Domaine,km≥60; glacier (Sarenne/Pic Blanc); alt 3330,,https://www.skiresort.com/en/ski-resort/alpe-dhuez/,"Auris, Villard-Reculas noted as villages"
+32,FR2,Vaujany,,FR,Isère,Alpe d'Huez Grand Domaine,km≥60,,https://www.skiresort.com/en/ski-resort/alpe-dhuez/,
+33,FR2,Oz-en-Oisans,,FR,Isère,Alpe d'Huez Grand Domaine,km≥60,,https://www.skiresort.com/en/ski-resort/alpe-dhuez/,
+34,FR2,Les 2 Alpes,,FR,Isère,Les 2 Alpes,km≥60; glacier; alt 3568,,https://www.skiresort.com/en/ski-resort/les-2-alpes/,Glacier autumn opening; check 2026/27 dates
+35,FR2,Les 7 Laux,,FR,Isère,Les 7 Laux,km≥60,,https://www.skiresort.com/en/ski-resort/les-7-laux-prapoutel-le-pleynet-pipay/,Prapoutel/Pipay/Le Pleynet = one row
+36,FR2,Chamrousse,,FR,Isère,Chamrousse,km≥60,,https://www.skiresort.com/en/ski-resort/chamrousse/,
+37,FR2,Villard-de-Lans–Corrençon,,FR,Isère,Espace Villard-Corrençon (Vercors),km≥60,,https://www.skiresort.com/en/ski-resort/espace-villard-correncon-villard-de-lans-correncon-en-vercors/,"Vercors, Isère"

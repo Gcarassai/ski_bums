@@ -1,0 +1,102 @@
+It --K    400 2789    € 66,- | Via Lattea – Sestriere/Sauze d’Oulx/San Sicario/Claviere/Montgenèvre | Piedmont (Piemonte) / Turin (Torino) / Europe / France / Provence-A
+It --K    181 2518           | Val Gardena (Gröden) | Trentino-Alto Adige (Trentino-Südtirol) / South Tyrol (Südtirol) / Val Gardena (Gröden)
+It --K    155 2504    € 85,- | Madonna di Campiglio/Pinzolo/Folgàrida/Marilleva | Trentino-Alto Adige (Trentino-Südtirol) / Trentino / Val di Sole (Sole Valley) / Europe
+It GHK    132 3275    € 69,- | Alagna Valsesia/Gressoney-La-Trinité/Champoluc/Frachey (Monterosa Ski) | Aosta Valley (Valle d'Aosta) / Monte Rosa / Europe / Italy / Piedmont (Piemo
+It --K    130 2778    € 80,- | Alta Badia | Trentino-Alto Adige (Trentino-Südtirol) / South Tyrol (Südtirol) / Alta Badia
+It --K    125 2275    € 80,- | Kronplatz (Plan de Corones) | Trentino-Alto Adige (Trentino-Südtirol) / South Tyrol (Südtirol) / Plan de Corones (Kro
+It -HK    120 2828    € 80,- | Cortina d'Ampezzo | Venetia (Veneto) / Belluno / Cortina d’Ampezzo
+It --K    115 2798    € 72,- | Livigno | Lombardy / Valtellina / Alta Valtellina
+It --K  105.3 2085    € 52,- | Mondolè Ski – Artesina/Frabosa Soprana/Prato Nevoso | Piedmont (Piemonte) / Cuneo
+It GHK    100 3000    € 64,- | Ponte di Legno/Tonale/Presena Glacier/Temù (Pontedilegno-Tonale) | Trentino-Alto Adige (Trentino-Südtirol) / Trentino / Val di Sole (Sole Valley)
+It -HK    100 2800    € 49,- | Bardonecchia | Piedmont (Piemonte) / Turin (Torino) / Susa Valley (Val di Susa)
+It --K   86.4 2225    € 80,- | 3 Zinnen Dolomites – Helm/Stiergarten/Rotwand/Kreuzbergpass | Trentino-Alto Adige (Trentino-Südtirol) / South Tyrol (Südtirol) / 3 Zinnen Dolomites
+It --K     74 1824    € 59,- | Folgaria/Fiorentini | Trentino-Alto Adige (Trentino-Südtirol) / Trentino / Alpe Cimbra
+It --K     73 2220           | Alpe di Siusi (Seiser Alm) | Trentino-Alto Adige (Trentino-Südtirol) / South Tyrol (Südtirol) / Seiser Alm
+It --K     72 2100    € 70,- | Civetta – Alleghe/Selva di Cadore/Palafavera/Zoldo | Venetia (Veneto) / Belluno
+It --K     70 2740    € 58,- | Pila | Aosta Valley (Valle d'Aosta) / Aosta and surroundings
+It --K   67.5 2513    € 71,- | Passo San Pellegrino/Falcade | Trentino-Alto Adige (Trentino-Südtirol) / Trentino / Val di Fassa (Fassa Valley/​Fassat
+It --K     65 2390    € 70,- | Belpiano (Schöneben)/Malga San Valentino (Haideralm) | Trentino-Alto Adige (Trentino-Südtirol) / South Tyrol (Südtirol) / Venosta Valley (Vins
+It GHK     63 3269    € 75,- | Arabba/Marmolada | Venetia (Veneto) / Belluno
+It --K     60 2357    € 70,- | San Martino di Castrozza | Trentino-Alto Adige (Trentino-Südtirol) / Trentino / San Martino di Castrozza/​Passo Ro
+It -H-     50 3017    € 60,- | Bormio – Cima Bianca | Lombardy / Valtellina / Alta Valtellina
+It GH-     42 3212    € 62,- | Val Senales Glacier (Schnalstaler Gletscher) | Trentino-Alto Adige (Trentino-Südtirol) / South Tyrol (Südtirol) / Merano and Environs 
+It -H-   40.2 3250    € 60,- | Sulden am Ortler (Solda all'Ortles) | Trentino-Alto Adige (Trentino-Südtirol) / South Tyrol (Südtirol) / Venosta Valley (Vins
+It -H-     36 2948    € 57,- | Valchiavenna – Madesimo/Campodolcino | Lombardy / Valtellina / Valchiavenna
+It GH-   32.1 2900    € 34,- | Macugnaga | Piedmont (Piemonte) / Verbano-Cusio-Ossola / Valle Anzasca
+It -H-   20.5 2880    € 63,- | Santa Caterina Valfurva | Lombardy / Valtellina / Alta Valtellina / Valfurva
+It -H-     20 3000    € 58,- | Pejo 3000 | Trentino-Alto Adige (Trentino-Südtirol) / Trentino / Val di Sole (Sole Valley)
+It GH-      9 3450    € 61,- | Passo dello Stelvio (Stelvio Pass) | Lombardy / Valtellina / Alta Valtellina
+It GH-        3466    € 80,- | Monte Bianco – Courmayeur | Aosta Valley (Valle d'Aosta) / Mont Blanc (Monte Bianco)
+It -H-        3518           | Valpelline – Ollomont (Heliski Grand Combin) | Aosta Valley (Valle d'Aosta) / Great Saint Bernard (Gran San Bernardo)
+Au -HK  299.7 2811   € 81.50 | St. Anton/St. Christoph/Stuben/Lech/Zürs/Warth/Schröcken – Ski Arlberg | Tyrol (Tirol) / Tiroler Oberland / Landeck / St. Anton am Arl
+Au --K    275 1869   € 79.50 | SkiWelt Wilder Kaiser-Brixental | Tyrol (Tirol) / Tiroler Unterland / Wilder Kaiser / Europe / 
+Au --K    270 2096    € 82,- | Saalbach Hinterglemm Leogang Fieberbrunn (Skicircus) | Salzburg (Salzburger Land) / Pinzgau / Glemmtal / Europe / Austria / Salzb
+Au -HK    239 2872    € 83,- | Ischgl/Samnaun – Silvretta Arena | Tyrol (Tirol) / Tiroler Oberland / Landeck / Paznaun-Ischgl /
+Au --K    188 2000    € 83,- | KitzSki – Kitzbühel/Kirchberg | Tyrol (Tirol) / Tiroler Unterland / Kitzbühel (District) / Ki
+Au -HK    186 2828    € 78,- | Serfaus-Fiss-Ladis | Tyrol (Tirol) / Tiroler Oberland (region) / Landeck / Serfaus
+Au --K  150.1 2500    € 82,- | Zillertal Arena – Zell am Ziller/Gerlos/Königsleiten/Hochkrimml | Tyrol (Tirol) / Tiroler Unterland / Schwaz / Zillertal / Zell
+Au GHK  145.7 3340   € 86.50 | Sölden | Tyrol (Tirol) / Tiroler Oberland (region) / Imst (District) /
+Au --K    142 2500    € 82,- | Mayrhofen – Penken/Ahorn/Rastkogel/Eggalm (Mountopolis) | Tyrol (Tirol) / Tiroler Unterland / Schwaz / Zillertal / Mayr
+Au --K  141.6 2430    € 77,- | Silvretta Montafon | Vorarlberg / Bludenz / Montafon
+Au --K    123 2015   € 78.50 | Schladming – Planai/Hochwurzen/Hauser Kaibling/Reiteralm (4-Berge-Skischauk | Styria (Steiermark) / Liezen / Schladming-Dachstein
+Au --K  120.1 1980    € 75,- | Snow Space Salzburg – Flachau/Wagrain/St. Johann-Alpendorf | Salzburg (Salzburger Land) / Pongau / Salzburger Sportwelt
+Au --K    120 1900   € 78.50 | Hochkönig – Maria Alm/Dienten/Mühlbach | Salzburg (Salzburger Land) / Hochkönig
+Au -HK  112.2 3030           | Gurgl – Obergurgl-Hochgurgl | Tyrol (Tirol) / Tiroler Oberland (region) / Imst (District) /
+Au --K    110 2002   € 69.50 | Nassfeld – Hermagor | Carinthia (Kärnten) / Nassfeld-Pressegger See
+Au --K    103 2055   € 69.50 | Bad Kleinkirchheim | Carinthia (Kärnten) / Upper Carinthia (Oberkärnten) / Spittal an de
+Au --K    100 2313    € 72,- | Obertauern | Salzburg (Salzburger Land) / Lungau / Europe / Austria / Salzburg (Salzbur
+Au --K   97.7 2030   € 71.50 | Ski Juwel Alpbachtal Wildschönau | Tyrol (Tirol) / Tiroler Unterland / Kufstein / Holiday Region
+Au --K   89.1 2378    € 83,- | Kaltenbach – Hochzillertal/Hochfügen (SKi-optimal) | Tyrol (Tirol) / Tiroler Unterland / Schwaz / Zillertal / Füge
+Au --K   82.7 2300   € 78.50 | Bad Gastein/Bad Hofgastein – Schlossalm/Angertal/Stubnerkogel | Salzburg (Salzburger Land) / Pongau / Gastein
+Au --K     80 2220    € 73,- | Katschberg | Carinthia (Kärnten) / Upper Carinthia (Oberkärnten) / Spittal an de
+Au --K     77 2000    € 82,- | Schmittenhöhe – Zell am See | Salzburg (Salzburger Land) / Pinzgau / Zell am See-Kaprun
+Au --K   75.8 2050   € 72.50 | Damüls Mellau | Vorarlberg / Bregenz / Bregenzerwald
+Au --K     75 2150   € 69.50 | Wildkogel – Neukirchen/Bramberg | Salzburg (Salzburger Land) / Pinzgau / Europe / Austria / Salzburg (Salzbu
+Au --K     75 2750    € 65,- | Nauders am Reschenpass – Bergkastel | Tyrol (Tirol) / Tiroler Oberland (region) / Landeck / Tiroler
+Au --K   67.5 2033   € 81.50 | Dorfgastein/Großarltal | Salzburg (Salzburger Land) / Pongau / Grossarltal / Europe / Austria / Sal
+Au GHK     65 3210   € 72.50 | Stubai Glacier (Stubaier Gletscher) | Tyrol (Tirol) / Innsbruck / Innsbruck-Land / Stubai
+Au GHK     64 3250    € 82,- | Hintertux Glacier (Hintertuxer Gletscher) | Tyrol (Tirol) / Tiroler Unterland / Schwaz / Zillertal / Tux-
+Au GHK   62.5 3029    € 82,- | Kitzsteinhorn/Maiskogel – Kaprun | Salzburg (Salzburger Land) / Pinzgau / Zell am See-Kaprun
+Au GH-     55 3113    € 75,- | Kaunertal Glacier (Kaunertaler Gletscher) | Tyrol (Tirol) / Tiroler Oberland (region) / Landeck / Tiroler
+Au -H-     55 2902           | Grossglockner Heiligenblut | Carinthia (Kärnten) / Upper Carinthia (Oberkärnten) / Spittal an de
+Au GH-     41 3440    € 77,- | Pitztal Glacier (Pitztaler Gletscher) | Tyrol (Tirol) / Tiroler Oberland (region) / Imst (District) /
+Au GH-     36 3122    € 69,- | Moelltal Glacier (Mölltaler Gletscher) | Carinthia (Kärnten) / Upper Carinthia (Oberkärnten) / Spittal an de
+Au -H-     26 2800    € 77,- | Rifflsee | Tyrol (Tirol) / Tiroler Oberland (region) / Imst (District) /
+Sw --K    580 2254    € 72,- | Les Portes du Soleil – Morzine/Avoriaz/Les Gets/Châtel/Morgins/Champéry | Lemanic Region / Valais (Wallis) / Val d'Illiez / Europe / Fra
+Sw GHK    412 3330 SFr. 94,- / approx. € 100,- | 4 Vallées – Verbier/La Tzoumaz/Nendaz/Veysonnaz/Thyon | Lemanic Region / Valais (Wallis) / Val d’Hérens / Europe / Swi
+Sw GHK    322 3899 SFr. 116,- / approx. € 123,- | Zermatt/Breuil-Cervinia/Valtournenche – Matterhorn | Lemanic Region / Valais (Wallis) / Zermatt-Matterhorn / Europe
+Sw -HK    225 2865 SFr. 89,- / approx. € 94,- | Arosa Lenzerheide | Eastern Switzerland / Graubünden / Arosa / Europe / Switzerland / E
+Sw GHK    176 3018           | Laax/Flims/Falera | Eastern Switzerland / Graubünden / Flims Laax Falera
+Sw -HK    155 3057           | St. Moritz – Corviglia | Eastern Switzerland / Graubünden / Engadin St. Moritz
+Sw GHK    140 2927 SFr. 89,- / approx. € 94,- | Crans-Montana | Lemanic Region / Valais (Wallis)
+Sw --K    120 2310 SFr. 67,- / approx. € 71,- | Obersaxen/Mundaun/Val Lumnezia | Eastern Switzerland / Graubünden / Surselva
+Sw GHK    120 3303           | Corvatsch/Furtschellas | Eastern Switzerland / Graubünden / Engadin St. Moritz
+Sw -HK    115 2900 SFr. 73,- / approx. € 77,- | Grimentz/Zinal | Lemanic Region / Valais (Wallis) / Val d'Anniviers
+Sw -HK    104 2869 SFr. 66,- / approx. € 70,- | Aletsch Arena – Riederalp/Bettmeralp/Fiesch Eggishorn | Lemanic Region / Valais (Wallis) / Aletsch Arena
+Sw --K    101 2400 SFr. 83,- / approx. € 88,- | Kleine Scheidegg/Männlichen – Grindelwald/Wengen | Espace Mittelland / Bern / Bernese Oberland / Jungfrau Region
+Sw GHK    100 3573 SFr. 84,- / approx. € 89,- | Saas-Fee | Lemanic Region / Valais (Wallis) / Saas-Fee/​Saastal
+Sw -HK   95.5 2844 SFr. 86,- / approx. € 91,- | Parsenn (Davos Klosters) | Eastern Switzerland / Graubünden / Davos Klosters
+Sw --K   88.9 2011 SFr. 89,- / approx. € 94,- | Rinderberg/Saanerslochgrat/Horneggli – Zweisimmen/Saanenmöser/Schönried/St. | Espace Mittelland / Bern / Bernese Oberland / Gstaad
+Sw --K     87 2120 SFr. 69,- / approx. € 73,- | Villars/Gryon/Les Diablerets | Lemanic Region / Waadt
+Sw --K     86 2200           | Adelboden/Lenk – Chuenisbärgli/Silleren/Hahnenmoos/Metsch | Espace Mittelland / Bern / Bernese Oberland / Adelboden-Frutigen 
+Sw --K   73.5 2713           | Savognin | Eastern Switzerland / Graubünden / Savognin Bivio Albula / Surses (
+Sw --K     70 2600 SFr. 89,- / approx. € 94,- | Andermatt/Oberalp/Sedrun | Central Switzerland / Uri / Andermatt / Europe / Switzerland / East
+Sw --K     70 2785 SFr. 69,- / approx. € 73,- | Scuol – Motta Naluns | Eastern Switzerland / Graubünden / Engadin Samnaun Val Müstair
+Sw GHK     70 3020           | Titlis – Engelberg | Central Switzerland / Engelberg-Titlis
+Sw --K     65 2222 SFr. 74,- / approx. € 78,- | Flumserberg | Eastern Switzerland / Heidiland
+Sw --K     60 2433 SFr. 65,- / approx. € 69,- | Meiringen-Hasliberg | Espace Mittelland / Bern / Bernese Oberland / Haslital
+Sw -HK     60 2833 SFr. 64,- / approx. € 68,- | Disentis | Eastern Switzerland / Graubünden / Disentis Sedrun
+Sw -HK     60 2980 SFr. 66,- / approx. € 70,- | Saint Luc/Chandolin (Anniviers) | Lemanic Region / Valais (Wallis) / Val d'Anniviers
+Sw --K     60 2198 SFr. 68,- / approx. € 72,- | Leysin | Lemanic Region / Waadt
+Sw -H-     54 2970 SFr. 83,- / approx. € 88,- | Schilthorn – Mürren/Lauterbrunnen | Espace Mittelland / Bern / Bernese Oberland / Jungfrau Region
+Sw -H-     44 2864           | Grächen | Lemanic Region / Valais (Wallis) / Matter Valley (Mattertal)
+Sw -H-     40 3100 SFr. 70,- / approx. € 74,- | Lauchernalp – Lötschental | Lemanic Region / Valais (Wallis) / Lötschental
+Sw -H-   38.1 3118 SFr. 74,- / approx. € 78,- | Belalp – Blatten | Lemanic Region / Valais (Wallis)
+Sw GH-     35 3006           | Diavolezza/Lagalb | Eastern Switzerland / Graubünden / Engadin St. Moritz / Val Bernina
+Sw -H-     31 2961 SFr. 89,- / approx. € 94,- | Gemsstock – Andermatt | Central Switzerland / Uri / Andermatt
+Sw GH-     31 3016 SFr. 79,- / approx. € 84,- | Glacier 3000 – Les Diablerets | Espace Mittelland / Bern / Bernese Oberland / Gstaad
+Sw -H-   26.7 2877 SFr. 50,- / approx. € 53,- | Arolla | Lemanic Region / Valais (Wallis) / Val d’Hérens / Espace Dent-
+Sw -H-   26.1 3200 SFr. 62,- / approx. € 66,- | Hohsaas – Saas-Grund | Lemanic Region / Valais (Wallis) / Saas-Fee/​Saastal
+Sw -H-     25 2851 SFr. 39,- / approx. € 41,- | Vals – Dachberg | Eastern Switzerland / Graubünden / Vals (Valsertal)
+Sw -H-     25 2800 SFr. 38,- / approx. € 40,- | Espace Super Saint-Bernard – Bourg-St-Pierre <span class="closed-resort red | Lemanic Region / Valais (Wallis) / Pays du St-Bernard
+Sw -H-        3300           | Bernina Heliski | Eastern Switzerland / Graubünden / Engadin St. Moritz / «

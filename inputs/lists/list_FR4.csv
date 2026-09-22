@@ -1,0 +1,17 @@
+id,batch,resort_name,local_name,country,region,ski_area,inclusion_basis,road_head_hint,skiresort_url,notes_for_agent
+54,FR4,Serre Chevalier,,FR,Hautes-Alpes,Serre Chevalier Vallée,km≥60; alt 2800,,https://www.skiresort.com/en/ski-resort/serre-chevalier-briancon-chantemerle-villeneuve-la-salle-le-monetier-les-bains/,Briançon/Chantemerle/Villeneuve/Monêtier = one row
+55,FR4,Montgenèvre,,FR,Hautes-Alpes,Via Lattea (Vialattea),km≥60,,https://www.skiresort.com/en/ski-resort/via-lattea-sestriere-sauze-doulx-san-sicario-claviere-montgenevre/,Local Montgenèvre pass vs Vialattea international
+56,FR4,Vars,,FR,Hautes-Alpes,La Forêt Blanche (Vars–Risoul),km≥60; FWQ history,,https://www.skiresort.com/en/ski-resort/vars-risoul-la-foret-blanche/,Col de Vars usually open in winter (check)
+57,FR4,Risoul,,FR,Hautes-Alpes,La Forêt Blanche (Vars–Risoul),km≥60,,https://www.skiresort.com/en/ski-resort/vars-risoul-la-foret-blanche/,
+58,FR4,Les Orres,,FR,Hautes-Alpes,Les Orres,km≥60,,https://www.skiresort.com/en/ski-resort/les-orres/,
+59,FR4,Orcières Merlette,,FR,Hautes-Alpes,Orcières Merlette 1850,km≥60,,https://www.skiresort.com/en/ski-resort/orcieres-merlette-1850/,
+60,FR4,Puy-Saint-Vincent,,FR,Hautes-Alpes,Puy-Saint-Vincent,km≥60,,https://www.skiresort.com/en/ski-resort/puy-saint-vincent/,
+61,FR4,Le Dévoluy,,FR,Hautes-Alpes,Le Dévoluy (Superdévoluy–La Joue du Loup),km≥60,,https://www.skiresort.com/en/ski-resort/devoluy-superdevoluy-la-joue-du-loup/,Two bases marketed as one destination
+62,FR4,La Grave,,FR,Hautes-Alpes,La Grave–La Meije,alt 3550; world-class freeride (criterion 3/4),,https://www.skiresort.com/en/ski-resort/la-grave-la-meije/,Off-piste only; Col du Lautaret usually open (check)
+63,FR4,Molines-en-Queyras–Saint-Véran,,FR,Hautes-Alpes,Queyras,alt 2800 (verify),,https://www.skiresort.com/en/ski-resort/molines-en-queyras-saint-veran/,Col Agnel/Izoard closed; access via Guillestre
+64,FR4,Pra Loup,,FR,Alpes-de-Haute-Provence,Espace Lumière,km≥60,,https://www.skiresort.com/en/ski-resort/espace-lumiere-pra-loup-val-dallos/,
+65,FR4,Val d'Allos–La Foux,,FR,Alpes-de-Haute-Provence,Espace Lumière,km≥60,,https://www.skiresort.com/en/ski-resort/espace-lumiere-pra-loup-val-dallos/,Col d'Allos closed in winter
+66,FR4,Le Sauze–Super Sauze,,FR,Alpes-de-Haute-Provence,Le Sauze,km≥60 (65 km),,https://www.skiresort.com/en/ski-resort/super-sauze/,
+67,FR4,Auron,,FR,Alpes-Maritimes,Auron (Stations du Mercantour),km≥60,,https://www.skiresort.com/en/ski-resort/auron-saint-etienne-de-tinee/,
+68,FR4,Isola 2000,,FR,Alpes-Maritimes,Isola 2000 (Stations du Mercantour),km≥60,,https://www.skiresort.com/en/ski-resort/isola-2000/,Col de la Lombarde closed in winter
+69,FR4,Valberg,,FR,Alpes-Maritimes,Valberg–Beuil,km≥60,,https://www.skiresort.com/en/ski-resort/valberg-beuil-les-launes/,

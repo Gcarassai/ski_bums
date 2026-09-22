@@ -1,0 +1,215 @@
+id,resort_name,country,base_lat,base_lon,distance_km,hours,via,hits_primary,modes,status,snap_m
+1,Courchevel,FR,45.41503,6.63331,378.5,4.561,,,,ok,24
+2,Méribel,FR,45.39378,6.56699,371.8,4.443,,,,ok,19
+3,Les Menuires,FR,45.32408,6.53882,383.5,4.765,,,,ok,10
+4,Val Thorens,FR,45.29791,6.58227,391.6,4.776,,,,ok,46
+5,Saint-Martin-de-Belleville,FR,45.37980,6.50463,374.0,4.444,,,,ok,6
+6,Orelle,FR,45.20737,6.54594,252.3,3.033,,,,ok,13
+7,Tignes,FR,45.46928,6.90663,415.7,5.246,Albertville,Petit Saint-Bernard,,detour_forced,2
+8,Val d'Isère,FR,45.44956,6.97874,417.5,5.354,Albertville,Iseran;Mont Cenis,,detour_forced,4
+9,La Plagne,FR,45.50588,6.67436,387.7,4.709,,Petit Saint-Bernard,,alternative_used,11
+10,Les Arcs,FR,45.57340,6.77879,394.8,4.910,Albertville,Petit Saint-Bernard,,detour_forced,58
+11,Peisey-Vallandry,FR,45.54987,6.76282,392.1,4.783,Albertville,Petit Saint-Bernard,,detour_forced,31
+12,La Rosière,FR,45.62860,6.84784,408.5,5.132,Albertville,Petit Saint-Bernard,,detour_forced,4
+13,Sainte-Foy-Tarentaise,FR,45.57597,6.89372,404.9,5.122,Albertville,Petit Saint-Bernard,,detour_forced,30
+14,Arêches-Beaufort,FR,45.68812,6.56237,355.8,4.351,,,,ok,28
+15,Valmorel,FR,45.46236,6.44073,364.1,4.355,,,,ok,8
+16,Saint-François-Longchamp,FR,45.41784,6.36348,295.5,3.630,,,,ok,5
+17,Les Saisies,FR,45.75733,6.53945,294.6,4.016,,,,ok,9
+18,Notre-Dame-de-Bellecombe,FR,45.80840,6.51715,282.6,3.790,,,,ok,12
+19,Praz-sur-Arly,FR,45.83792,6.57045,276.5,3.671,,,,ok,28
+20,Le Corbier,FR,45.24016,6.26823,289.4,3.603,,,,ok,44
+21,La Toussuire,FR,45.25577,6.26267,287.8,3.593,,,,ok,41
+22,Saint-Sorlin-d'Arves,FR,45.21760,6.22954,294.6,3.746,,,,ok,18
+23,Saint-Jean-d'Arves,FR,45.21493,6.26006,291.1,3.719,,,,ok,11
+24,Valloire,FR,45.16500,6.42964,275.5,3.444,,,,ok,27
+25,Valmeinier,FR,45.17574,6.49353,274.3,3.434,,,,ok,13
+26,Val Cenis,FR,45.28918,6.91156,273.1,3.432,Modane,Mont Cenis,,detour_forced,5
+27,Valfréjus,FR,45.17368,6.65433,249.1,3.047,,,,ok,17
+28,La Norma,FR,45.20145,6.69704,251.6,3.073,,,,ok,84
+29,Les Karellis,FR,45.22857,6.40646,280.8,3.443,,,,ok,26
+30,Bonneval-sur-Arc,FR,45.37387,7.05610,290.0,3.736,Modane,Mont Cenis,,detour_forced,0
+31,Alpe d'Huez,FR,45.09240,6.06994,326.4,4.575,,,,ok,3
+32,Vaujany,FR,45.15740,6.07915,331.8,4.705,Bourg-d'Oisans,Glandon,,detour_forced,25
+33,Oz-en-Oisans,FR,45.12802,6.07100,333.1,4.750,Bourg-d'Oisans,Glandon,,detour_forced,23
+34,Les 2 Alpes,FR,45.01007,6.12559,309.4,4.282,,,,ok,17
+35,Les 7 Laux,FR,45.25678,5.99544,365.2,4.333,,,,ok,15
+36,Chamrousse,FR,45.12621,5.87697,398.0,4.769,,,,ok,6
+37,Villard-de-Lans–Corrençon,FR,45.04611,5.55721,410.8,5.035,,,,ok,3
+38,Chamonix,FR,45.91821,6.87018,242.7,3.093,,,,ok,27
+39,Megève,FR,45.85002,6.61477,272.9,3.605,,,,ok,2
+40,Saint-Gervais-les-Bains,FR,45.87480,6.68587,270.2,3.571,,,,ok,17
+41,Combloux,FR,45.89164,6.62208,271.1,3.545,,,,ok,135
+42,Les Contamines-Montjoie,FR,45.81229,6.72350,271.6,3.647,,,,ok,2
+43,La Clusaz,FR,45.90522,6.43226,317.4,4.126,,,,ok,6
+44,Le Grand-Bornand,FR,45.97382,6.45508,384.1,4.795,Albertville,Colombière,,detour_forced,2
+45,Flaine,FR,46.00413,6.69604,300.1,4.067,,,,ok,6
+46,Les Carroz,FR,46.02471,6.64444,285.1,3.748,,,,ok,30
+47,Samoëns,FR,46.06600,6.71177,297.4,3.916,,,,ok,152
+48,Morillon,FR,46.08213,6.68021,293.2,3.810,,,,ok,8
+49,Morzine,FR,46.17990,6.70194,305.7,4.068,,,,ok,12
+50,Avoriaz,FR,46.19769,6.76800,318.7,4.350,,,,ok,3
+51,Les Gets,FR,46.15678,6.66828,299.6,3.944,,,,ok,19
+52,Châtel,FR,46.25439,6.82030,305.0,4.376,,,,ok,10
+53,Praz de Lys–Sommand,FR,46.14635,6.58130,303.1,4.051,,,,ok,5
+54,Serre Chevalier,FR,44.93253,6.59259,252.9,3.304,,,,ok,33
+55,Montgenèvre,FR,44.93117,6.72180,235.9,3.002,,,,ok,8
+56,Vars,FR,44.57261,6.68164,296.6,4.097,,,,ok,25
+57,Risoul,FR,44.62287,6.63583,294.5,4.048,,,,ok,50
+58,Les Orres,FR,44.49301,6.55710,312.1,4.349,,,,ok,7
+59,Orcières Merlette,FR,44.69605,6.32292,359.0,5.129,,,,ok,8
+60,Puy-Saint-Vincent,FR,44.81912,6.48565,272.7,3.719,,,,ok,3
+61,Le Dévoluy,FR,44.67654,5.92959,383.9,5.586,Gap,Noyer,,detour_forced,53
+62,La Grave,FR,45.04426,6.30311,285.5,3.862,,,,ok,15
+63,Molines-en-Queyras–Saint-Véran,FR,44.72348,6.84727,396.8,5.702,Barcelonnette,Agnel,,detour_forced,0
+64,Pra Loup,FR,44.37015,6.60250,329.8,4.504,,,,ok,37
+65,Val d'Allos–La Foux,FR,44.29014,6.56909,452.6,6.209,Nice,Allos,,detour_forced,15
+66,Le Sauze–Super Sauze,FR,44.37315,6.68170,321.3,4.340,,,,ok,13
+67,Auron,FR,44.22627,6.93098,408.1,5.247,Nice,Lombarde,,detour_forced,7
+68,Isola 2000,FR,44.18662,7.15789,405.7,5.193,Nice,Lombarde,,detour_forced,9
+69,Valberg,FR,44.09562,6.93014,393.1,4.907,,,,ok,32
+70,Sestriere,IT,44.95845,6.87869,238.0,2.974,,,,ok,34
+71,Sauze d'Oulx,IT,45.02703,6.85835,221.8,2.755,,,,ok,2
+72,Cesana–Sansicario,IT,44.95244,6.79067,226.9,2.774,,,,ok,12
+73,Claviere,IT,44.93880,6.75029,233.2,2.930,,,,ok,11
+74,Bardonecchia,IT,45.07078,6.69644,228.8,2.777,,,,ok,4
+75,Alagna Valsesia,IT,45.85388,7.93625,149.3,2.175,,,,ok,19
+76,Prato Nevoso – Mondolè Ski,IT,44.25529,7.78559,230.8,2.869,,,,ok,20
+77,Macugnaga,IT,45.96789,7.96815,146.7,2.006,,,,ok,4
+78,Cervinia,IT,45.93560,7.63044,189.6,2.494,,,,ok,0
+79,Courmayeur,IT,45.78996,6.96520,220.3,2.686,,,,ok,24
+80,La Thuile,IT,45.71143,6.94916,226.7,2.949,,,,ok,21
+81,Pila,IT,45.68727,7.31082,203.8,2.698,,,,ok,6
+82,Gressoney-La-Trinité,IT,45.85973,7.81290,176.3,2.436,,,,ok,12
+83,Champoluc,IT,45.83164,7.72600,177.2,2.318,,,,ok,3
+84,Livigno,IT,46.53817,10.13599,234.6,4.079,Bormio,Forcola di Livigno,,detour_forced,93
+85,Bormio,IT,46.46418,10.37237,197.1,3.264,,,,ok,0
+86,Santa Caterina Valfurva,IT,46.41215,10.49520,209.2,3.496,,,,ok,3
+87,Madesimo,IT,46.43353,9.35748,139.0,2.518,,,,ok,31
+88,Passo dello Stelvio,IT,46.52862,10.45321,218.1,3.722,,,,ok,0
+89,Ponte di Legno–Passo Tonale,IT,46.25801,10.58185,180.4,2.925,,,,ok,0
+90,Madonna di Campiglio,IT,46.22699,10.82702,215.8,3.215,,,,ok,54
+91,Pinzolo,IT,46.16173,10.76500,203.2,3.010,,,,ok,21
+92,Folgarida–Marilleva,IT,46.30307,10.86561,226.6,3.460,,,,ok,10
+93,Val di Fassa,IT,46.47402,11.77447,319.6,4.119,,,,ok,8
+94,Alpe Lusia–San Pellegrino,IT,46.36821,11.68775,304.5,3.810,,,,ok,27
+95,Val di Fiemme–Obereggen,IT,46.29119,11.46047,279.9,3.388,,,,ok,5
+96,San Martino di Castrozza–Passo Rolle,IT,46.25499,11.79934,323.4,4.059,,,,ok,17
+97,Folgaria–Lavarone,IT,45.91703,11.16725,216.7,2.775,,,,ok,9
+98,Pejo,IT,46.36304,10.66133,208.4,3.486,,,,ok,40
+99,Val Gardena,IT,46.55519,11.76010,316.2,3.837,,,,ok,22
+100,Alta Badia,IT,46.54957,11.87403,336.2,4.291,,,,ok,22
+101,Kronplatz,IT,46.77666,11.95029,348.8,4.138,,,,ok,6
+102,3 Zinnen Dolomites,IT,46.73164,12.32978,380.8,4.637,,,,ok,12
+103,Alpe di Siusi,IT,46.53987,11.56334,295.5,3.444,,,,ok,31
+104,Plose,IT,46.69833,11.67574,319.2,3.777,,,,ok,24
+105,Val Senales,IT,46.75651,10.78275,335.6,4.079,,,,ok,12
+106,Solda,IT,46.52804,10.58426,361.3,4.525,,Stelvio;Umbrail,,alternative_used,16
+107,Belpiano–Malga San Valentino,IT,46.82964,10.51831,260.8,4.470,,,,ok,4
+108,Cortina d'Ampezzo,IT,46.53833,12.13735,407.2,4.633,,,,ok,7
+109,Arabba–Marmolada,IT,46.49718,11.87409,347.5,4.461,,,,ok,7
+110,Civetta,IT,46.40664,12.02146,342.2,4.491,,,,ok,2
+111,St. Anton am Arlberg,AT,47.12818,10.26286,342.0,4.570,,,,ok,20
+112,Lech–Zürs,AT,47.20798,10.14243,340.3,4.565,,,,ok,34
+113,Warth–Schröcken,AT,47.26002,10.17570,356.6,4.895,Schoppernau,Lech–Warth road (Tannberg),,detour_forced,42
+114,Ischgl,AT,47.01014,10.28801,380.7,5.190,,,,ok,11
+115,Kappl,AT,47.06036,10.37420,371.6,5.016,,,,ok,25
+116,Galtür,AT,46.96463,10.16223,391.9,5.394,,,,ok,20
+117,Serfaus-Fiss-Ladis,AT,47.05717,10.61299,279.5,4.744,,,,ok,14
+118,Nauders,AT,46.87546,10.50892,255.4,4.387,,,,ok,0
+119,Sölden,AT,46.95997,11.00929,471.3,5.682,Ötztal Bahnhof,Timmelsjoch,,detour_forced,16
+120,Obergurgl–Hochgurgl,AT,46.87572,11.03308,484.0,5.888,Ötztal Bahnhof,Timmelsjoch,,detour_forced,32
+121,Vent,AT,46.86020,10.91500,487.8,6.058,Ötztal Bahnhof,Timmelsjoch,,detour_forced,9
+122,Kühtai,AT,47.21172,11.01070,424.7,5.088,,,,ok,13
+123,Axamer Lizum,AT,47.19537,11.30210,404.6,4.891,,,,ok,33
+124,Stubai Glacier,AT,47.01334,11.16261,408.5,4.958,,,,ok,11
+125,Kaunertal Glacier,AT,46.86382,10.71354,313.3,5.917,,,,ok,7
+126,Pitztal Glacier,AT,46.95825,10.87147,325.8,5.602,,,,ok,25
+127,Schruns – Silvretta Montafon Hochjoch,AT,47.07972,9.92355,313.9,4.211,,,,ok,16
+128,Gaschurn–St. Gallenkirch – Silvretta Montafon Nova,AT,47.02214,9.96461,320.9,4.321,,,,ok,26
+129,Gargellen,AT,46.96827,9.91887,328.3,4.440,,,,ok,17
+130,Damüls–Mellau,AT,47.28669,9.88793,320.8,4.404,,,,ok,30
+131,Kleinwalsertal,AT,47.35584,10.18486,366.1,5.040,,,,ok,12
+132,Garmisch-Partenkirchen,DE,47.48962,11.09672,442.9,5.352,,,,ok,27
+133,Oberstdorf,DE,47.40494,10.28541,359.0,4.956,,,,ok,17
+134,Mayrhofen,AT,47.16342,11.86064,455.7,5.470,,,,ok,8
+135,Hintertux Glacier,AT,47.10683,11.67498,474.7,5.810,,,,ok,16
+136,Hochzillertal–Hochfügen,AT,47.28923,11.87286,439.6,5.228,,,,ok,34
+137,Zell am Ziller,AT,47.23719,11.89944,446.7,5.302,,,,ok,25
+138,Gerlos,AT,47.22962,12.04903,465.4,5.614,,,,ok,18
+139,Königsleiten–Wald,AT,47.25081,12.12219,474.1,5.775,,,,ok,21
+140,Kitzbühel,AT,47.44323,12.38936,480.7,5.875,,,,ok,19
+141,Kirchberg in Tirol,AT,47.45038,12.33508,473.9,5.702,,,,ok,29
+142,Söll,AT,47.49629,12.19831,460.0,5.456,,,,ok,16
+143,Ellmau,AT,47.50784,12.29313,469.5,5.622,,,,ok,30
+144,Scheffau,AT,47.52002,12.24895,464.4,5.534,,,,ok,19
+145,Westendorf,AT,47.42748,12.21406,464.4,5.544,,,,ok,18
+146,Brixen im Thale,AT,47.44948,12.24331,466.4,5.585,,,,ok,27
+147,Hopfgarten im Brixental,AT,47.44667,12.16220,458.8,5.432,,,,ok,15
+148,Alpbach,AT,47.39621,11.92432,436.7,5.200,,,,ok,4
+149,Wildschönau,AT,47.40818,12.03719,462.8,5.580,,,,ok,18
+150,Fieberbrunn,AT,47.46724,12.55113,491.3,6.074,,,,ok,28
+151,Saalbach-Hinterglemm,AT,47.39047,12.63479,536.8,6.857,,Staller Sattel,,alternative_used,9
+152,Leogang,AT,47.43925,12.71883,504.7,6.277,,,,ok,16
+153,Zell am See,AT,47.32630,12.77236,529.0,6.747,,Staller Sattel,,alternative_used,28
+154,Kaprun – Kitzsteinhorn,AT,47.22936,12.72673,535.4,6.750,,Staller Sattel,,alternative_used,8
+155,Wildkogel (Neukirchen–Bramberg),AT,47.25439,12.28077,494.5,6.134,,,,ok,20
+156,Flachau,AT,47.35343,13.38562,623.8,6.618,,,,ok,23
+157,Wagrain,AT,47.33411,13.30834,632.8,6.761,,,,ok,3
+158,St. Johann–Alpendorf,AT,47.32135,13.19505,643.4,6.949,,,,ok,26
+159,Hochkönig (Maria Alm–Dienten–Mühlbach),AT,47.38974,12.90895,522.1,6.602,,,,ok,20
+160,Bad Gastein,AT,47.11065,13.13166,678.6,7.493,,Staller Sattel,,alternative_used,8
+161,Bad Hofgastein,AT,47.16921,13.09881,671.3,7.363,,Staller Sattel,,alternative_used,9
+162,Großarl–Dorfgastein,AT,47.24157,13.19517,655.3,7.161,,,,ok,21
+163,Obertauern,AT,47.24944,13.55696,612.8,6.570,,,,ok,62
+164,Schladming,AT,47.39264,13.69331,650.6,6.974,,,,ok,7
+166,Katschberg,AT,47.05915,13.61566,580.0,6.072,,,,ok,0
+167,Bad Kleinkirchheim,AT,46.81230,13.79887,541.0,5.948,,,,ok,23
+168,Nassfeld,AT,46.61147,13.27936,557.1,6.124,Villach,Pramollo/Nassfeld pass (Italian ramp),,detour_forced,40
+169,Mölltal Glacier,AT,46.96180,13.05720,464.3,6.007,,,,ok,9
+170,Heiligenblut – Großglockner,AT,47.04051,12.84095,456.8,5.862,,,,ok,28
+171,Champéry,CH,46.17490,6.87108,296.2,4.185,,,,ok,21
+172,Morgins,CH,46.23676,6.85814,297.5,4.191,,,,ok,22
+173,Verbier,CH,46.09364,7.23316,260.3,3.674,,,,ok,9
+174,Nendaz,CH,46.18020,7.29207,261.7,3.746,,,,ok,3
+175,Veysonnaz,CH,46.19563,7.34279,258.9,3.690,,,,ok,22
+176,Thyon,CH,46.18195,7.37260,266.5,3.885,,,,ok,23
+177,Zermatt,CH,46.06863,7.77533,229.9,3.351,,,,ok,19
+178,Saas-Fee,CH,46.10978,7.93129,225.6,3.303,,,,ok,133
+179,Saas-Grund – Hohsaas,CH,46.12851,7.93923,222.1,3.208,,,,ok,1
+180,Crans-Montana,CH,46.30849,7.46955,245.4,3.569,,,,ok,3
+181,Grimentz–Zinal,CH,46.17511,7.57379,249.7,3.593,,,,ok,0
+182,Saint-Luc–Chandolin,CH,46.22040,7.59820,248.2,3.595,,,,ok,16
+183,Aletsch Arena,CH,46.40600,8.13407,211.0,3.105,,Nufenen,,alternative_used,16
+184,Grächen,CH,46.19665,7.84151,223.5,3.287,,,,ok,14
+185,Lauchernalp – Lötschental,CH,46.40210,7.77843,228.9,3.267,,,,ok,14
+186,Belalp – Blatten,CH,46.35892,7.98428,201.9,2.954,,,,ok,15
+187,Arolla,CH,46.02606,7.48129,283.0,4.149,,,,ok,8
+188,Villars–Gryon,CH,46.30402,7.05593,297.0,4.168,,,,ok,87
+189,Les Diablerets – Glacier 3000,CH,46.35415,7.20531,315.3,4.398,,,,ok,10
+190,Leysin,CH,46.34647,7.01730,306.9,4.257,,,,ok,3
+191,Grindelwald,CH,46.62431,8.01937,330.8,4.527,Lucerne,Susten,,detour_forced,21
+192,Wengen,CH,46.59828,7.90880,323.7,4.383,Lucerne,Susten,,detour_forced,16
+193,Mürren – Schilthorn,CH,46.55545,7.90141,329.3,4.520,Lucerne,Susten,,detour_forced,0
+194,Gstaad,CH,46.46767,7.28214,332.0,4.712,,,,ok,24
+195,Adelboden,CH,46.48790,7.56053,359.7,5.000,Lucerne,Susten,,detour_forced,24
+196,Lenk,CH,46.44184,7.45684,363.7,5.243,,Susten,,alternative_used,11
+197,Meiringen-Hasliberg,CH,46.74500,8.19441,293.1,3.911,Lucerne,Susten,,detour_forced,1
+198,Engelberg,CH,46.81620,8.39586,250.3,3.261,,,,ok,32
+199,Andermatt,CH,46.63757,8.59375,186.2,2.421,,,,ok,25
+200,Sedrun,CH,46.66994,8.74283,295.6,4.253,Chur,Oberalp,,detour_forced,27
+201,Disentis,CH,46.70074,8.84062,285.1,4.061,Chur,Lukmanier,,detour_forced,0
+202,Flumserberg,CH,47.09350,9.28529,268.3,3.532,,,,ok,3
+203,Arosa,CH,46.78388,9.67944,250.5,3.475,,,,ok,11
+204,Lenzerheide,CH,46.73980,9.55665,220.5,3.032,,,,ok,2
+205,Laax,CH,46.82017,9.26325,227.5,3.096,,,,ok,84
+206,St. Moritz,CH,46.48353,9.83266,167.5,2.946,,,,ok,27
+207,Corvatsch – Silvaplana/Sils,CH,46.45515,9.81421,165.2,3.012,,,,ok,6
+208,Diavolezza–Lagalb (Pontresina),CH,46.44174,9.98265,184.7,3.254,,,,ok,4
+209,Obersaxen–Mundaun,CH,46.74829,9.10218,245.9,3.444,Mesocco,Lukmanier,,detour_forced,26
+210,Savognin,CH,46.59415,9.59185,219.0,3.011,,,,ok,0
+211,Scuol,CH,46.79379,10.28677,227.7,3.952,,,,ok,19
+212,Samnaun,CH,46.95121,10.37524,264.8,4.547,,,,ok,20
+213,Davos,CH,46.81063,9.83667,243.3,3.478,,,,ok,14
+214,Klosters,CH,46.86900,9.88044,253.5,3.671,,,,ok,17
+215,Vals,CH,46.61659,9.18052,254.8,3.632,Mesocco,Lukmanier,,detour_forced,10

@@ -1,0 +1,24 @@
+id,batch,resort_name,local_name,country,region,ski_area,inclusion_basis,road_head_hint,skiresort_url,notes_for_agent
+111,AT1,St. Anton am Arlberg,,AT,Tyrol,Ski Arlberg,km≥60; alt 2811; world-class freeride,,https://www.skiresort.com/en/ski-resort/st-anton-st-christoph-stuben-lech-zuers-warth-schroecken-ski-arlberg/,St. Christoph and Stuben noted as villages
+112,AT1,Lech–Zürs,,AT,Vorarlberg,Ski Arlberg,km≥60,,https://www.skiresort.com/en/ski-resort/st-anton-st-christoph-stuben-lech-zuers-warth-schroecken-ski-arlberg/,
+113,AT1,Warth–Schröcken,,AT,Vorarlberg,Ski Arlberg,km≥60,,https://www.skiresort.com/en/ski-resort/st-anton-st-christoph-stuben-lech-zuers-warth-schroecken-ski-arlberg/,Hochtannberg pass road normally open; Warth–Lech road closed in winter
+114,AT1,Ischgl,,AT,Tyrol,Silvretta Arena (Ischgl–Samnaun),km≥60; alt 2872,,https://www.skiresort.com/en/ski-resort/ischgl-samnaun-silvretta-arena/,Dynamic pricing? check
+115,AT1,Kappl,,AT,Tyrol,Kappl (Paznaun),FWQ Open Faces 3* venue; Freeride Junior World Champs (criterion 3),,,
+116,AT1,Galtür,,AT,Tyrol,Galtür Silvapark (Paznaun),ski-touring destination (Silvretta) (criterion 3),,,Silvretta Hochalpenstrasse closed in winter
+117,AT1,Serfaus-Fiss-Ladis,,AT,Tyrol,Serfaus-Fiss-Ladis,km≥60; alt 2828,,https://www.skiresort.com/en/ski-resort/serfaus-fiss-ladis/,"Three villages, one row"
+118,AT1,Nauders,,AT,Tyrol,Nauders am Reschenpass,km≥60,,https://www.skiresort.com/en/ski-resort/nauders-am-reschenpass-bergkastel/,Reschen pass open in winter
+119,AT1,Sölden,,AT,Tyrol,Sölden,km≥60; glacier (Rettenbach/Tiefenbach); alt 3340,,https://www.skiresort.com/en/ski-resort/soelden/,Autumn glacier opening; Timmelsjoch closed
+120,AT1,Obergurgl–Hochgurgl,,AT,Tyrol,Gurgl,km≥60; alt 3030; Open Faces FWQ,,https://www.skiresort.com/en/ski-resort/gurgl-obergurgl-hochgurgl/,
+121,AT1,Vent,,AT,Tyrol,Vent (Ötztal),ski-touring hub (Wildspitze) (criterion 3),,,Tiny lift area; include for touring
+122,AT1,Kühtai,,AT,Tyrol,Kühtai–Hochoetz,touring 4.0 anchor in brief; FWQ junior venue; km with Hochoetz pass,,,Highest village in Austria (2020 m)
+123,AT1,Axamer Lizum,,AT,Tyrol,Axamer Lizum (Innsbruck),Open Faces FWQ venue (criterion 3),,,
+124,AT1,Stubai Glacier,Stubaier Gletscher,AT,Tyrol,Stubai Glacier (Neustift),glacier; alt 3210,,https://www.skiresort.com/en/ski-resort/stubai-glacier-stubaier-gletscher/,
+125,AT1,Kaunertal Glacier,Kaunertaler Gletscher,AT,Tyrol,Kaunertal Glacier (Feichten),glacier; alt 3113,,https://www.skiresort.com/en/ski-resort/kaunertal-glacier-kaunertaler-gletscher/,
+126,AT1,Pitztal Glacier,Pitztaler Gletscher,AT,Tyrol,Pitztal Glacier & Rifflsee (St. Leonhard/Mandarfen),glacier; alt 3440,,https://www.skiresort.com/en/ski-resort/pitztal-glacier-pitztaler-gletscher/,Rifflsee on same pass
+127,AT1,Schruns – Silvretta Montafon Hochjoch,,AT,Vorarlberg,Silvretta Montafon,km≥60,,https://www.skiresort.com/en/ski-resort/silvretta-montafon/,Hochjoch sector base
+128,AT1,Gaschurn–St. Gallenkirch – Silvretta Montafon Nova,,AT,Vorarlberg,Silvretta Montafon,km≥60; Open Faces FWQ history,,https://www.skiresort.com/en/ski-resort/silvretta-montafon/,Nova sector
+129,AT1,Gargellen,,AT,Vorarlberg,Gargellen (Montafon),freeride/touring destination (Madrisa) (criterion 3),,,
+130,AT1,Damüls–Mellau,,AT,Vorarlberg,Damüls–Mellau (Bregenzerwald),km≥60 (76 km),,https://www.skiresort.com/en/ski-resort/espace-diamant-les-saisies-notre-dame-de-bellecombe-praz-sur-arly-flumet-crest-voland/,
+131,AT1,Kleinwalsertal,,AT,Vorarlberg,"Oberstdorf–Kleinwalsertal (two-country pass, ~130 km)",km≥60 on standard two-country day pass,,https://www.skiresort.com/en/ski-resort/fellhorn-kanzelwand-oberstdorf-riezlern/,Riezlern/Hirschegg/Mittelberg; road access only via Oberstdorf (DE)
+132,AT1,Garmisch-Partenkirchen,,DE,Bavaria,Zugspitze & Garmisch-Classic,glacier (Zugspitzplatt – verify still lift-served glacier) (criterion 2),,https://www.skiresort.com/en/ski-resort/garmisch-classic-garmisch-partenkirchen/,Two areas; Zugspitze day ticket vs Garmisch-Classic ticket – note
+133,AT1,Oberstdorf,,DE,Bavaria,"Oberstdorf–Kleinwalsertal (two-country pass, ~130 km)","km≥60 on standard day pass (Nebelhorn, Fellhorn/Kanzelwand, Söllereck)",,https://www.skiresort.com/en/ski-resort/fellhorn-kanzelwand-oberstdorf-riezlern/,

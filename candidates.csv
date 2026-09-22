@@ -1,0 +1,216 @@
+id,batch,resort_name,local_name,country,region,ski_area,inclusion_basis,road_head_hint,skiresort_url,notes_for_agent
+1,FR1,Courchevel,,FR,Savoie,3 Vallées,km≥60 (3 Vallées 600 km),,https://www.skiresort.com/en/ski-resort/les-3-vallees-val-thorens-les-menuires-meribel-courchevel/,Villages 1850/1650/1550/Le Praz = one row
+2,FR1,Méribel,,FR,Savoie,3 Vallées,km≥60,,https://www.skiresort.com/en/ski-resort/les-3-vallees-val-thorens-les-menuires-meribel-courchevel/,Incl. Méribel-Mottaret
+3,FR1,Les Menuires,,FR,Savoie,3 Vallées,km≥60,,https://www.skiresort.com/en/ski-resort/les-3-vallees-val-thorens-les-menuires-meribel-courchevel/,
+4,FR1,Val Thorens,,FR,Savoie,3 Vallées,km≥60; glacier (Péclet); alt 3230; FWT Val Thorens Pro 2025/26,,https://www.skiresort.com/en/ski-resort/les-3-vallees-val-thorens-les-menuires-meribel-courchevel/,
+5,FR1,Saint-Martin-de-Belleville,,FR,Savoie,3 Vallées,km≥60,,https://www.skiresort.com/en/ski-resort/les-3-vallees-val-thorens-les-menuires-meribel-courchevel/,
+6,FR1,Orelle,,FR,Savoie,3 Vallées,km≥60; alt (Cime Caron 3200),,https://www.skiresort.com/en/ski-resort/les-3-vallees-val-thorens-les-menuires-meribel-courchevel/,Maurienne-side gateway to Val Thorens
+7,FR1,Tignes,,FR,Savoie,Tignes–Val d'Isère (Espace Killy),km≥60; glacier (Grande Motte); alt 3456,,https://www.skiresort.com/en/ski-resort/tignes-val-disere/,Grande Motte glacier: check autumn opening
+8,FR1,Val d'Isère,,FR,Savoie,Tignes–Val d'Isère (Espace Killy),km≥60; glacier (Pissaillas); alt,,https://www.skiresort.com/en/ski-resort/tignes-val-disere/,
+9,FR1,La Plagne,,FR,Savoie,Paradiski,km≥60; glacier (Bellecôte – verify lifts); alt 3250,,https://www.skiresort.com/en/ski-resort/la-plagne-paradiski/,"Villages incl. Montchavin, Champagny = one row"
+10,FR1,Les Arcs,,FR,Savoie,Paradiski,km≥60; alt (Aiguille Rouge 3226); FWQ history,,https://www.skiresort.com/en/ski-resort/les-arcs-peisey-vallandry-paradiski/,
+11,FR1,Peisey-Vallandry,,FR,Savoie,Paradiski,km≥60,,https://www.skiresort.com/en/ski-resort/les-arcs-peisey-vallandry-paradiski/,
+12,FR1,La Rosière,,FR,Savoie,Espace San Bernardo,km≥60; alt 2800,,https://www.skiresort.com/en/ski-resort/espace-san-bernardo-la-rosiere-la-thuile/,Linked to La Thuile IT via Petit-St-Bernard (pass road closed in winter)
+13,FR1,Sainte-Foy-Tarentaise,,FR,Savoie,Sainte-Foy-Tarentaise,freeride destination in guidebooks (criterion 3),,,Small area; include for freeride reputation
+14,FR1,Arêches-Beaufort,,FR,Savoie,Arêches-Beaufort,ski-touring destination (Pierra Menta) (criterion 3),,,
+15,FR1,Valmorel,,FR,Savoie,Le Grand Domaine,km≥60,,https://www.skiresort.com/en/ski-resort/le-grand-domaine-valmorel-doucy-celliers-st-francois-longchamp/,
+16,FR1,Saint-François-Longchamp,,FR,Savoie,Le Grand Domaine,km≥60,,https://www.skiresort.com/en/ski-resort/le-grand-domaine-valmorel-doucy-celliers-st-francois-longchamp/,
+17,FR1,Les Saisies,,FR,Savoie,Espace Diamant,km≥60,,https://www.skiresort.com/en/ski-resort/espace-diamant-les-saisies-notre-dame-de-bellecombe-praz-sur-arly-flumet-crest-voland/,"Crest-Voland/Cohennoz and Flumet noted as villages, not rows"
+18,FR1,Notre-Dame-de-Bellecombe,,FR,Savoie,Espace Diamant,km≥60,,https://www.skiresort.com/en/ski-resort/espace-diamant-les-saisies-notre-dame-de-bellecombe-praz-sur-arly-flumet-crest-voland/,
+19,FR1,Praz-sur-Arly,,FR,Haute-Savoie,Espace Diamant,km≥60,,https://www.skiresort.com/en/ski-resort/espace-diamant-les-saisies-notre-dame-de-bellecombe-praz-sur-arly-flumet-crest-voland/,
+20,FR2,Le Corbier,,FR,Savoie,Les Sybelles,km≥60,,https://www.skiresort.com/en/ski-resort/les-sybelles-le-corbier-la-toussuire-les-bottieres-st-sorlin-st-jean-darves/,
+21,FR2,La Toussuire,,FR,Savoie,Les Sybelles,km≥60,,https://www.skiresort.com/en/ski-resort/les-sybelles-le-corbier-la-toussuire-les-bottieres-st-sorlin-st-jean-darves/,
+22,FR2,Saint-Sorlin-d'Arves,,FR,Savoie,Les Sybelles,km≥60,,https://www.skiresort.com/en/ski-resort/les-sybelles-le-corbier-la-toussuire-les-bottieres-st-sorlin-st-jean-darves/,
+23,FR2,Saint-Jean-d'Arves,,FR,Savoie,Les Sybelles,km≥60,,https://www.skiresort.com/en/ski-resort/les-sybelles-le-corbier-la-toussuire-les-bottieres-st-sorlin-st-jean-darves/,
+24,FR2,Valloire,,FR,Savoie,Galibier-Thabor,km≥60,,https://www.skiresort.com/en/ski-resort/galibier-thabor-valmeinier-valloire/,Col du Galibier closed in winter
+25,FR2,Valmeinier,,FR,Savoie,Galibier-Thabor,km≥60,,https://www.skiresort.com/en/ski-resort/galibier-thabor-valmeinier-valloire/,
+26,FR2,Val Cenis,,FR,Savoie,Val Cenis (Haute Maurienne Vanoise),km≥60; alt 2800,,https://www.skiresort.com/en/ski-resort/val-cenis-lanslevillard-lanslebourg-termignon/,Lanslevillard/Lanslebourg/Termignon = one row; Mont-Cenis pass closed in winter
+27,FR2,Valfréjus,,FR,Savoie,Valfréjus,km≥60,,https://www.skiresort.com/en/ski-resort/valfrejus/,Fréjus tunnel exit
+28,FR2,La Norma,,FR,Savoie,La Norma,km≥60,,https://www.skiresort.com/en/ski-resort/la-norma/,
+29,FR2,Les Karellis,,FR,Savoie,Les Karellis,km≥60,,https://www.skiresort.com/en/ski-resort/les-karellis/,
+30,FR2,Bonneval-sur-Arc,,FR,Savoie,Bonneval-sur-Arc,alt 2947; touring hub,,,Col de l'Iseran closed in winter
+31,FR2,Alpe d'Huez,,FR,Isère,Alpe d'Huez Grand Domaine,km≥60; glacier (Sarenne/Pic Blanc); alt 3330,,https://www.skiresort.com/en/ski-resort/alpe-dhuez/,"Auris, Villard-Reculas noted as villages"
+32,FR2,Vaujany,,FR,Isère,Alpe d'Huez Grand Domaine,km≥60,,https://www.skiresort.com/en/ski-resort/alpe-dhuez/,
+33,FR2,Oz-en-Oisans,,FR,Isère,Alpe d'Huez Grand Domaine,km≥60,,https://www.skiresort.com/en/ski-resort/alpe-dhuez/,
+34,FR2,Les 2 Alpes,,FR,Isère,Les 2 Alpes,km≥60; glacier; alt 3568,,https://www.skiresort.com/en/ski-resort/les-2-alpes/,Glacier autumn opening; check 2026/27 dates
+35,FR2,Les 7 Laux,,FR,Isère,Les 7 Laux,km≥60,,https://www.skiresort.com/en/ski-resort/les-7-laux-prapoutel-le-pleynet-pipay/,Prapoutel/Pipay/Le Pleynet = one row
+36,FR2,Chamrousse,,FR,Isère,Chamrousse,km≥60,,https://www.skiresort.com/en/ski-resort/chamrousse/,
+37,FR2,Villard-de-Lans–Corrençon,,FR,Isère,Espace Villard-Corrençon (Vercors),km≥60,,https://www.skiresort.com/en/ski-resort/espace-villard-correncon-villard-de-lans-correncon-en-vercors/,"Vercors, Isère"
+38,FR3,Chamonix,,FR,Haute-Savoie,"Chamonix Mont-Blanc (Brévent-Flégère, Grands Montets, Balme, Aiguille du Midi)","glacier (Vallée Blanche, Grands Montets); alt 3842; FWT venue",,https://www.skiresort.com/en/ski-resort/aiguille-du-midi-chamonix/,Argentière/Le Tour = villages of Chamonix row. Check new Grands Montets lifts status
+39,FR3,Megève,,FR,Haute-Savoie,Evasion Mont-Blanc,km≥60,,https://www.skiresort.com/en/ski-resort/megeve-saint-gervais/,
+40,FR3,Saint-Gervais-les-Bains,,FR,Haute-Savoie,Evasion Mont-Blanc,km≥60,,https://www.skiresort.com/en/ski-resort/megeve-saint-gervais/,"Incl. Saint-Nicolas-de-Véroce, Le Bettex"
+41,FR3,Combloux,,FR,Haute-Savoie,Les Portes du Mont-Blanc / Evasion Mont-Blanc,km≥60 (Portes du Mont-Blanc 85 km),,https://www.skiresort.com/en/ski-resort/les-portes-du-mont-blanc-combloux-megeve-le-jaillet-la-giettaz/,La Giettaz noted as village
+42,FR3,Les Contamines-Montjoie,,FR,Haute-Savoie,Les Contamines-Hauteluce (Evasion Mont-Blanc pass),km≥60,,https://www.skiresort.com/en/ski-resort/les-contamines-hauteluce/,
+43,FR3,La Clusaz,,FR,Haute-Savoie,La Clusaz–Manigod,km≥60; FWQ history (Balme),,https://www.skiresort.com/en/ski-resort/la-clusaz-manigod/,Manigod on same local pass
+44,FR3,Le Grand-Bornand,,FR,Haute-Savoie,Le Grand-Bornand,km≥60,,https://www.skiresort.com/en/ski-resort/le-grand-bornand/,
+45,FR3,Flaine,,FR,Haute-Savoie,Le Grand Massif,km≥60,,https://www.skiresort.com/en/ski-resort/le-grand-massif-flaine-les-carroz-morillon-samoens-sixt/,
+46,FR3,Les Carroz,,FR,Haute-Savoie,Le Grand Massif,km≥60,,https://www.skiresort.com/en/ski-resort/le-grand-massif-flaine-les-carroz-morillon-samoens-sixt/,Les Carroz d'Arâches
+47,FR3,Samoëns,,FR,Haute-Savoie,Le Grand Massif,km≥60,,https://www.skiresort.com/en/ski-resort/le-grand-massif-flaine-les-carroz-morillon-samoens-sixt/,Sixt-Fer-à-Cheval noted as village
+48,FR3,Morillon,,FR,Haute-Savoie,Le Grand Massif,km≥60,,https://www.skiresort.com/en/ski-resort/le-grand-massif-flaine-les-carroz-morillon-samoens-sixt/,
+49,FR3,Morzine,,FR,Haute-Savoie,Portes du Soleil,km≥60,,https://www.skiresort.com/en/ski-resort/les-portes-du-soleil-morzine-avoriaz-les-gets-chatel-morgins-champery/,
+50,FR3,Avoriaz,,FR,Haute-Savoie,Portes du Soleil,km≥60,,https://www.skiresort.com/en/ski-resort/les-portes-du-soleil-morzine-avoriaz-les-gets-chatel-morgins-champery/,Car-free village; parking at entrance – check road head convention
+51,FR3,Les Gets,,FR,Haute-Savoie,Portes du Soleil,km≥60,,https://www.skiresort.com/en/ski-resort/les-portes-du-soleil-morzine-avoriaz-les-gets-chatel-morgins-champery/,
+52,FR3,Châtel,,FR,Haute-Savoie,Portes du Soleil,km≥60,,https://www.skiresort.com/en/ski-resort/les-portes-du-soleil-morzine-avoriaz-les-gets-chatel-morgins-champery/,La Chapelle-d'Abondance noted as village
+53,FR3,Praz de Lys–Sommand,,FR,Haute-Savoie,Praz de Lys–Sommand,km≥60,,https://www.skiresort.com/en/ski-resort/praz-de-lys-sommand-taninges-mieussy/,
+54,FR4,Serre Chevalier,,FR,Hautes-Alpes,Serre Chevalier Vallée,km≥60; alt 2800,,https://www.skiresort.com/en/ski-resort/serre-chevalier-briancon-chantemerle-villeneuve-la-salle-le-monetier-les-bains/,Briançon/Chantemerle/Villeneuve/Monêtier = one row
+55,FR4,Montgenèvre,,FR,Hautes-Alpes,Via Lattea (Vialattea),km≥60,,https://www.skiresort.com/en/ski-resort/via-lattea-sestriere-sauze-doulx-san-sicario-claviere-montgenevre/,Local Montgenèvre pass vs Vialattea international
+56,FR4,Vars,,FR,Hautes-Alpes,La Forêt Blanche (Vars–Risoul),km≥60; FWQ history,,https://www.skiresort.com/en/ski-resort/vars-risoul-la-foret-blanche/,Col de Vars usually open in winter (check)
+57,FR4,Risoul,,FR,Hautes-Alpes,La Forêt Blanche (Vars–Risoul),km≥60,,https://www.skiresort.com/en/ski-resort/vars-risoul-la-foret-blanche/,
+58,FR4,Les Orres,,FR,Hautes-Alpes,Les Orres,km≥60,,https://www.skiresort.com/en/ski-resort/les-orres/,
+59,FR4,Orcières Merlette,,FR,Hautes-Alpes,Orcières Merlette 1850,km≥60,,https://www.skiresort.com/en/ski-resort/orcieres-merlette-1850/,
+60,FR4,Puy-Saint-Vincent,,FR,Hautes-Alpes,Puy-Saint-Vincent,km≥60,,https://www.skiresort.com/en/ski-resort/puy-saint-vincent/,
+61,FR4,Le Dévoluy,,FR,Hautes-Alpes,Le Dévoluy (Superdévoluy–La Joue du Loup),km≥60,,https://www.skiresort.com/en/ski-resort/devoluy-superdevoluy-la-joue-du-loup/,Two bases marketed as one destination
+62,FR4,La Grave,,FR,Hautes-Alpes,La Grave–La Meije,alt 3550; world-class freeride (criterion 3/4),,https://www.skiresort.com/en/ski-resort/la-grave-la-meije/,Off-piste only; Col du Lautaret usually open (check)
+63,FR4,Molines-en-Queyras–Saint-Véran,,FR,Hautes-Alpes,Queyras,alt 2800 (verify),,https://www.skiresort.com/en/ski-resort/molines-en-queyras-saint-veran/,Col Agnel/Izoard closed; access via Guillestre
+64,FR4,Pra Loup,,FR,Alpes-de-Haute-Provence,Espace Lumière,km≥60,,https://www.skiresort.com/en/ski-resort/espace-lumiere-pra-loup-val-dallos/,
+65,FR4,Val d'Allos–La Foux,,FR,Alpes-de-Haute-Provence,Espace Lumière,km≥60,,https://www.skiresort.com/en/ski-resort/espace-lumiere-pra-loup-val-dallos/,Col d'Allos closed in winter
+66,FR4,Le Sauze–Super Sauze,,FR,Alpes-de-Haute-Provence,Le Sauze,km≥60 (65 km),,https://www.skiresort.com/en/ski-resort/super-sauze/,
+67,FR4,Auron,,FR,Alpes-Maritimes,Auron (Stations du Mercantour),km≥60,,https://www.skiresort.com/en/ski-resort/auron-saint-etienne-de-tinee/,
+68,FR4,Isola 2000,,FR,Alpes-Maritimes,Isola 2000 (Stations du Mercantour),km≥60,,https://www.skiresort.com/en/ski-resort/isola-2000/,Col de la Lombarde closed in winter
+69,FR4,Valberg,,FR,Alpes-Maritimes,Valberg–Beuil,km≥60,,https://www.skiresort.com/en/ski-resort/valberg-beuil-les-launes/,
+70,IT1,Sestriere,,IT,"Turin, Piedmont",Via Lattea (Vialattea),km≥60,,https://www.skiresort.com/en/ski-resort/via-lattea-sestriere-sauze-doulx-san-sicario-claviere-montgenevre/,Pragelato noted as linked village
+71,IT1,Sauze d'Oulx,,IT,"Turin, Piedmont",Via Lattea (Vialattea),km≥60,,https://www.skiresort.com/en/ski-resort/via-lattea-sestriere-sauze-doulx-san-sicario-claviere-montgenevre/,
+72,IT1,Cesana–Sansicario,,IT,"Turin, Piedmont",Via Lattea (Vialattea),km≥60,,https://www.skiresort.com/en/ski-resort/via-lattea-sestriere-sauze-doulx-san-sicario-claviere-montgenevre/,
+73,IT1,Claviere,,IT,"Turin, Piedmont",Via Lattea (Vialattea),km≥60,,https://www.skiresort.com/en/ski-resort/via-lattea-sestriere-sauze-doulx-san-sicario-claviere-montgenevre/,
+74,IT1,Bardonecchia,,IT,"Turin, Piedmont",Bardonecchia,km≥60; alt 2800,,https://www.skiresort.com/en/ski-resort/bardonecchia/,
+75,IT1,Alagna Valsesia,,IT,"Vercelli, Piedmont",Monterosa Ski,km≥60; glacier (Indren); alt 3275; FWQ/freeride mecca,,https://www.skiresort.com/en/ski-resort/alagna-valsesia-gressoney-la-trinite-champoluc-frachey-monterosa-ski/,
+76,IT1,Prato Nevoso – Mondolè Ski,,IT,"Cuneo, Piedmont",Mondolè Ski (Prato Nevoso–Artesina–Frabosa),km≥60 (105 km),,https://www.skiresort.com/en/ski-resort/mondole-ski-artesina-frabosa-soprana-prato-nevoso/,Ligurian Alps; one row for Mondolè
+77,IT1,Macugnaga,,IT,"Verbano-Cusio-Ossola, Piedmont",Macugnaga (Monte Moro),alt 2900; glacier per skiresort.com (verify),,https://www.skiresort.com/en/ski-resort/macugnaga/,Check current lift operation
+78,IT1,Cervinia,Breuil-Cervinia,IT,"Aosta, Valle d'Aosta",Matterhorn Ski Paradise (Zermatt–Cervinia–Valtournenche),km≥60; glacier (Plateau Rosa); alt 3480,,https://www.skiresort.com/en/ski-resort/zermatt-breuil-cervinia-valtournenche-matterhorn/,Valtournenche on same local pass; autumn glacier opening
+79,IT1,Courmayeur,,IT,"Aosta, Valle d'Aosta",Courmayeur Mont Blanc,km≥60? (approx 100 km incl. skyway?) ; glacier (Vallée Blanche via Skyway); alt 3466,,https://www.skiresort.com/en/ski-resort/monte-bianco-courmayeur/,Skyway Monte Bianco separate ticket – note
+80,IT1,La Thuile,,IT,"Aosta, Valle d'Aosta",Espace San Bernardo,km≥60,,https://www.skiresort.com/en/ski-resort/espace-san-bernardo-la-rosiere-la-thuile/,
+81,IT1,Pila,,IT,"Aosta, Valle d'Aosta",Pila,km≥60,,https://www.skiresort.com/en/ski-resort/pila/,Gondola from Aosta town; road to Pila open
+82,IT1,Gressoney-La-Trinité,,IT,"Aosta, Valle d'Aosta",Monterosa Ski,km≥60,,https://www.skiresort.com/en/ski-resort/alagna-valsesia-gressoney-la-trinite-champoluc-frachey-monterosa-ski/,
+83,IT1,Champoluc,,IT,"Aosta, Valle d'Aosta",Monterosa Ski,km≥60,,https://www.skiresort.com/en/ski-resort/alagna-valsesia-gressoney-la-trinite-champoluc-frachey-monterosa-ski/,Ayas valley; Antagnod noted
+84,IT1,Livigno,,IT,"Sondrio, Lombardy",Livigno,km≥60,,https://www.skiresort.com/en/ski-resort/livigno/,Access via Foscagno pass (open) from Bormio; Forcola di Livigno closed in winter; Munt la Schera tunnel (toll) from CH
+85,IT1,Bormio,,IT,"Sondrio, Lombardy",Bormio (Cima Bianca),alt 3012,,https://www.skiresort.com/en/ski-resort/bormio-cima-bianca/,Stelvio pass closed in winter
+86,IT1,Santa Caterina Valfurva,,IT,"Sondrio, Lombardy",Santa Caterina Valfurva,alt 2880,,https://www.skiresort.com/en/ski-resort/santa-caterina-valfurva/,Gavia closed in winter
+87,IT1,Madesimo,,IT,"Sondrio, Lombardy",Valchiavenna (Madesimo–Campodolcino),alt 2948,,https://www.skiresort.com/en/ski-resort/valchiavenna-madesimo-campodolcino/,Splügen pass closed in winter
+88,IT1,Passo dello Stelvio,,IT,"Sondrio, Lombardy",Passo dello Stelvio,glacier (summer/autumn only),,https://www.skiresort.com/en/ski-resort/passo-dello-stelvio-stelvio-pass/,Summer-only glacier ski area; pass road closed in winter – no winter operation
+89,IT1,Ponte di Legno–Passo Tonale,,IT,"Brescia, Lombardy / Trento, Trentino",Pontedilegno-Tonale (Adamello Ski),km≥60; glacier (Presena); alt 3000,,https://www.skiresort.com/en/ski-resort/ponte-di-legno-tonale-presena-glacier-temu-pontedilegno-tonale/,Presena glacier early-season
+90,IT2,Madonna di Campiglio,,IT,"Trento, Trentino-Alto Adige",Skiarea Campiglio Dolomiti di Brenta,km≥60,,https://www.skiresort.com/en/ski-resort/madonna-di-campiglio-pinzolo-folgarida-marilleva/,
+91,IT2,Pinzolo,,IT,"Trento, Trentino-Alto Adige",Skiarea Campiglio Dolomiti di Brenta,km≥60,,https://www.skiresort.com/en/ski-resort/madonna-di-campiglio-pinzolo-folgarida-marilleva/,
+92,IT2,Folgarida–Marilleva,,IT,"Trento, Trentino-Alto Adige",Skiarea Campiglio Dolomiti di Brenta,km≥60,,https://www.skiresort.com/en/ski-resort/madonna-di-campiglio-pinzolo-folgarida-marilleva/,Val di Sole bases
+93,IT2,Val di Fassa,,IT,"Trento, Trentino-Alto Adige",Dolomiti Superski,km≥60 (Fassa–Carezza local pass),,,Canazei/Campitello/Alba/Pozza/Vigo/Moena = one row per brief
+94,IT2,Alpe Lusia–San Pellegrino,,IT,"Trento, Trentino-Alto Adige / Belluno, Veneto",Dolomiti Superski (Tre Valli),km≥60 (Tre Valli ~100 km),,https://www.skiresort.com/en/ski-resort/passo-san-pellegrino-falcade/,Moena (Lusia) and Falcade/Passo San Pellegrino
+95,IT2,Val di Fiemme–Obereggen,,IT,"Trento, Trentino-Alto Adige / Bolzano",Dolomiti Superski,km≥60 (Fiemme–Obereggen pass ~110 km),,,"Cavalese/Alpe Cermis, Predazzo/Latemar, Pampeago, Obereggen"
+96,IT2,San Martino di Castrozza–Passo Rolle,,IT,"Trento, Trentino-Alto Adige",Dolomiti Superski,km≥60,,https://www.skiresort.com/en/ski-resort/san-martino-di-castrozza/,
+97,IT2,Folgaria–Lavarone,,IT,"Trento, Trentino-Alto Adige",Alpe Cimbra,km≥60 (74 km),,https://www.skiresort.com/en/ski-resort/folgaria-fiorentini/,
+98,IT2,Pejo,,IT,"Trento, Trentino-Alto Adige",Pejo 3000 (Val di Sole),alt 3000,,https://www.skiresort.com/en/ski-resort/pejo-3000/,
+99,IT2,Val Gardena,Gröden,IT,"Bolzano, Trentino-Alto Adige",Dolomiti Superski,km≥60,,https://www.skiresort.com/en/ski-resort/val-gardena-groeden/,Ortisei/S. Cristina/Selva = one row
+100,IT2,Alta Badia,,IT,"Bolzano, Trentino-Alto Adige",Dolomiti Superski,km≥60,,https://www.skiresort.com/en/ski-resort/alta-badia/,Corvara/Colfosco/La Villa/San Cassiano/Badia = one row
+101,IT2,Kronplatz,Plan de Corones,IT,"Bolzano, Trentino-Alto Adige",Dolomiti Superski,km≥60,,https://www.skiresort.com/en/ski-resort/kronplatz-plan-de-corones/,Brunico/Valdaora/San Vigilio bases
+102,IT2,3 Zinnen Dolomites,Tre Cime Dolomiti,IT,"Bolzano, Trentino-Alto Adige",Dolomiti Superski,km≥60,,https://www.skiresort.com/en/ski-resort/3-zinnen-dolomites-helm-stiergarten-rotwand-kreuzbergpass/,Sesto/San Candido/Dobbiaco
+103,IT2,Alpe di Siusi,Seiser Alm,IT,"Bolzano, Trentino-Alto Adige",Dolomiti Superski,km≥60 (73 km local),,https://www.skiresort.com/en/ski-resort/alpe-di-siusi-seiser-alm/,Access road restrictions to Compatsch (permit/parking) – note
+104,IT2,Plose,,IT,"Bolzano, Trentino-Alto Adige",Dolomiti Superski,listed in brief (Dolomiti Superski valley area); verify km,,https://www.skiresort.com/en/ski-resort/plose-brixen-bressanone/,Bressanone/Brixen
+105,IT2,Val Senales,Schnalstal,IT,"Bolzano, Trentino-Alto Adige",Val Senales Glacier (Ortler Skiarena),glacier; alt 3212,,https://www.skiresort.com/en/ski-resort/val-senales-glacier-schnalstaler-gletscher/,Autumn glacier opening
+106,IT2,Solda,Sulden,IT,"Bolzano, Trentino-Alto Adige",Sulden am Ortler (Ortler Skiarena),alt 3250,,https://www.skiresort.com/en/ski-resort/sulden-am-ortler-solda-allortles/,
+107,IT2,Belpiano–Malga San Valentino,Schöneben–Haideralm,IT,"Bolzano, Trentino-Alto Adige",Schöneben–Haideralm (Resia / Reschenpass),km≥60 (65 km),,https://www.skiresort.com/en/ski-resort/belpiano-schoeneben-malga-san-valentino-haideralm/,
+108,IT2,Cortina d'Ampezzo,,IT,"Belluno, Veneto",Dolomiti Superski,km≥60; alt 2828,,https://www.skiresort.com/en/ski-resort/cortina-dampezzo/,Tofana/Faloria/Cinque Torri/Lagazuoi
+109,IT2,Arabba–Marmolada,,IT,"Belluno, Veneto",Dolomiti Superski,km≥60; glacier (Marmolada); alt 3269,,https://www.skiresort.com/en/ski-resort/arabba-marmolada/,
+110,IT2,Civetta,,IT,"Belluno, Veneto",Dolomiti Superski,km≥60,,https://www.skiresort.com/en/ski-resort/civetta-alleghe-selva-di-cadore-palafavera-zoldo/,Alleghe/Selva di Cadore/Zoldo
+111,AT1,St. Anton am Arlberg,,AT,Tyrol,Ski Arlberg,km≥60; alt 2811; world-class freeride,,https://www.skiresort.com/en/ski-resort/st-anton-st-christoph-stuben-lech-zuers-warth-schroecken-ski-arlberg/,St. Christoph and Stuben noted as villages
+112,AT1,Lech–Zürs,,AT,Vorarlberg,Ski Arlberg,km≥60,,https://www.skiresort.com/en/ski-resort/st-anton-st-christoph-stuben-lech-zuers-warth-schroecken-ski-arlberg/,
+113,AT1,Warth–Schröcken,,AT,Vorarlberg,Ski Arlberg,km≥60,,https://www.skiresort.com/en/ski-resort/st-anton-st-christoph-stuben-lech-zuers-warth-schroecken-ski-arlberg/,Hochtannberg pass road normally open; Warth–Lech road closed in winter
+114,AT1,Ischgl,,AT,Tyrol,Silvretta Arena (Ischgl–Samnaun),km≥60; alt 2872,,https://www.skiresort.com/en/ski-resort/ischgl-samnaun-silvretta-arena/,Dynamic pricing? check
+115,AT1,Kappl,,AT,Tyrol,Kappl (Paznaun),FWQ Open Faces 3* venue; Freeride Junior World Champs (criterion 3),,,
+116,AT1,Galtür,,AT,Tyrol,Galtür Silvapark (Paznaun),ski-touring destination (Silvretta) (criterion 3),,,Silvretta Hochalpenstrasse closed in winter
+117,AT1,Serfaus-Fiss-Ladis,,AT,Tyrol,Serfaus-Fiss-Ladis,km≥60; alt 2828,,https://www.skiresort.com/en/ski-resort/serfaus-fiss-ladis/,"Three villages, one row"
+118,AT1,Nauders,,AT,Tyrol,Nauders am Reschenpass,km≥60,,https://www.skiresort.com/en/ski-resort/nauders-am-reschenpass-bergkastel/,Reschen pass open in winter
+119,AT1,Sölden,,AT,Tyrol,Sölden,km≥60; glacier (Rettenbach/Tiefenbach); alt 3340,,https://www.skiresort.com/en/ski-resort/soelden/,Autumn glacier opening; Timmelsjoch closed
+120,AT1,Obergurgl–Hochgurgl,,AT,Tyrol,Gurgl,km≥60; alt 3030; Open Faces FWQ,,https://www.skiresort.com/en/ski-resort/gurgl-obergurgl-hochgurgl/,
+121,AT1,Vent,,AT,Tyrol,Vent (Ötztal),ski-touring hub (Wildspitze) (criterion 3),,,Tiny lift area; include for touring
+122,AT1,Kühtai,,AT,Tyrol,Kühtai–Hochoetz,touring 4.0 anchor in brief; FWQ junior venue; km with Hochoetz pass,,,Highest village in Austria (2020 m)
+123,AT1,Axamer Lizum,,AT,Tyrol,Axamer Lizum (Innsbruck),Open Faces FWQ venue (criterion 3),,,
+124,AT1,Stubai Glacier,Stubaier Gletscher,AT,Tyrol,Stubai Glacier (Neustift),glacier; alt 3210,,https://www.skiresort.com/en/ski-resort/stubai-glacier-stubaier-gletscher/,
+125,AT1,Kaunertal Glacier,Kaunertaler Gletscher,AT,Tyrol,Kaunertal Glacier (Feichten),glacier; alt 3113,,https://www.skiresort.com/en/ski-resort/kaunertal-glacier-kaunertaler-gletscher/,
+126,AT1,Pitztal Glacier,Pitztaler Gletscher,AT,Tyrol,Pitztal Glacier & Rifflsee (St. Leonhard/Mandarfen),glacier; alt 3440,,https://www.skiresort.com/en/ski-resort/pitztal-glacier-pitztaler-gletscher/,Rifflsee on same pass
+127,AT1,Schruns – Silvretta Montafon Hochjoch,,AT,Vorarlberg,Silvretta Montafon,km≥60,,https://www.skiresort.com/en/ski-resort/silvretta-montafon/,Hochjoch sector base
+128,AT1,Gaschurn–St. Gallenkirch – Silvretta Montafon Nova,,AT,Vorarlberg,Silvretta Montafon,km≥60; Open Faces FWQ history,,https://www.skiresort.com/en/ski-resort/silvretta-montafon/,Nova sector
+129,AT1,Gargellen,,AT,Vorarlberg,Gargellen (Montafon),freeride/touring destination (Madrisa) (criterion 3),,,
+130,AT1,Damüls–Mellau,,AT,Vorarlberg,Damüls–Mellau (Bregenzerwald),km≥60 (76 km),,https://www.skiresort.com/en/ski-resort/espace-diamant-les-saisies-notre-dame-de-bellecombe-praz-sur-arly-flumet-crest-voland/,
+131,AT1,Kleinwalsertal,,AT,Vorarlberg,"Oberstdorf–Kleinwalsertal (two-country pass, ~130 km)",km≥60 on standard two-country day pass,,https://www.skiresort.com/en/ski-resort/fellhorn-kanzelwand-oberstdorf-riezlern/,Riezlern/Hirschegg/Mittelberg; road access only via Oberstdorf (DE)
+132,AT1,Garmisch-Partenkirchen,,DE,Bavaria,Zugspitze & Garmisch-Classic,glacier (Zugspitzplatt – verify still lift-served glacier) (criterion 2),,https://www.skiresort.com/en/ski-resort/garmisch-classic-garmisch-partenkirchen/,Two areas; Zugspitze day ticket vs Garmisch-Classic ticket – note
+133,AT1,Oberstdorf,,DE,Bavaria,"Oberstdorf–Kleinwalsertal (two-country pass, ~130 km)","km≥60 on standard day pass (Nebelhorn, Fellhorn/Kanzelwand, Söllereck)",,https://www.skiresort.com/en/ski-resort/fellhorn-kanzelwand-oberstdorf-riezlern/,
+134,AT2,Mayrhofen,,AT,Tyrol,Mayrhofen (Penken/Ahorn) – Zillertal 3000,km≥60,,https://www.skiresort.com/en/ski-resort/mayrhofen-penken-ahorn-rastkogel-eggalm-mountopolis/,Harakiri; Eggalm/Rastkogel
+135,AT2,Hintertux Glacier,Hintertuxer Gletscher,AT,Tyrol,Hintertux Glacier – Zillertal 3000,"glacier, year-round; alt 3250",,https://www.skiresort.com/en/ski-resort/hintertux-glacier-hintertuxer-gletscher/,365-day glacier
+136,AT2,Hochzillertal–Hochfügen,,AT,Tyrol,Hochzillertal–Hochfügen (Kaltenbach/Fügen),km≥60 (89 km),,https://www.skiresort.com/en/ski-resort/kaltenbach-hochzillertal-hochfuegen-ski-optimal/,
+137,AT2,Zell am Ziller,,AT,Tyrol,Zillertal Arena,km≥60,,https://www.skiresort.com/en/ski-resort/zillertal-arena-zell-am-ziller-gerlos-koenigsleiten-hochkrimml/,
+138,AT2,Gerlos,,AT,Tyrol,Zillertal Arena,km≥60,,https://www.skiresort.com/en/ski-resort/zillertal-arena-zell-am-ziller-gerlos-koenigsleiten-hochkrimml/,Gerlos pass open in winter
+139,AT2,Königsleiten–Wald,,AT,Salzburg,Zillertal Arena,km≥60,,https://www.skiresort.com/en/ski-resort/zillertal-arena-zell-am-ziller-gerlos-koenigsleiten-hochkrimml/,Incl. Hochkrimml
+140,AT2,Kitzbühel,,AT,Tyrol,KitzSki,km≥60,,https://www.skiresort.com/en/ski-resort/kitzski-kitzbuehel-kirchberg/,"Incl. Jochberg, Pass Thurn"
+141,AT2,Kirchberg in Tirol,,AT,Tyrol,KitzSki,km≥60,,https://www.skiresort.com/en/ski-resort/kitzski-kitzbuehel-kirchberg/,
+142,AT2,Söll,,AT,Tyrol,SkiWelt Wilder Kaiser-Brixental,km≥60,,https://www.skiresort.com/en/ski-resort/skiwelt-wilder-kaiser-brixental/,
+143,AT2,Ellmau,,AT,Tyrol,SkiWelt Wilder Kaiser-Brixental,km≥60,,https://www.skiresort.com/en/ski-resort/skiwelt-wilder-kaiser-brixental/,Going noted as village
+144,AT2,Scheffau,,AT,Tyrol,SkiWelt Wilder Kaiser-Brixental,km≥60,,https://www.skiresort.com/en/ski-resort/skiwelt-wilder-kaiser-brixental/,
+145,AT2,Westendorf,,AT,Tyrol,SkiWelt Wilder Kaiser-Brixental,km≥60,,https://www.skiresort.com/en/ski-resort/skiwelt-wilder-kaiser-brixental/,
+146,AT2,Brixen im Thale,,AT,Tyrol,SkiWelt Wilder Kaiser-Brixental,km≥60,,https://www.skiresort.com/en/ski-resort/skiwelt-wilder-kaiser-brixental/,
+147,AT2,Hopfgarten im Brixental,,AT,Tyrol,SkiWelt Wilder Kaiser-Brixental,km≥60,,https://www.skiresort.com/en/ski-resort/skiwelt-wilder-kaiser-brixental/,Itter noted as village
+148,AT2,Alpbach,,AT,Tyrol,Ski Juwel Alpbachtal Wildschönau,km≥60; Open Faces FWQ history,,https://www.skiresort.com/en/ski-resort/ski-juwel-alpbachtal-wildschoenau/,
+149,AT2,Wildschönau,,AT,Tyrol,Ski Juwel Alpbachtal Wildschönau,km≥60,,https://www.skiresort.com/en/ski-resort/ski-juwel-alpbachtal-wildschoenau/,Niederau/Oberau/Auffach
+150,AT2,Fieberbrunn,,AT,Tyrol,Skicircus Saalbach Hinterglemm Leogang Fieberbrunn,km≥60; FWT stop (Wildseeloder),,https://www.skiresort.com/en/ski-resort/saalbach-hinterglemm-leogang-fieberbrunn-skicircus/,
+151,AT3,Saalbach-Hinterglemm,,AT,Salzburg,Skicircus Saalbach Hinterglemm Leogang Fieberbrunn,km≥60,,https://www.skiresort.com/en/ski-resort/saalbach-hinterglemm-leogang-fieberbrunn-skicircus/,
+152,AT3,Leogang,,AT,Salzburg,Skicircus Saalbach Hinterglemm Leogang Fieberbrunn,km≥60,,https://www.skiresort.com/en/ski-resort/saalbach-hinterglemm-leogang-fieberbrunn-skicircus/,
+153,AT3,Zell am See,,AT,Salzburg,Schmittenhöhe (Zell am See-Kaprun),km≥60 (77 km),,https://www.skiresort.com/en/ski-resort/schmittenhoehe-zell-am-see/,
+154,AT3,Kaprun – Kitzsteinhorn,,AT,Salzburg,Kitzsteinhorn–Maiskogel (Zell am See-Kaprun),glacier; alt 3029; FWQ history,,https://www.skiresort.com/en/ski-resort/kitzsteinhorn-maiskogel-kaprun/,
+155,AT3,Wildkogel (Neukirchen–Bramberg),,AT,Salzburg,Wildkogel-Arena,km≥60 (75 km),,https://www.skiresort.com/en/ski-resort/wildkogel-neukirchen-bramberg/,
+156,AT3,Flachau,,AT,Salzburg,Snow Space Salzburg,km≥60,,https://www.skiresort.com/en/ski-resort/snow-space-salzburg-flachau-wagrain-st-johann-alpendorf/,
+157,AT3,Wagrain,,AT,Salzburg,Snow Space Salzburg,km≥60,,https://www.skiresort.com/en/ski-resort/snow-space-salzburg-flachau-wagrain-st-johann-alpendorf/,
+158,AT3,St. Johann–Alpendorf,,AT,Salzburg,Snow Space Salzburg,km≥60,,https://www.skiresort.com/en/ski-resort/snow-space-salzburg-flachau-wagrain-st-johann-alpendorf/,
+159,AT3,Hochkönig (Maria Alm–Dienten–Mühlbach),,AT,Salzburg,Hochkönig,km≥60,,https://www.skiresort.com/en/ski-resort/zillertal-arena-zell-am-ziller-gerlos-koenigsleiten-hochkrimml/,One row for three villages
+160,AT3,Bad Gastein,,AT,Salzburg,Ski amadé – Gastein (Stubnerkogel/Graukogel/Sportgastein),km≥60; Sportgastein freeride/FWQ history,,https://www.skiresort.com/en/ski-resort/bad-gastein-bad-hofgastein-schlossalm-angertal-stubnerkogel/,Sportgastein incl.
+161,AT3,Bad Hofgastein,,AT,Salzburg,Ski amadé – Gastein (Schlossalm–Angertal),km≥60,,https://www.skiresort.com/en/ski-resort/bad-gastein-bad-hofgastein-schlossalm-angertal-stubnerkogel/,
+162,AT3,Großarl–Dorfgastein,,AT,Salzburg,Ski amadé – Großarltal-Dorfgastein,km≥60 (67.5 km),,https://www.skiresort.com/en/ski-resort/dorfgastein-grossarltal/,
+163,AT3,Obertauern,,AT,Salzburg,Obertauern,km≥60,,https://www.skiresort.com/en/ski-resort/obertauern/,
+164,AT3,Schladming,,AT,Styria,Schladming-Dachstein 4-Berge-Skischaukel,km≥60,,https://www.skiresort.com/en/ski-resort/schladming-planai-hochwurzen-hauser-kaibling-reiteralm-4-berge-skischaukel/,Planai/Hochwurzen/Hauser Kaibling/Reiteralm
+165,AT3,Dachstein Glacier (Ramsau),Dachstein Gletscher,AT,Styria,Schladming-Dachstein,glacier (criterion 2) – VERIFY alpine ski lifts still operate; may have ended 2023,,,"If glacier ski operation has ended, mark EXCLUDE"
+166,AT3,Katschberg,,AT,Carinthia / Salzburg,Katschberg–Aineck,km≥60 (80 km),,https://www.skiresort.com/en/ski-resort/katschberg/,
+167,AT3,Bad Kleinkirchheim,,AT,Carinthia,Bad Kleinkirchheim–St. Oswald,km≥60,,https://www.skiresort.com/en/ski-resort/bad-kleinkirchheim/,
+168,AT3,Nassfeld,,AT,Carinthia,Nassfeld–Hermagor,km≥60,,https://www.skiresort.com/en/ski-resort/nassfeld-hermagor/,Passo Pramollo from Pontebba closed in winter – access via Tarvisio/Hermagor
+169,AT3,Mölltal Glacier,Mölltaler Gletscher,AT,Carinthia,Mölltal Glacier (Flattach),glacier; alt 3122,,https://www.skiresort.com/en/ski-resort/moelltal-glacier-moelltaler-gletscher/,
+170,AT3,Heiligenblut – Großglockner,,AT,Carinthia,Grossglockner Heiligenblut,alt 2902; freeride,,https://www.skiresort.com/en/ski-resort/grossglockner-heiligenblut/,Grossglockner Hochalpenstrasse closed in winter
+171,CH1,Champéry,,CH,Valais,Portes du Soleil,km≥60,,https://www.skiresort.com/en/ski-resort/les-portes-du-soleil-morzine-avoriaz-les-gets-chatel-morgins-champery/,Incl. Les Crosets/Champoussin (Val-d'Illiez)
+172,CH1,Morgins,,CH,Valais,Portes du Soleil,km≥60,,https://www.skiresort.com/en/ski-resort/les-portes-du-soleil-morzine-avoriaz-les-gets-chatel-morgins-champery/,
+173,CH1,Verbier,,CH,Valais,4 Vallées,km≥60; glacier (Mont Fort); alt 3330; FWT Xtreme,,https://www.skiresort.com/en/ski-resort/4-vallees-verbier-la-tzoumaz-nendaz-veysonnaz-thyon/,Bruson and La Tzoumaz noted
+174,CH1,Nendaz,,CH,Valais,4 Vallées,km≥60; FWQ venue,,https://www.skiresort.com/en/ski-resort/4-vallees-verbier-la-tzoumaz-nendaz-veysonnaz-thyon/,
+175,CH1,Veysonnaz,,CH,Valais,4 Vallées,km≥60,,https://www.skiresort.com/en/ski-resort/4-vallees-verbier-la-tzoumaz-nendaz-veysonnaz-thyon/,
+176,CH1,Thyon,,CH,Valais,4 Vallées,km≥60,,https://www.skiresort.com/en/ski-resort/4-vallees-verbier-la-tzoumaz-nendaz-veysonnaz-thyon/,Thyon 2000/Les Collons
+177,CH1,Zermatt,,CH,Valais,Matterhorn Ski Paradise (Zermatt–Cervinia),km≥60; glacier year-round; alt 3899,Täsch,https://www.skiresort.com/en/ski-resort/zermatt-breuil-cervinia-valtournenche-matterhorn/,Car-free: road head Täsch
+178,CH1,Saas-Fee,,CH,Valais,Saas-Fee (Saastal),km≥60; glacier; alt 3573,,https://www.skiresort.com/en/ski-resort/saas-fee/,Car-free village; parking at village entrance (car journey ends at Saas-Fee)
+179,CH1,Saas-Grund – Hohsaas,,CH,Valais,Saastal (Hohsaas),alt 3200,,https://www.skiresort.com/en/ski-resort/hohsaas-saas-grund/,
+180,CH1,Crans-Montana,,CH,Valais,Crans-Montana,km≥60; glacier (Plaine Morte); alt 2927; FWQ 2026,,https://www.skiresort.com/en/ski-resort/crans-montana/,Dynamic pricing? check
+181,CH1,Grimentz–Zinal,,CH,Valais,Val d'Anniviers,km≥60; alt 2900; FWQ history,,https://www.skiresort.com/en/ski-resort/grimentz-zinal/,
+182,CH1,Saint-Luc–Chandolin,,CH,Valais,Val d'Anniviers,km≥60 (60 km); alt 2980,,https://www.skiresort.com/en/ski-resort/saint-luc-chandolin-anniviers/,
+183,CH1,Aletsch Arena,,CH,Valais,Aletsch Arena (Riederalp/Bettmeralp/Fiesch-Eggishorn),km≥60; alt 2869,Mörel/Betten/Fiesch (valley stations),https://www.skiresort.com/en/ski-resort/aletsch-arena-riederalp-bettmeralp-fiesch-eggishorn/,Car-free plateau; road head = valley cable-car stations (use Fiesch or Betten Talstation – state which)
+184,CH1,Grächen,,CH,Valais,Grächen,alt 2864,,https://www.skiresort.com/en/ski-resort/le-grand-massif-flaine-les-carroz-morillon-samoens-sixt/,Family resort; criterion 4 only
+185,CH1,Lauchernalp – Lötschental,,CH,Valais,Lauchernalp,alt 3100; freeride/touring,,https://www.skiresort.com/en/ski-resort/lauchernalp-loetschental/,Wiler valley station
+186,CH1,Belalp – Blatten,,CH,Valais,Belalp,alt 3118; freeride,,https://www.skiresort.com/en/ski-resort/belalp-blatten/,Blatten bei Naters valley station
+187,CH1,Arolla,,CH,Valais,Arolla (Val d'Hérens),alt 2877; Haute Route stage; touring hub,,https://www.skiresort.com/en/ski-resort/arolla/,
+188,CH1,Villars–Gryon,,CH,Vaud,Villars–Gryon–Les Diablerets (Alpes Vaudoises),km≥60 (87 km),,https://www.skiresort.com/en/ski-resort/villars-gryon-les-diablerets/,
+189,CH1,Les Diablerets – Glacier 3000,,CH,Vaud,"Villars–Gryon–Les Diablerets / Glacier 3000 (Alpes Vaudoises, Gstaad)",glacier (Glacier 3000); alt 3016,,https://www.skiresort.com/en/ski-resort/glacier-3000-les-diablerets/,Glacier 3000 base Col du Pillon; Les Diablerets village
+190,CH1,Leysin,,CH,Vaud,Leysin (Alpes Vaudoises),km≥60 (60 km); FWQ 2026 venue,,https://www.skiresort.com/en/ski-resort/leysin/,
+191,CH2,Grindelwald,,CH,Bern,Jungfrau Ski Region,km≥60 (Grindelwald-Wengen 101 km + First),,https://www.skiresort.com/en/ski-resort/kleine-scheidegg-maennlichen-grindelwald-wengen/,Eiger Express
+192,CH2,Wengen,,CH,Bern,Jungfrau Ski Region,km≥60,Lauterbrunnen,https://www.skiresort.com/en/ski-resort/kleine-scheidegg-maennlichen-grindelwald-wengen/,Car-free: road head Lauterbrunnen
+193,CH2,Mürren – Schilthorn,,CH,Bern,Jungfrau Ski Region,alt 2970; freeride (Inferno),Lauterbrunnen (Stechelberg),https://www.skiresort.com/en/ski-resort/schilthorn-muerren-lauterbrunnen/,Car-free: road head Lauterbrunnen or Stechelberg – state which
+194,CH2,Gstaad,,CH,Bern,Gstaad Mountain Rides (Saanenland),km≥60,,https://www.skiresort.com/en/ski-resort/rinderberg-saanerslochgrat-horneggli-zweisimmen-saanenmoeser-schoenried-st-stephan/,Incl. Saanenmöser/Schönried/Zweisimmen/St. Stephan (Rinderberg) – one row
+195,CH2,Adelboden,,CH,Bern,Adelboden–Lenk,km≥60,,https://www.skiresort.com/en/ski-resort/adelboden-lenk-chuenisbaergli-silleren-hahnenmoos-metsch/,
+196,CH2,Lenk,,CH,Bern,Adelboden–Lenk,km≥60,,https://www.skiresort.com/en/ski-resort/adelboden-lenk-chuenisbaergli-silleren-hahnenmoos-metsch/,
+197,CH2,Meiringen-Hasliberg,,CH,Bern,Meiringen-Hasliberg,km≥60 (60 km),,https://www.skiresort.com/en/ski-resort/meiringen-hasliberg/,
+198,CH2,Engelberg,,CH,Obwalden,Engelberg–Titlis,km≥60; glacier (Titlis); alt 3020; world-class freeride,,https://www.skiresort.com/en/ski-resort/titlis-engelberg/,
+199,CH2,Andermatt,,CH,Uri,SkiArena Andermatt-Sedrun-Disentis,km≥60; alt 2961 (Gemsstock); world-class freeride,,https://www.skiresort.com/en/ski-resort/andermatt-oberalp-sedrun/,Oberalp road closed in winter (car train Andermatt–Sedrun not counted); Gotthard tunnel open
+200,CH2,Sedrun,,CH,Graubünden,SkiArena Andermatt-Sedrun-Disentis,km≥60,,https://www.skiresort.com/en/ski-resort/andermatt-oberalp-sedrun/,Access from Milan: Oberalp and Lukmanier CLOSED – route via Chur/Reichenau–Disentis
+201,CH2,Disentis,,CH,Graubünden,SkiArena Andermatt-Sedrun-Disentis,km≥60 (60 km); alt 2833; FWQ history,,https://www.skiresort.com/en/ski-resort/disentis/,Lukmanier pass closed in winter (treat as closed) – route via Chur
+202,CH2,Flumserberg,,CH,St. Gallen,Flumserberg,km≥60 (65 km),,https://www.skiresort.com/en/ski-resort/flumserberg/,
+203,CH2,Arosa,,CH,Graubünden,Arosa Lenzerheide,km≥60; alt 2865,,https://www.skiresort.com/en/ski-resort/arosa-lenzerheide/,
+204,CH2,Lenzerheide,,CH,Graubünden,Arosa Lenzerheide,km≥60,,https://www.skiresort.com/en/ski-resort/arosa-lenzerheide/,Incl. Valbella/Churwalden/Parpan
+205,CH2,Laax,,CH,Graubünden,LAAX (Flims–Laax–Falera),km≥60; glacier (Vorab); alt 3018,,https://www.skiresort.com/en/ski-resort/laax-flims-falera/,Flims/Falera villages – one row
+206,CH2,St. Moritz,,CH,Graubünden,Engadin St. Moritz (Corviglia),km≥60; alt 3057,,https://www.skiresort.com/en/ski-resort/st-moritz-corviglia/,"Celerina; Julier or Maloja open, Albula road closed"
+207,CH2,Corvatsch – Silvaplana/Sils,,CH,Graubünden,Engadin St. Moritz (Corvatsch–Furtschellas),km≥60; glacier (Corvatsch); alt 3303,,https://www.skiresort.com/en/ski-resort/corvatsch-furtschellas/,
+208,CH2,Diavolezza–Lagalb (Pontresina),,CH,Graubünden,Engadin St. Moritz (Val Bernina),glacier; alt 3006,,https://www.skiresort.com/en/ski-resort/diavolezza-lagalb/,Bernina pass open in winter (from Italian side via Tirano)
+209,CH2,Obersaxen–Mundaun,,CH,Graubünden,Obersaxen Mundaun Val Lumnezia (Surselva),km≥60 (120 km),,https://www.skiresort.com/en/ski-resort/obersaxen-mundaun-val-lumnezia/,
+210,CH2,Savognin,,CH,Graubünden,Savognin,km≥60 (73.5 km),,https://www.skiresort.com/en/ski-resort/savognin/,Julier route
+211,CH2,Scuol,,CH,Graubünden,Scuol – Motta Naluns (Engadin Samnaun Val Müstair),km≥60 (70 km),,https://www.skiresort.com/en/ski-resort/scuol-motta-naluns/,Access via Ofen pass or Landeck/Reschen; Flüela closed
+212,CH2,Samnaun,,CH,Graubünden,Silvretta Arena (Ischgl–Samnaun),km≥60,,https://www.skiresort.com/en/ski-resort/ischgl-samnaun-silvretta-arena/,Duty-free; access via Austria (Spiss road)
+213,CH2,Davos,,CH,Graubünden,Davos Klosters (Parsenn/Jakobshorn/Pischa/Rinerhorn),km≥60; alt 2844,,https://www.skiresort.com/en/ski-resort/parsenn-davos-klosters/,Flüela closed: via Landquart–Klosters or Vereina car train
+214,CH2,Klosters,,CH,Graubünden,Davos Klosters (Parsenn/Madrisa),km≥60,,https://www.skiresort.com/en/ski-resort/parsenn-davos-klosters/,
+215,CH2,Vals,,CH,Graubünden,Vals – Dachberg,alt 2851 (criterion 4 only),,https://www.skiresort.com/en/ski-resort/alagna-valsesia-gressoney-la-trinite-champoluc-frachey-monterosa-ski/,Small area; include per criterion 4 with note

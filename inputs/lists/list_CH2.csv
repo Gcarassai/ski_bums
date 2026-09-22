@@ -1,0 +1,26 @@
+id,batch,resort_name,local_name,country,region,ski_area,inclusion_basis,road_head_hint,skiresort_url,notes_for_agent
+191,CH2,Grindelwald,,CH,Bern,Jungfrau Ski Region,km≥60 (Grindelwald-Wengen 101 km + First),,https://www.skiresort.com/en/ski-resort/kleine-scheidegg-maennlichen-grindelwald-wengen/,Eiger Express
+192,CH2,Wengen,,CH,Bern,Jungfrau Ski Region,km≥60,Lauterbrunnen,https://www.skiresort.com/en/ski-resort/kleine-scheidegg-maennlichen-grindelwald-wengen/,Car-free: road head Lauterbrunnen
+193,CH2,Mürren – Schilthorn,,CH,Bern,Jungfrau Ski Region,alt 2970; freeride (Inferno),Lauterbrunnen (Stechelberg),https://www.skiresort.com/en/ski-resort/schilthorn-muerren-lauterbrunnen/,Car-free: road head Lauterbrunnen or Stechelberg – state which
+194,CH2,Gstaad,,CH,Bern,Gstaad Mountain Rides (Saanenland),km≥60,,https://www.skiresort.com/en/ski-resort/rinderberg-saanerslochgrat-horneggli-zweisimmen-saanenmoeser-schoenried-st-stephan/,Incl. Saanenmöser/Schönried/Zweisimmen/St. Stephan (Rinderberg) – one row
+195,CH2,Adelboden,,CH,Bern,Adelboden–Lenk,km≥60,,https://www.skiresort.com/en/ski-resort/adelboden-lenk-chuenisbaergli-silleren-hahnenmoos-metsch/,
+196,CH2,Lenk,,CH,Bern,Adelboden–Lenk,km≥60,,https://www.skiresort.com/en/ski-resort/adelboden-lenk-chuenisbaergli-silleren-hahnenmoos-metsch/,
+197,CH2,Meiringen-Hasliberg,,CH,Bern,Meiringen-Hasliberg,km≥60 (60 km),,https://www.skiresort.com/en/ski-resort/meiringen-hasliberg/,
+198,CH2,Engelberg,,CH,Obwalden,Engelberg–Titlis,km≥60; glacier (Titlis); alt 3020; world-class freeride,,https://www.skiresort.com/en/ski-resort/titlis-engelberg/,
+199,CH2,Andermatt,,CH,Uri,SkiArena Andermatt-Sedrun-Disentis,km≥60; alt 2961 (Gemsstock); world-class freeride,,https://www.skiresort.com/en/ski-resort/andermatt-oberalp-sedrun/,Oberalp road closed in winter (car train Andermatt–Sedrun not counted); Gotthard tunnel open
+200,CH2,Sedrun,,CH,Graubünden,SkiArena Andermatt-Sedrun-Disentis,km≥60,,https://www.skiresort.com/en/ski-resort/andermatt-oberalp-sedrun/,Access from Milan: Oberalp and Lukmanier CLOSED – route via Chur/Reichenau–Disentis
+201,CH2,Disentis,,CH,Graubünden,SkiArena Andermatt-Sedrun-Disentis,km≥60 (60 km); alt 2833; FWQ history,,https://www.skiresort.com/en/ski-resort/disentis/,Lukmanier pass closed in winter (treat as closed) – route via Chur
+202,CH2,Flumserberg,,CH,St. Gallen,Flumserberg,km≥60 (65 km),,https://www.skiresort.com/en/ski-resort/flumserberg/,
+203,CH2,Arosa,,CH,Graubünden,Arosa Lenzerheide,km≥60; alt 2865,,https://www.skiresort.com/en/ski-resort/arosa-lenzerheide/,
+204,CH2,Lenzerheide,,CH,Graubünden,Arosa Lenzerheide,km≥60,,https://www.skiresort.com/en/ski-resort/arosa-lenzerheide/,Incl. Valbella/Churwalden/Parpan
+205,CH2,Laax,,CH,Graubünden,LAAX (Flims–Laax–Falera),km≥60; glacier (Vorab); alt 3018,,https://www.skiresort.com/en/ski-resort/laax-flims-falera/,Flims/Falera villages – one row
+206,CH2,St. Moritz,,CH,Graubünden,Engadin St. Moritz (Corviglia),km≥60; alt 3057,,https://www.skiresort.com/en/ski-resort/st-moritz-corviglia/,"Celerina; Julier or Maloja open, Albula road closed"
+207,CH2,Corvatsch – Silvaplana/Sils,,CH,Graubünden,Engadin St. Moritz (Corvatsch–Furtschellas),km≥60; glacier (Corvatsch); alt 3303,,https://www.skiresort.com/en/ski-resort/corvatsch-furtschellas/,
+208,CH2,Diavolezza–Lagalb (Pontresina),,CH,Graubünden,Engadin St. Moritz (Val Bernina),glacier; alt 3006,,https://www.skiresort.com/en/ski-resort/diavolezza-lagalb/,Bernina pass open in winter (from Italian side via Tirano)
+209,CH2,Obersaxen–Mundaun,,CH,Graubünden,Obersaxen Mundaun Val Lumnezia (Surselva),km≥60 (120 km),,https://www.skiresort.com/en/ski-resort/obersaxen-mundaun-val-lumnezia/,
+210,CH2,Savognin,,CH,Graubünden,Savognin,km≥60 (73.5 km),,https://www.skiresort.com/en/ski-resort/savognin/,Julier route
+211,CH2,Scuol,,CH,Graubünden,Scuol – Motta Naluns (Engadin Samnaun Val Müstair),km≥60 (70 km),,https://www.skiresort.com/en/ski-resort/scuol-motta-naluns/,Access via Ofen pass or Landeck/Reschen; Flüela closed
+212,CH2,Samnaun,,CH,Graubünden,Silvretta Arena (Ischgl–Samnaun),km≥60,,https://www.skiresort.com/en/ski-resort/ischgl-samnaun-silvretta-arena/,Duty-free; access via Austria (Spiss road)
+213,CH2,Davos,,CH,Graubünden,Davos Klosters (Parsenn/Jakobshorn/Pischa/Rinerhorn),km≥60; alt 2844,,https://www.skiresort.com/en/ski-resort/parsenn-davos-klosters/,Flüela closed: via Landquart–Klosters or Vereina car train
+214,CH2,Klosters,,CH,Graubünden,Davos Klosters (Parsenn/Madrisa),km≥60,,https://www.skiresort.com/en/ski-resort/parsenn-davos-klosters/,
+215,CH2,Vals,,CH,Graubünden,Vals – Dachberg,alt 2851 (criterion 4 only),,https://www.skiresort.com/en/ski-resort/alagna-valsesia-gressoney-la-trinite-champoluc-frachey-monterosa-ski/,Small area; include per criterion 4 with note

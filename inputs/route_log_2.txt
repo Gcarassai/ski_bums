@@ -1,0 +1,97 @@
+22 Saint-Sorlin-d'Arves 294.6 3.746 UNRESOLVED closed pass: Croix de Fer  snap 18
+38 Chamonix 242.7 3.093 ok  snap 27
+39 Megève 272.9 3.605 ok  snap 2
+40 Saint-Gervais-les-Bains 270.2 3.571 ok  snap 17
+41 Combloux 271.1 3.545 ok  snap 135
+42 Les Contamines-Montjoie 271.6 3.647 ok  snap 2
+43 La Clusaz 317.4 4.126 ok  snap 6
+44 Le Grand-Bornand 384.1 4.795 detour_forced Albertville snap 2
+45 Flaine 300.1 4.067 ok  snap 6
+46 Les Carroz 285.1 3.748 ok  snap 30
+47 Samoëns 297.4 3.916 ok  snap 152
+48 Morillon 293.2 3.810 ok  snap 8
+49 Morzine 305.7 4.068 ok  snap 12
+50 Avoriaz 318.7 4.350 ok  snap 3
+51 Les Gets 299.6 3.944 ok  snap 19
+52 Châtel 305.0 4.376 ok  snap 10
+53 Praz de Lys–Sommand 303.1 4.051 ok  snap 5
+70 Sestriere 238.0 2.974 ok  snap 34
+71 Sauze d'Oulx 221.8 2.755 ok  snap 2
+72 Cesana–Sansicario 226.9 2.774 ok  snap 12
+73 Claviere 233.2 2.930 ok  snap 11
+74 Bardonecchia 228.8 2.777 ok  snap 4
+75 Alagna Valsesia 149.3 2.175 ok  snap 19
+76 Prato Nevoso – Mondolè Ski 230.8 2.869 ok  snap 20
+77 Macugnaga 146.7 2.006 ok  snap 4
+78 Cervinia 189.6 2.494 ok  snap 0
+79 Courmayeur 220.3 2.686 ok  snap 24
+80 La Thuile 226.7 2.949 ok  snap 21
+81 Pila 203.8 2.698 ok  snap 6
+82 Gressoney-La-Trinité 176.3 2.436 ok  snap 12
+83 Champoluc 177.2 2.318 ok  snap 3
+84 Livigno 234.6 4.079 detour_forced Bormio snap 93
+85 Bormio 197.1 3.264 ok  snap 0
+86 Santa Caterina Valfurva 209.2 3.496 ok  snap 3
+87 Madesimo 139.0 2.518 ok  snap 31
+88 Passo dello Stelvio 218.1 3.722 ok  snap 0
+89 Ponte di Legno–Passo Tonale 180.4 2.925 ok  snap 0
+90 Madonna di Campiglio 215.8 3.215 ok  snap 54
+91 Pinzolo 203.2 3.010 ok  snap 21
+92 Folgarida–Marilleva 226.6 3.460 ok  snap 10
+93 Val di Fassa 319.6 4.119 ok  snap 8
+94 Alpe Lusia–San Pellegrino 304.5 3.810 ok  snap 27
+95 Val di Fiemme–Obereggen 279.9 3.388 ok  snap 5
+96 San Martino di Castrozza–Passo Rolle 323.4 4.059 ok  snap 17
+97 Folgaria–Lavarone 216.7 2.775 ok  snap 9
+98 Pejo 208.4 3.486 ok  snap 40
+99 Val Gardena 316.2 3.837 ok  snap 22
+100 Alta Badia 336.2 4.291 ok  snap 22
+101 Kronplatz 348.8 4.138 ok  snap 6
+102 3 Zinnen Dolomites 380.8 4.637 ok  snap 12
+103 Alpe di Siusi 295.5 3.444 ok  snap 31
+104 Plose 319.2 3.777 ok  snap 24
+105 Val Senales 335.6 4.079 ok  snap 12
+106 Solda 273.9 4.811 detour_forced Chiavenna snap 16
+107 Belpiano–Malga San Valentino 260.8 4.470 ok  snap 4
+108 Cortina d'Ampezzo 407.2 4.633 ok  snap 7
+109 Arabba–Marmolada 347.5 4.461 ok  snap 7
+110 Civetta 342.2 4.491 ok  snap 2
+117 Serfaus-Fiss-Ladis 279.5 4.744 ok  snap 14
+118 Nauders 255.4 4.387 ok  snap 0
+119 Sölden 471.3 5.682 detour_forced Ötztal Bahnhof snap 16
+120 Obergurgl–Hochgurgl 484.0 5.888 detour_forced Ötztal Bahnhof snap 32
+121 Vent 487.8 6.058 detour_forced Ötztal Bahnhof snap 9
+122 Kühtai 424.7 5.088 ok  snap 13
+123 Axamer Lizum 404.6 4.891 ok  snap 33
+124 Stubai Glacier 408.5 4.958 ok  snap 11
+125 Kaunertal Glacier 313.3 5.917 ok  snap 7
+126 Pitztal Glacier 325.8 5.602 ok  snap 25
+127 Schruns – Silvretta Montafon Hochjoch 313.9 4.211 ok  snap 16
+128 Gaschurn–St. Gallenkirch – Silvretta Montafon Nova 320.9 4.321 ok  snap 26
+129 Gargellen 328.3 4.440 ok  snap 17
+130 Damüls–Mellau 320.8 4.404 UNRESOLVED closed pass: Furkajoch  snap 30
+131 Kleinwalsertal 366.1 5.040 ok  snap 12
+132 Garmisch-Partenkirchen 442.9 5.352 ok  snap 27
+133 Oberstdorf 359.0 4.956 ok  snap 17
+134 Mayrhofen 455.7 5.470 ok  snap 8
+135 Hintertux Glacier 474.7 5.810 ok  snap 16
+136 Hochzillertal–Hochfügen 439.6 5.228 ok  snap 34
+137 Zell am Ziller 446.7 5.302 ok  snap 25
+138 Gerlos 465.4 5.614 ok  snap 18
+139 Königsleiten–Wald 474.1 5.775 ok  snap 21
+140 Kitzbühel 480.7 5.875 ok  snap 19
+141 Kirchberg in Tirol 473.9 5.702 ok  snap 29
+142 Söll 460.0 5.456 ok  snap 16
+143 Ellmau 469.5 5.622 ok  snap 30
+144 Scheffau 464.4 5.534 ok  snap 19
+145 Westendorf 464.4 5.544 ok  snap 18
+146 Brixen im Thale 466.4 5.585 ok  snap 27
+147 Hopfgarten im Brixental 458.8 5.432 ok  snap 15
+148 Alpbach 436.7 5.200 ok  snap 4
+149 Wildschönau 462.8 5.580 ok  snap 18
+150 Fieberbrunn 491.3 6.074 ok  snap 28
+151 Saalbach-Hinterglemm 536.8 6.857 alternative_used  snap 9
+152 Leogang 504.7 6.277 ok  snap 16
+153 Zell am See 529.0 6.747 alternative_used  snap 28
+154 Kaprun – Kitzsteinhorn 535.4 6.750 alternative_used  snap 8
+155 Wildkogel (Neukirchen–Bramberg) 494.5 6.134 ok  snap 20

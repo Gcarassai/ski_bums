@@ -1,0 +1,21 @@
+id,batch,resort_name,local_name,country,region,ski_area,inclusion_basis,road_head_hint,skiresort_url,notes_for_agent
+151,AT3,Saalbach-Hinterglemm,,AT,Salzburg,Skicircus Saalbach Hinterglemm Leogang Fieberbrunn,km≥60,,https://www.skiresort.com/en/ski-resort/saalbach-hinterglemm-leogang-fieberbrunn-skicircus/,
+152,AT3,Leogang,,AT,Salzburg,Skicircus Saalbach Hinterglemm Leogang Fieberbrunn,km≥60,,https://www.skiresort.com/en/ski-resort/saalbach-hinterglemm-leogang-fieberbrunn-skicircus/,
+153,AT3,Zell am See,,AT,Salzburg,Schmittenhöhe (Zell am See-Kaprun),km≥60 (77 km),,https://www.skiresort.com/en/ski-resort/schmittenhoehe-zell-am-see/,
+154,AT3,Kaprun – Kitzsteinhorn,,AT,Salzburg,Kitzsteinhorn–Maiskogel (Zell am See-Kaprun),glacier; alt 3029; FWQ history,,https://www.skiresort.com/en/ski-resort/kitzsteinhorn-maiskogel-kaprun/,
+155,AT3,Wildkogel (Neukirchen–Bramberg),,AT,Salzburg,Wildkogel-Arena,km≥60 (75 km),,https://www.skiresort.com/en/ski-resort/wildkogel-neukirchen-bramberg/,
+156,AT3,Flachau,,AT,Salzburg,Snow Space Salzburg,km≥60,,https://www.skiresort.com/en/ski-resort/snow-space-salzburg-flachau-wagrain-st-johann-alpendorf/,
+157,AT3,Wagrain,,AT,Salzburg,Snow Space Salzburg,km≥60,,https://www.skiresort.com/en/ski-resort/snow-space-salzburg-flachau-wagrain-st-johann-alpendorf/,
+158,AT3,St. Johann–Alpendorf,,AT,Salzburg,Snow Space Salzburg,km≥60,,https://www.skiresort.com/en/ski-resort/snow-space-salzburg-flachau-wagrain-st-johann-alpendorf/,
+159,AT3,Hochkönig (Maria Alm–Dienten–Mühlbach),,AT,Salzburg,Hochkönig,km≥60,,https://www.skiresort.com/en/ski-resort/zillertal-arena-zell-am-ziller-gerlos-koenigsleiten-hochkrimml/,One row for three villages
+160,AT3,Bad Gastein,,AT,Salzburg,Ski amadé – Gastein (Stubnerkogel/Graukogel/Sportgastein),km≥60; Sportgastein freeride/FWQ history,,https://www.skiresort.com/en/ski-resort/bad-gastein-bad-hofgastein-schlossalm-angertal-stubnerkogel/,Sportgastein incl.
+161,AT3,Bad Hofgastein,,AT,Salzburg,Ski amadé – Gastein (Schlossalm–Angertal),km≥60,,https://www.skiresort.com/en/ski-resort/bad-gastein-bad-hofgastein-schlossalm-angertal-stubnerkogel/,
+162,AT3,Großarl–Dorfgastein,,AT,Salzburg,Ski amadé – Großarltal-Dorfgastein,km≥60 (67.5 km),,https://www.skiresort.com/en/ski-resort/dorfgastein-grossarltal/,
+163,AT3,Obertauern,,AT,Salzburg,Obertauern,km≥60,,https://www.skiresort.com/en/ski-resort/obertauern/,
+164,AT3,Schladming,,AT,Styria,Schladming-Dachstein 4-Berge-Skischaukel,km≥60,,https://www.skiresort.com/en/ski-resort/schladming-planai-hochwurzen-hauser-kaibling-reiteralm-4-berge-skischaukel/,Planai/Hochwurzen/Hauser Kaibling/Reiteralm
+165,AT3,Dachstein Glacier (Ramsau),Dachstein Gletscher,AT,Styria,Schladming-Dachstein,glacier (criterion 2) – VERIFY alpine ski lifts still operate; may have ended 2023,,,"If glacier ski operation has ended, mark EXCLUDE"
+166,AT3,Katschberg,,AT,Carinthia / Salzburg,Katschberg–Aineck,km≥60 (80 km),,https://www.skiresort.com/en/ski-resort/katschberg/,
+167,AT3,Bad Kleinkirchheim,,AT,Carinthia,Bad Kleinkirchheim–St. Oswald,km≥60,,https://www.skiresort.com/en/ski-resort/bad-kleinkirchheim/,
+168,AT3,Nassfeld,,AT,Carinthia,Nassfeld–Hermagor,km≥60,,https://www.skiresort.com/en/ski-resort/nassfeld-hermagor/,Passo Pramollo from Pontebba closed in winter – access via Tarvisio/Hermagor
+169,AT3,Mölltal Glacier,Mölltaler Gletscher,AT,Carinthia,Mölltal Glacier (Flattach),glacier; alt 3122,,https://www.skiresort.com/en/ski-resort/moelltal-glacier-moelltaler-gletscher/,
+170,AT3,Heiligenblut – Großglockner,,AT,Carinthia,Grossglockner Heiligenblut,alt 2902; freeride,,https://www.skiresort.com/en/ski-resort/grossglockner-heiligenblut/,Grossglockner Hochalpenstrasse closed in winter

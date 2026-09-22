@@ -1,0 +1,17 @@
+id,batch,resort_name,local_name,country,region,ski_area,inclusion_basis,road_head_hint,skiresort_url,notes_for_agent
+38,FR3,Chamonix,,FR,Haute-Savoie,"Chamonix Mont-Blanc (Brévent-Flégère, Grands Montets, Balme, Aiguille du Midi)","glacier (Vallée Blanche, Grands Montets); alt 3842; FWT venue",,https://www.skiresort.com/en/ski-resort/aiguille-du-midi-chamonix/,Argentière/Le Tour = villages of Chamonix row. Check new Grands Montets lifts status
+39,FR3,Megève,,FR,Haute-Savoie,Evasion Mont-Blanc,km≥60,,https://www.skiresort.com/en/ski-resort/megeve-saint-gervais/,
+40,FR3,Saint-Gervais-les-Bains,,FR,Haute-Savoie,Evasion Mont-Blanc,km≥60,,https://www.skiresort.com/en/ski-resort/megeve-saint-gervais/,"Incl. Saint-Nicolas-de-Véroce, Le Bettex"
+41,FR3,Combloux,,FR,Haute-Savoie,Les Portes du Mont-Blanc / Evasion Mont-Blanc,km≥60 (Portes du Mont-Blanc 85 km),,https://www.skiresort.com/en/ski-resort/les-portes-du-mont-blanc-combloux-megeve-le-jaillet-la-giettaz/,La Giettaz noted as village
+42,FR3,Les Contamines-Montjoie,,FR,Haute-Savoie,Les Contamines-Hauteluce (Evasion Mont-Blanc pass),km≥60,,https://www.skiresort.com/en/ski-resort/les-contamines-hauteluce/,
+43,FR3,La Clusaz,,FR,Haute-Savoie,La Clusaz–Manigod,km≥60; FWQ history (Balme),,https://www.skiresort.com/en/ski-resort/la-clusaz-manigod/,Manigod on same local pass
+44,FR3,Le Grand-Bornand,,FR,Haute-Savoie,Le Grand-Bornand,km≥60,,https://www.skiresort.com/en/ski-resort/le-grand-bornand/,
+45,FR3,Flaine,,FR,Haute-Savoie,Le Grand Massif,km≥60,,https://www.skiresort.com/en/ski-resort/le-grand-massif-flaine-les-carroz-morillon-samoens-sixt/,
+46,FR3,Les Carroz,,FR,Haute-Savoie,Le Grand Massif,km≥60,,https://www.skiresort.com/en/ski-resort/le-grand-massif-flaine-les-carroz-morillon-samoens-sixt/,Les Carroz d'Arâches
+47,FR3,Samoëns,,FR,Haute-Savoie,Le Grand Massif,km≥60,,https://www.skiresort.com/en/ski-resort/le-grand-massif-flaine-les-carroz-morillon-samoens-sixt/,Sixt-Fer-à-Cheval noted as village
+48,FR3,Morillon,,FR,Haute-Savoie,Le Grand Massif,km≥60,,https://www.skiresort.com/en/ski-resort/le-grand-massif-flaine-les-carroz-morillon-samoens-sixt/,
+49,FR3,Morzine,,FR,Haute-Savoie,Portes du Soleil,km≥60,,https://www.skiresort.com/en/ski-resort/les-portes-du-soleil-morzine-avoriaz-les-gets-chatel-morgins-champery/,
+50,FR3,Avoriaz,,FR,Haute-Savoie,Portes du Soleil,km≥60,,https://www.skiresort.com/en/ski-resort/les-portes-du-soleil-morzine-avoriaz-les-gets-chatel-morgins-champery/,Car-free village; parking at entrance – check road head convention
+51,FR3,Les Gets,,FR,Haute-Savoie,Portes du Soleil,km≥60,,https://www.skiresort.com/en/ski-resort/les-portes-du-soleil-morzine-avoriaz-les-gets-chatel-morgins-champery/,
+52,FR3,Châtel,,FR,Haute-Savoie,Portes du Soleil,km≥60,,https://www.skiresort.com/en/ski-resort/les-portes-du-soleil-morzine-avoriaz-les-gets-chatel-morgins-champery/,La Chapelle-d'Abondance noted as village
+53,FR3,Praz de Lys–Sommand,,FR,Haute-Savoie,Praz de Lys–Sommand,km≥60,,https://www.skiresort.com/en/ski-resort/praz-de-lys-sommand-taninges-mieussy/,

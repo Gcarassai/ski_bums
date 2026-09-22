@@ -1,0 +1,47 @@
+1 Courchevel 378.5 4.561 ok  snap 24
+2 Méribel 371.8 4.443 ok  snap 19
+3 Les Menuires 383.5 4.765 ok  snap 10
+4 Val Thorens 391.6 4.776 ok  snap 46
+5 Saint-Martin-de-Belleville 374.0 4.444 ok  snap 6
+6 Orelle 252.3 3.033 ok  snap 13
+7 Tignes 415.7 5.246 detour_forced Albertville snap 2
+8 Val d'Isère 417.5 5.354 detour_forced Albertville snap 4
+9 La Plagne 387.7 4.709 alternative_used  snap 11
+10 Les Arcs 394.8 4.910 detour_forced Albertville snap 58
+11 Peisey-Vallandry 392.1 4.783 detour_forced Albertville snap 31
+12 La Rosière 408.5 5.132 detour_forced Albertville snap 4
+13 Sainte-Foy-Tarentaise 404.9 5.122 detour_forced Albertville snap 30
+14 Arêches-Beaufort 355.8 4.351 ok  snap 28
+15 Valmorel 364.1 4.355 ok  snap 8
+16 Saint-François-Longchamp 295.5 3.630 ok  snap 5
+17 Les Saisies 294.6 4.016 ok  snap 9
+18 Notre-Dame-de-Bellecombe 282.6 3.790 ok  snap 12
+19 Praz-sur-Arly 276.5 3.671 ok  snap 28
+20 Le Corbier 289.4 3.603 ok  snap 44
+21 La Toussuire 287.8 3.593 ok  snap 41
+22 Saint-Sorlin-d'Arves 294.6 3.746 UNRESOLVED closed pass: Croix de Fer  snap 18
+23 Saint-Jean-d'Arves 291.1 3.719 ok  snap 11
+24 Valloire 275.5 3.444 ok  snap 27
+25 Valmeinier 274.3 3.434 ok  snap 13
+26 Val Cenis 273.1 3.432 detour_forced Modane snap 5
+27 Valfréjus 249.1 3.047 ok  snap 17
+28 La Norma 251.6 3.073 ok  snap 84
+29 Les Karellis 280.8 3.443 ok  snap 26
+30 Bonneval-sur-Arc 290.0 3.736 detour_forced Modane snap 0
+31 Alpe d'Huez 326.4 4.575 ok  snap 3
+32 Vaujany 331.8 4.705 detour_forced Bourg-d'Oisans snap 25
+33 Oz-en-Oisans 333.1 4.750 detour_forced Bourg-d'Oisans snap 23
+34 Les 2 Alpes 309.4 4.282 ok  snap 17
+35 Les 7 Laux 365.2 4.333 ok  snap 15
+36 Chamrousse 398.0 4.769 ok  snap 6
+37 Villard-de-Lans–Corrençon 410.8 5.035 ok  snap 3
+111 St. Anton am Arlberg 342.0 4.570 ok  snap 20
+112 Lech–Zürs 340.3 4.565 ok  snap 34
+113 Warth–Schröcken 356.6 4.895 detour_forced Schoppernau snap 42
+114 Ischgl 380.7 5.190 ok  snap 11
+115 Kappl 371.6 5.016 ok  snap 25
+116 Galtür 391.9 5.394 ok  snap 20
+191 Grindelwald 330.8 4.527 detour_forced Lucerne snap 21
+192 Wengen 323.7 4.383 detour_forced Lucerne snap 16
+193 Mürren – Schilthorn 329.3 4.520 detour_forced Lucerne snap 0
+197 Meiringen-Hasliberg 293.1 3.911 detour_forced Lucerne snap 1

@@ -1,0 +1,18 @@
+id,batch,resort_name,local_name,country,region,ski_area,inclusion_basis,road_head_hint,skiresort_url,notes_for_agent
+134,AT2,Mayrhofen,,AT,Tyrol,Mayrhofen (Penken/Ahorn) – Zillertal 3000,km≥60,,https://www.skiresort.com/en/ski-resort/mayrhofen-penken-ahorn-rastkogel-eggalm-mountopolis/,Harakiri; Eggalm/Rastkogel
+135,AT2,Hintertux Glacier,Hintertuxer Gletscher,AT,Tyrol,Hintertux Glacier – Zillertal 3000,"glacier, year-round; alt 3250",,https://www.skiresort.com/en/ski-resort/hintertux-glacier-hintertuxer-gletscher/,365-day glacier
+136,AT2,Hochzillertal–Hochfügen,,AT,Tyrol,Hochzillertal–Hochfügen (Kaltenbach/Fügen),km≥60 (89 km),,https://www.skiresort.com/en/ski-resort/kaltenbach-hochzillertal-hochfuegen-ski-optimal/,
+137,AT2,Zell am Ziller,,AT,Tyrol,Zillertal Arena,km≥60,,https://www.skiresort.com/en/ski-resort/zillertal-arena-zell-am-ziller-gerlos-koenigsleiten-hochkrimml/,
+138,AT2,Gerlos,,AT,Tyrol,Zillertal Arena,km≥60,,https://www.skiresort.com/en/ski-resort/zillertal-arena-zell-am-ziller-gerlos-koenigsleiten-hochkrimml/,Gerlos pass open in winter
+139,AT2,Königsleiten–Wald,,AT,Salzburg,Zillertal Arena,km≥60,,https://www.skiresort.com/en/ski-resort/zillertal-arena-zell-am-ziller-gerlos-koenigsleiten-hochkrimml/,Incl. Hochkrimml
+140,AT2,Kitzbühel,,AT,Tyrol,KitzSki,km≥60,,https://www.skiresort.com/en/ski-resort/kitzski-kitzbuehel-kirchberg/,"Incl. Jochberg, Pass Thurn"
+141,AT2,Kirchberg in Tirol,,AT,Tyrol,KitzSki,km≥60,,https://www.skiresort.com/en/ski-resort/kitzski-kitzbuehel-kirchberg/,
+142,AT2,Söll,,AT,Tyrol,SkiWelt Wilder Kaiser-Brixental,km≥60,,https://www.skiresort.com/en/ski-resort/skiwelt-wilder-kaiser-brixental/,
+143,AT2,Ellmau,,AT,Tyrol,SkiWelt Wilder Kaiser-Brixental,km≥60,,https://www.skiresort.com/en/ski-resort/skiwelt-wilder-kaiser-brixental/,Going noted as village
+144,AT2,Scheffau,,AT,Tyrol,SkiWelt Wilder Kaiser-Brixental,km≥60,,https://www.skiresort.com/en/ski-resort/skiwelt-wilder-kaiser-brixental/,
+145,AT2,Westendorf,,AT,Tyrol,SkiWelt Wilder Kaiser-Brixental,km≥60,,https://www.skiresort.com/en/ski-resort/skiwelt-wilder-kaiser-brixental/,
+146,AT2,Brixen im Thale,,AT,Tyrol,SkiWelt Wilder Kaiser-Brixental,km≥60,,https://www.skiresort.com/en/ski-resort/skiwelt-wilder-kaiser-brixental/,
+147,AT2,Hopfgarten im Brixental,,AT,Tyrol,SkiWelt Wilder Kaiser-Brixental,km≥60,,https://www.skiresort.com/en/ski-resort/skiwelt-wilder-kaiser-brixental/,Itter noted as village
+148,AT2,Alpbach,,AT,Tyrol,Ski Juwel Alpbachtal Wildschönau,km≥60; Open Faces FWQ history,,https://www.skiresort.com/en/ski-resort/ski-juwel-alpbachtal-wildschoenau/,
+149,AT2,Wildschönau,,AT,Tyrol,Ski Juwel Alpbachtal Wildschönau,km≥60,,https://www.skiresort.com/en/ski-resort/ski-juwel-alpbachtal-wildschoenau/,Niederau/Oberau/Auffach
+150,AT2,Fieberbrunn,,AT,Tyrol,Skicircus Saalbach Hinterglemm Leogang Fieberbrunn,km≥60; FWT stop (Wildseeloder),,https://www.skiresort.com/en/ski-resort/saalbach-hinterglemm-leogang-fieberbrunn-skicircus/,

@@ -1,0 +1,43 @@
+130 Damüls–Mellau 320.8 4.404 ok  snap 30
+169 Mölltal Glacier 464.3 6.007 ok  snap 9
+171 Champéry 296.2 4.185 ok  snap 21
+172 Morgins 297.5 4.191 ok  snap 22
+173 Verbier 260.3 3.674 ok  snap 9
+174 Nendaz 261.7 3.746 ok  snap 3
+175 Veysonnaz 258.9 3.690 ok  snap 22
+176 Thyon 266.5 3.885 ok  snap 23
+177 Zermatt 229.9 3.351 ok  snap 19
+178 Saas-Fee 225.6 3.303 ok  snap 133
+179 Saas-Grund – Hohsaas 222.1 3.208 ok  snap 1
+180 Crans-Montana 245.4 3.569 ok  snap 3
+181 Grimentz–Zinal 249.7 3.593 ok  snap 0
+182 Saint-Luc–Chandolin 248.2 3.595 ok  snap 16
+183 Aletsch Arena 211.0 3.105 alternative_used  snap 16
+184 Grächen 223.5 3.287 ok  snap 14
+185 Lauchernalp – Lötschental 228.9 3.267 ok  snap 14
+186 Belalp – Blatten 201.9 2.954 ok  snap 15
+187 Arolla 283.0 4.149 ok  snap 8
+188 Villars–Gryon 297.0 4.168 ok  snap 87
+189 Les Diablerets – Glacier 3000 315.3 4.398 ok  snap 10
+190 Leysin 306.9 4.257 ok  snap 3
+194 Gstaad 332.0 4.712 ok  snap 24
+195 Adelboden 359.7 5.000 detour_forced Lucerne snap 24
+196 Lenk 363.7 5.243 alternative_used  snap 11
+198 Engelberg 250.3 3.261 ok  snap 32
+199 Andermatt 186.2 2.421 ok  snap 25
+200 Sedrun 295.6 4.253 detour_forced Chur snap 27
+201 Disentis 285.1 4.061 detour_forced Chur snap 0
+202 Flumserberg 268.3 3.532 ok  snap 3
+203 Arosa 250.5 3.475 ok  snap 11
+204 Lenzerheide 220.5 3.032 ok  snap 2
+205 Laax 227.5 3.096 ok  snap 84
+206 St. Moritz 167.5 2.946 ok  snap 27
+207 Corvatsch – Silvaplana/Sils 165.2 3.012 ok  snap 6
+208 Diavolezza–Lagalb (Pontresina) 184.7 3.254 ok  snap 4
+209 Obersaxen–Mundaun 245.9 3.444 detour_forced Mesocco snap 26
+210 Savognin 219.0 3.011 ok  snap 0
+211 Scuol 227.7 3.952 ok  snap 19
+212 Samnaun 264.8 4.547 ok  snap 20
+213 Davos 243.3 3.478 ok  snap 14
+214 Klosters 253.5 3.671 ok  snap 17
+215 Vals 254.8 3.632 detour_forced Mesocco snap 10

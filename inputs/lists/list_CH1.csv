@@ -1,0 +1,21 @@
+id,batch,resort_name,local_name,country,region,ski_area,inclusion_basis,road_head_hint,skiresort_url,notes_for_agent
+171,CH1,Champéry,,CH,Valais,Portes du Soleil,km≥60,,https://www.skiresort.com/en/ski-resort/les-portes-du-soleil-morzine-avoriaz-les-gets-chatel-morgins-champery/,Incl. Les Crosets/Champoussin (Val-d'Illiez)
+172,CH1,Morgins,,CH,Valais,Portes du Soleil,km≥60,,https://www.skiresort.com/en/ski-resort/les-portes-du-soleil-morzine-avoriaz-les-gets-chatel-morgins-champery/,
+173,CH1,Verbier,,CH,Valais,4 Vallées,km≥60; glacier (Mont Fort); alt 3330; FWT Xtreme,,https://www.skiresort.com/en/ski-resort/4-vallees-verbier-la-tzoumaz-nendaz-veysonnaz-thyon/,Bruson and La Tzoumaz noted
+174,CH1,Nendaz,,CH,Valais,4 Vallées,km≥60; FWQ venue,,https://www.skiresort.com/en/ski-resort/4-vallees-verbier-la-tzoumaz-nendaz-veysonnaz-thyon/,
+175,CH1,Veysonnaz,,CH,Valais,4 Vallées,km≥60,,https://www.skiresort.com/en/ski-resort/4-vallees-verbier-la-tzoumaz-nendaz-veysonnaz-thyon/,
+176,CH1,Thyon,,CH,Valais,4 Vallées,km≥60,,https://www.skiresort.com/en/ski-resort/4-vallees-verbier-la-tzoumaz-nendaz-veysonnaz-thyon/,Thyon 2000/Les Collons
+177,CH1,Zermatt,,CH,Valais,Matterhorn Ski Paradise (Zermatt–Cervinia),km≥60; glacier year-round; alt 3899,Täsch,https://www.skiresort.com/en/ski-resort/zermatt-breuil-cervinia-valtournenche-matterhorn/,Car-free: road head Täsch
+178,CH1,Saas-Fee,,CH,Valais,Saas-Fee (Saastal),km≥60; glacier; alt 3573,,https://www.skiresort.com/en/ski-resort/saas-fee/,Car-free village; parking at village entrance (car journey ends at Saas-Fee)
+179,CH1,Saas-Grund – Hohsaas,,CH,Valais,Saastal (Hohsaas),alt 3200,,https://www.skiresort.com/en/ski-resort/hohsaas-saas-grund/,
+180,CH1,Crans-Montana,,CH,Valais,Crans-Montana,km≥60; glacier (Plaine Morte); alt 2927; FWQ 2026,,https://www.skiresort.com/en/ski-resort/crans-montana/,Dynamic pricing? check
+181,CH1,Grimentz–Zinal,,CH,Valais,Val d'Anniviers,km≥60; alt 2900; FWQ history,,https://www.skiresort.com/en/ski-resort/grimentz-zinal/,
+182,CH1,Saint-Luc–Chandolin,,CH,Valais,Val d'Anniviers,km≥60 (60 km); alt 2980,,https://www.skiresort.com/en/ski-resort/saint-luc-chandolin-anniviers/,
+183,CH1,Aletsch Arena,,CH,Valais,Aletsch Arena (Riederalp/Bettmeralp/Fiesch-Eggishorn),km≥60; alt 2869,Mörel/Betten/Fiesch (valley stations),https://www.skiresort.com/en/ski-resort/aletsch-arena-riederalp-bettmeralp-fiesch-eggishorn/,Car-free plateau; road head = valley cable-car stations (use Fiesch or Betten Talstation – state which)
+184,CH1,Grächen,,CH,Valais,Grächen,alt 2864,,https://www.skiresort.com/en/ski-resort/le-grand-massif-flaine-les-carroz-morillon-samoens-sixt/,Family resort; criterion 4 only
+185,CH1,Lauchernalp – Lötschental,,CH,Valais,Lauchernalp,alt 3100; freeride/touring,,https://www.skiresort.com/en/ski-resort/lauchernalp-loetschental/,Wiler valley station
+186,CH1,Belalp – Blatten,,CH,Valais,Belalp,alt 3118; freeride,,https://www.skiresort.com/en/ski-resort/belalp-blatten/,Blatten bei Naters valley station
+187,CH1,Arolla,,CH,Valais,Arolla (Val d'Hérens),alt 2877; Haute Route stage; touring hub,,https://www.skiresort.com/en/ski-resort/arolla/,
+188,CH1,Villars–Gryon,,CH,Vaud,Villars–Gryon–Les Diablerets (Alpes Vaudoises),km≥60 (87 km),,https://www.skiresort.com/en/ski-resort/villars-gryon-les-diablerets/,
+189,CH1,Les Diablerets – Glacier 3000,,CH,Vaud,"Villars–Gryon–Les Diablerets / Glacier 3000 (Alpes Vaudoises, Gstaad)",glacier (Glacier 3000); alt 3016,,https://www.skiresort.com/en/ski-resort/glacier-3000-les-diablerets/,Glacier 3000 base Col du Pillon; Les Diablerets village
+190,CH1,Leysin,,CH,Vaud,Leysin (Alpes Vaudoises),km≥60 (60 km); FWQ 2026 venue,,https://www.skiresort.com/en/ski-resort/leysin/,

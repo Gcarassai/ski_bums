@@ -1,0 +1,33 @@
+candidates=215 enriched=215 missing_enrichment=0: []
+webcam check: 188/188 URLs returned 200
+duplicates: []
+CHECK 129 Gargellen (AT): price missing
+CHECK 170 Heiligenblut – Großglockner (AT): price missing
+CHECK 195 Adelboden (CH): price missing
+CHECK 196 Lenk (CH): price missing
+CHECK 210 Savognin (CH): price missing
+
+QA
+Rows total: 214
+Rows FR: 69
+Rows IT: 41
+Rows AT: 57
+Rows CH: 45
+Rows DE: 2
+Rows SI: 0
+Type Glacier: 9
+Type Glacier + non-glacier: 27
+Type Non-glacier: 178
+Opening status confirmed_2026_27: 173
+Opening status estimated_from_2025_26: 38
+Opening status year_round_glacier: 2
+Opening status TBD: 1
+Share confirmed_2026_27 vs estimated_from_2025_26 (% confirmed of the two): 82.0
+Price status published_2026_27: 131
+Price status estimated_from_2025_26: 78
+Blank webcam_url: 0
+Confidence high: 26
+Confidence medium: 169
+Confidence low: 19
+Rows routed with forced detour (closed pass avoided): 31
+Excluded after research: 1

@@ -1,0 +1,4 @@
+id,resort_name,country,base_lat,base_lon,distance_km,hours,via,hits_primary,modes,status,snap_m
+T5,Nassfeld,AT,46.5590,13.2790,487.6,6.342,Lienz,Pramollo/Nassfeld pass (Italian ramp),,detour_forced,81
+T5b,Nassfeld Troepolach base,AT,46.6090,13.2830,557.5,6.154,Villach,Pramollo/Nassfeld pass (Italian ramp),,detour_forced,5
+T18,Bad Kleinkirchheim,AT,46.8150,13.7900,540.6,5.926,,,,ok,22

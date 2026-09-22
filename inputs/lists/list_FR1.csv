@@ -1,0 +1,20 @@
+id,batch,resort_name,local_name,country,region,ski_area,inclusion_basis,road_head_hint,skiresort_url,notes_for_agent
+1,FR1,Courchevel,,FR,Savoie,3 Vallées,km≥60 (3 Vallées 600 km),,https://www.skiresort.com/en/ski-resort/les-3-vallees-val-thorens-les-menuires-meribel-courchevel/,Villages 1850/1650/1550/Le Praz = one row
+2,FR1,Méribel,,FR,Savoie,3 Vallées,km≥60,,https://www.skiresort.com/en/ski-resort/les-3-vallees-val-thorens-les-menuires-meribel-courchevel/,Incl. Méribel-Mottaret
+3,FR1,Les Menuires,,FR,Savoie,3 Vallées,km≥60,,https://www.skiresort.com/en/ski-resort/les-3-vallees-val-thorens-les-menuires-meribel-courchevel/,
+4,FR1,Val Thorens,,FR,Savoie,3 Vallées,km≥60; glacier (Péclet); alt 3230; FWT Val Thorens Pro 2025/26,,https://www.skiresort.com/en/ski-resort/les-3-vallees-val-thorens-les-menuires-meribel-courchevel/,
+5,FR1,Saint-Martin-de-Belleville,,FR,Savoie,3 Vallées,km≥60,,https://www.skiresort.com/en/ski-resort/les-3-vallees-val-thorens-les-menuires-meribel-courchevel/,
+6,FR1,Orelle,,FR,Savoie,3 Vallées,km≥60; alt (Cime Caron 3200),,https://www.skiresort.com/en/ski-resort/les-3-vallees-val-thorens-les-menuires-meribel-courchevel/,Maurienne-side gateway to Val Thorens
+7,FR1,Tignes,,FR,Savoie,Tignes–Val d'Isère (Espace Killy),km≥60; glacier (Grande Motte); alt 3456,,https://www.skiresort.com/en/ski-resort/tignes-val-disere/,Grande Motte glacier: check autumn opening
+8,FR1,Val d'Isère,,FR,Savoie,Tignes–Val d'Isère (Espace Killy),km≥60; glacier (Pissaillas); alt,,https://www.skiresort.com/en/ski-resort/tignes-val-disere/,
+9,FR1,La Plagne,,FR,Savoie,Paradiski,km≥60; glacier (Bellecôte – verify lifts); alt 3250,,https://www.skiresort.com/en/ski-resort/la-plagne-paradiski/,"Villages incl. Montchavin, Champagny = one row"
+10,FR1,Les Arcs,,FR,Savoie,Paradiski,km≥60; alt (Aiguille Rouge 3226); FWQ history,,https://www.skiresort.com/en/ski-resort/les-arcs-peisey-vallandry-paradiski/,
+11,FR1,Peisey-Vallandry,,FR,Savoie,Paradiski,km≥60,,https://www.skiresort.com/en/ski-resort/les-arcs-peisey-vallandry-paradiski/,
+12,FR1,La Rosière,,FR,Savoie,Espace San Bernardo,km≥60; alt 2800,,https://www.skiresort.com/en/ski-resort/espace-san-bernardo-la-rosiere-la-thuile/,Linked to La Thuile IT via Petit-St-Bernard (pass road closed in winter)
+13,FR1,Sainte-Foy-Tarentaise,,FR,Savoie,Sainte-Foy-Tarentaise,freeride destination in guidebooks (criterion 3),,,Small area; include for freeride reputation
+14,FR1,Arêches-Beaufort,,FR,Savoie,Arêches-Beaufort,ski-touring destination (Pierra Menta) (criterion 3),,,
+15,FR1,Valmorel,,FR,Savoie,Le Grand Domaine,km≥60,,https://www.skiresort.com/en/ski-resort/le-grand-domaine-valmorel-doucy-celliers-st-francois-longchamp/,
+16,FR1,Saint-François-Longchamp,,FR,Savoie,Le Grand Domaine,km≥60,,https://www.skiresort.com/en/ski-resort/le-grand-domaine-valmorel-doucy-celliers-st-francois-longchamp/,
+17,FR1,Les Saisies,,FR,Savoie,Espace Diamant,km≥60,,https://www.skiresort.com/en/ski-resort/espace-diamant-les-saisies-notre-dame-de-bellecombe-praz-sur-arly-flumet-crest-voland/,"Crest-Voland/Cohennoz and Flumet noted as villages, not rows"
+18,FR1,Notre-Dame-de-Bellecombe,,FR,Savoie,Espace Diamant,km≥60,,https://www.skiresort.com/en/ski-resort/espace-diamant-les-saisies-notre-dame-de-bellecombe-praz-sur-arly-flumet-crest-voland/,
+19,FR1,Praz-sur-Arly,,FR,Haute-Savoie,Espace Diamant,km≥60,,https://www.skiresort.com/en/ski-resort/espace-diamant-les-saisies-notre-dame-de-bellecombe-praz-sur-arly-flumet-crest-voland/,

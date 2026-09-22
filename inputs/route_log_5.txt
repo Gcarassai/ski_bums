@@ -1,0 +1,17 @@
+54 Serre Chevalier 252.9 3.304 ok  snap 33
+55 Montgenèvre 235.9 3.002 ok  snap 8
+56 Vars 296.6 4.097 ok  snap 25
+57 Risoul 294.5 4.048 ok  snap 50
+58 Les Orres 312.1 4.349 ok  snap 7
+59 Orcières Merlette 359.0 5.129 ok  snap 8
+60 Puy-Saint-Vincent 272.7 3.719 ok  snap 3
+61 Le Dévoluy 383.9 5.586 detour_forced Gap snap 53
+62 La Grave 285.5 3.862 ok  snap 15
+63 Molines-en-Queyras–Saint-Véran 396.8 5.702 detour_forced Barcelonnette snap 0
+64 Pra Loup 329.8 4.504 ok  snap 37
+65 Val d'Allos–La Foux 452.6 6.209 detour_forced Nice snap 15
+66 Le Sauze–Super Sauze 321.3 4.340 ok  snap 13
+67 Auron 408.1 5.247 detour_forced Nice snap 7
+68 Isola 2000 405.7 5.193 detour_forced Nice snap 9
+69 Valberg 393.1 4.907 ok  snap 32
+130 Damüls–Mellau 320.8 4.404 UNRESOLVED closed pass: Furkajoch  snap 30

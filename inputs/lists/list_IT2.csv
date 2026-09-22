@@ -1,0 +1,22 @@
+id,batch,resort_name,local_name,country,region,ski_area,inclusion_basis,road_head_hint,skiresort_url,notes_for_agent
+90,IT2,Madonna di Campiglio,,IT,"Trento, Trentino-Alto Adige",Skiarea Campiglio Dolomiti di Brenta,km≥60,,https://www.skiresort.com/en/ski-resort/madonna-di-campiglio-pinzolo-folgarida-marilleva/,
+91,IT2,Pinzolo,,IT,"Trento, Trentino-Alto Adige",Skiarea Campiglio Dolomiti di Brenta,km≥60,,https://www.skiresort.com/en/ski-resort/madonna-di-campiglio-pinzolo-folgarida-marilleva/,
+92,IT2,Folgarida–Marilleva,,IT,"Trento, Trentino-Alto Adige",Skiarea Campiglio Dolomiti di Brenta,km≥60,,https://www.skiresort.com/en/ski-resort/madonna-di-campiglio-pinzolo-folgarida-marilleva/,Val di Sole bases
+93,IT2,Val di Fassa,,IT,"Trento, Trentino-Alto Adige",Dolomiti Superski,km≥60 (Fassa–Carezza local pass),,,Canazei/Campitello/Alba/Pozza/Vigo/Moena = one row per brief
+94,IT2,Alpe Lusia–San Pellegrino,,IT,"Trento, Trentino-Alto Adige / Belluno, Veneto",Dolomiti Superski (Tre Valli),km≥60 (Tre Valli ~100 km),,https://www.skiresort.com/en/ski-resort/passo-san-pellegrino-falcade/,Moena (Lusia) and Falcade/Passo San Pellegrino
+95,IT2,Val di Fiemme–Obereggen,,IT,"Trento, Trentino-Alto Adige / Bolzano",Dolomiti Superski,km≥60 (Fiemme–Obereggen pass ~110 km),,,"Cavalese/Alpe Cermis, Predazzo/Latemar, Pampeago, Obereggen"
+96,IT2,San Martino di Castrozza–Passo Rolle,,IT,"Trento, Trentino-Alto Adige",Dolomiti Superski,km≥60,,https://www.skiresort.com/en/ski-resort/san-martino-di-castrozza/,
+97,IT2,Folgaria–Lavarone,,IT,"Trento, Trentino-Alto Adige",Alpe Cimbra,km≥60 (74 km),,https://www.skiresort.com/en/ski-resort/folgaria-fiorentini/,
+98,IT2,Pejo,,IT,"Trento, Trentino-Alto Adige",Pejo 3000 (Val di Sole),alt 3000,,https://www.skiresort.com/en/ski-resort/pejo-3000/,
+99,IT2,Val Gardena,Gröden,IT,"Bolzano, Trentino-Alto Adige",Dolomiti Superski,km≥60,,https://www.skiresort.com/en/ski-resort/val-gardena-groeden/,Ortisei/S. Cristina/Selva = one row
+100,IT2,Alta Badia,,IT,"Bolzano, Trentino-Alto Adige",Dolomiti Superski,km≥60,,https://www.skiresort.com/en/ski-resort/alta-badia/,Corvara/Colfosco/La Villa/San Cassiano/Badia = one row
+101,IT2,Kronplatz,Plan de Corones,IT,"Bolzano, Trentino-Alto Adige",Dolomiti Superski,km≥60,,https://www.skiresort.com/en/ski-resort/kronplatz-plan-de-corones/,Brunico/Valdaora/San Vigilio bases
+102,IT2,3 Zinnen Dolomites,Tre Cime Dolomiti,IT,"Bolzano, Trentino-Alto Adige",Dolomiti Superski,km≥60,,https://www.skiresort.com/en/ski-resort/3-zinnen-dolomites-helm-stiergarten-rotwand-kreuzbergpass/,Sesto/San Candido/Dobbiaco
+103,IT2,Alpe di Siusi,Seiser Alm,IT,"Bolzano, Trentino-Alto Adige",Dolomiti Superski,km≥60 (73 km local),,https://www.skiresort.com/en/ski-resort/alpe-di-siusi-seiser-alm/,Access road restrictions to Compatsch (permit/parking) – note
+104,IT2,Plose,,IT,"Bolzano, Trentino-Alto Adige",Dolomiti Superski,listed in brief (Dolomiti Superski valley area); verify km,,https://www.skiresort.com/en/ski-resort/plose-brixen-bressanone/,Bressanone/Brixen
+105,IT2,Val Senales,Schnalstal,IT,"Bolzano, Trentino-Alto Adige",Val Senales Glacier (Ortler Skiarena),glacier; alt 3212,,https://www.skiresort.com/en/ski-resort/val-senales-glacier-schnalstaler-gletscher/,Autumn glacier opening
+106,IT2,Solda,Sulden,IT,"Bolzano, Trentino-Alto Adige",Sulden am Ortler (Ortler Skiarena),alt 3250,,https://www.skiresort.com/en/ski-resort/sulden-am-ortler-solda-allortles/,
+107,IT2,Belpiano–Malga San Valentino,Schöneben–Haideralm,IT,"Bolzano, Trentino-Alto Adige",Schöneben–Haideralm (Resia / Reschenpass),km≥60 (65 km),,https://www.skiresort.com/en/ski-resort/belpiano-schoeneben-malga-san-valentino-haideralm/,
+108,IT2,Cortina d'Ampezzo,,IT,"Belluno, Veneto",Dolomiti Superski,km≥60; alt 2828,,https://www.skiresort.com/en/ski-resort/cortina-dampezzo/,Tofana/Faloria/Cinque Torri/Lagazuoi
+109,IT2,Arabba–Marmolada,,IT,"Belluno, Veneto",Dolomiti Superski,km≥60; glacier (Marmolada); alt 3269,,https://www.skiresort.com/en/ski-resort/arabba-marmolada/,
+110,IT2,Civetta,,IT,"Belluno, Veneto",Dolomiti Superski,km≥60,,https://www.skiresort.com/en/ski-resort/civetta-alleghe-selva-di-cadore-palafavera-zoldo/,Alleghe/Selva di Cadore/Zoldo

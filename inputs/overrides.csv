@@ -1,0 +1,67 @@
+id,field,value,reason
+1,piste_km,150,courchevel.com: Vallée de Courchevel pass = 150 km
+1,sources_append,https://courchevel.com/en/forfaits-de-ski/,coordinator fill
+2,piste_km,150,meribel.net: Forfait domaine de Méribel = 150 km
+2,ticket_price_min,71.20,skipassmeribelmottaret.com 2026/27 Méribel valley 1-day adult high season (19 Dec–2 Apr)
+2,ticket_price_max,71.20,same
+2,price_status,published_2026_27,2026/27 price published by operator
+2,sources_append,https://www.meribel.net/forfaits-de-ski-meribel-et-3-vallees/ | https://www.skipassmeribelmottaret.com/en/meribel-skipass-prices,coordinator fill
+3,max_elevation_m,2804,lesmenuires.com: Pointe de la Masse 2804 m reached by gondola
+3,sources_append,https://lesmenuires.com/en/pointe-de-la-masse-winter,coordinator fill
+5,max_elevation_m,2804,Pointe de la Masse 2804 m (shared Les Menuires/Saint-Martin sector)
+5,sources_append,https://lesmenuires.com/en/pointe-de-la-masse-winter,coordinator fill
+70,opening_date_status,estimated_from_2025_26,Vialattea 2026/27 date only inferred from tariff-period start (vialattea.it blocked); treat as estimate
+71,opening_date_status,estimated_from_2025_26,same as Sestriere
+72,opening_date_status,estimated_from_2025_26,same as Sestriere
+73,opening_date_status,estimated_from_2025_26,same as Sestriere
+88,price_status,published_2026_27,Stelvio: only price is the published 2026 summer/autumn day pass (EUR 61); explained in comments
+88,comments_append,Opening date TBD: no winter operation (summer/autumn glacier only).,coordinator
+125,opening_date_2026_27,2026-10-02,"Kaunertal: 2025/26 opened 3 Oct 2025 (season round-up, dealsfor.me/kaunertaler-gletscher.at); 26 Sep 2026 start cancelled, new date pending -> 2025 date shifted to same weekday"
+125,opening_date_status,estimated_from_2025_26,see above
+125,comments_append,2026/27: planned 26 Sep 2026 glacier opening cancelled (rain/warm); new date pending as of 22 Sep 2026; 2025/26 opened 3 Oct 2025.,coordinator
+129,comments_append,"No published fixed day-pass price: Montafon-Brandnertal dynamic pricing (skiinfo 'from EUR 56' for 2025/26); peak price not published, left blank.",coordinator
+104,comments_append,Included as a Dolomiti Superski valley area named in the brief although the Plose-only pass covers ~42 km (below the 60 km threshold).,coordinator
+141,opening_date_2026_27,2026-11-27,Kirchberg: own Fleckalmbahn planned 27/28.11.2026 per KitzSki 2026/27 timetable (area-wide 06.11.2026 is Resterkogel/Pass Thurn); village-level convention
+141,comments_append,Date refers to Kirchberg's Fleckalmbahn; KitzSki area opens earlier at Resterkogel (06.11.2026).,coordinator
+174,max_elevation_m,2700,Nendaz: local Printse pass tops at Greppon Blanc ~2700 m; Mont Fort 3330 m needs the 4 Vallées pass (kept consistent with piste_km basis)
+174,comments_append,Top of local Printse pass ~2700 m (Greppon Blanc); Mont Fort 3330 m reachable only with the full 4 Vallées pass.,coordinator
+175,max_elevation_m,2700,Veysonnaz: local Printse pass tops at Greppon Blanc ~2700 m; Mont Fort 3330 m needs the 4 Vallées pass (kept consistent with piste_km basis)
+175,comments_append,Top of local Printse pass ~2700 m (Greppon Blanc); Mont Fort 3330 m reachable only with the full 4 Vallées pass.,coordinator
+176,max_elevation_m,2700,Thyon: local Printse pass tops at Greppon Blanc ~2700 m; Mont Fort 3330 m needs the 4 Vallées pass (kept consistent with piste_km basis)
+176,comments_append,Top of local Printse pass ~2700 m (Greppon Blanc); Mont Fort 3330 m reachable only with the full 4 Vallées pass.,coordinator
+198,ticket_price_min,69,Engelberg: skiinfo 2025/26 adult day pass CHF 69 (dynamic; entry price CHF 51)
+198,ticket_price_max,69,same
+198,price_status,estimated_from_2025_26,2025/26 price
+198,comments_append,"Dynamic pricing: skiinfo lists CHF 69 (2025/26) for an adult day pass, entry price from CHF 51 (titlis.ch).",coordinator
+206,ticket_price_max,70,"Blick 2025/26 price comparison (day pass for Sat 24 Jan 2026, booked Nov 2025): Corviglia CHF 70; Snow-Deal dynamic pricing without upper cap"
+207,ticket_price_max,70,"Blick 2025/26 price comparison (day pass for Sat 24 Jan 2026, booked Nov 2025): Corvatsch CHF 70"
+208,ticket_price_max,70,"Blick 2025/26 price comparison (day pass for Sat 24 Jan 2026, booked Nov 2025): Engadin pass CHF 70"
+206,comments_append,Engadin Snow-Deal dynamic pricing from CHF 55; CHF 70 for Sat 24 Jan 2026 (Blick comparison); no upper cap published.,coordinator
+207,comments_append,Engadin Snow-Deal dynamic pricing from CHF 55; CHF 70 for Sat 24 Jan 2026 (Blick comparison); no upper cap published.,coordinator
+208,comments_append,Engadin Snow-Deal dynamic pricing from CHF 55; CHF 70 for Sat 24 Jan 2026 (Blick comparison); no upper cap published.,coordinator
+203,ticket_price_min,61,"Blick 2025/26 price comparison (day pass for Sat 24 Jan 2026, booked Nov 2025): Arosa Lenzerheide CHF 61; max = skiresort list price 89"
+204,ticket_price_min,61,"Blick 2025/26 price comparison (day pass for Sat 24 Jan 2026, booked Nov 2025): Arosa Lenzerheide CHF 61"
+203,comments_append,Dynamic pricing: CHF 61 for Sat 24 Jan 2026 (Blick comparison) up to CHF 89 list price.,coordinator
+204,comments_append,Dynamic pricing: CHF 61 for Sat 24 Jan 2026 (Blick comparison) up to CHF 89 list price.,coordinator
+177,ticket_price_min,88,"Blick 2025/26 price comparison (day pass for Sat 24 Jan 2026, booked Nov 2025): Zermatt CHF 88"
+177,ticket_price_max,96,skiinfo Zermatt-only day pass CHF 96; skiresort CHF 116 is likely the International (incl. Cervinia) pass
+177,comments_append,"Price range: CHF 88 (Sat 24 Jan 2026, Blick comparison) to CHF 96 (skiinfo list); International pass up to about CHF 116.",coordinator
+180,ticket_price_min,69,"Blick 2025/26 price comparison (day pass for Sat 24 Jan 2026, booked Nov 2025): Crans-Montana CHF 69; max 89 list price"
+180,comments_append,Dynamic pricing: CHF 69 for Sat 24 Jan 2026 (Blick comparison) up to CHF 89 list price.,coordinator
+194,ticket_price_min,84,"Blick 2025/26 price comparison (day pass for Sat 24 Jan 2026, booked Nov 2025): Gstaad fixed peak-season day ticket CHF 84 (2025/26); 94 = skiresort 2026/27 figure"
+194,comments_append,CHF 84 = 2025/26 peak-season fixed day ticket (Blick); CHF 94 = 2026/27 figure per skiresort.com (official table only in Ticketcorner).,coordinator
+205,comments_append,Dynamic pricing: Blick comparison shows CHF 77.50 for Sat 24 Jan 2026.,coordinator
+183,comments_append,Blick comparison shows CHF 61 for Sat 24 Jan 2026 (excl. valley cable car).,coordinator
+123,freeride_score_0_5,3.5,Calibration: Open Faces FWQ venue but very small area/vertical; 3.5 = good but limited
+123,score_notes_append,Calibrated to 3.5 (small area).,coordinator
+160,freeride_score_0_5,3.5,Calibration: Sportgastein is a recognised but compact freeride area; below the Les Arcs/Alpe d'Huez tier
+160,score_notes_append,Calibrated to 3.5 (compact area).,coordinator
+129,freeride_score_0_5,3.5,"Calibration: renowned village-scale freeride, limited size"
+129,score_notes_append,Calibrated to 3.5 (village-scale area).,coordinator
+170,freeride_score_0_5,3.5,"Calibration: official Freeride Arena but remote, modest lift network"
+170,score_notes_append,Calibrated to 3.5 (modest lift network).,coordinator
+151,freeride_score_0_5,3.5,Calibration: large resort with decent off-piste but not a freeride destination of the 4.0 tier
+151,score_notes_append,Calibrated to 3.5 (piste-oriented resort).,coordinator
+116,ski_touring_score_0_5,4.0,"Calibration: classic Silvretta touring base, but variety/infrastructure below the Saas-Fee/Tignes tier"
+116,score_notes_append,Calibrated to 4.0.,coordinator
+88,comments,"No winter operation: lifts run 30 May-1 Nov 2026 only (SS38 Stelvio pass road closed in winter, typically Nov-May), so opening date is TBD; price = adult 1-day summer/autumn 2026 pass EUR 61 (Pirovano/SIFAS), the only published tariff; base coordinates = pass summit car parks (2758 m), distance refers to summer access via Bormio; top Monte Cristallo 3450 m; relevant to a 2026/27 dataset only for October skiing.",coordinator: consistent wording (price status set to published_2026_27)

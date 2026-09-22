@@ -1,0 +1,77 @@
+7 Tignes 415.7 5.246 detour_forced Albertville snap 2
+8 Val d'Isère 417.5 5.354 detour_forced Albertville snap 4
+10 Les Arcs 394.8 4.910 detour_forced Albertville snap 58
+11 Peisey-Vallandry 392.1 4.783 detour_forced Albertville snap 31
+12 La Rosière 408.5 5.132 detour_forced Albertville snap 4
+13 Sainte-Foy-Tarentaise 404.9 5.122 detour_forced Albertville snap 30
+22 Saint-Sorlin-d'Arves 294.6 3.746 ok  snap 18
+26 Val Cenis 273.1 3.432 detour_forced Modane snap 5
+30 Bonneval-sur-Arc 290.0 3.736 detour_forced Modane snap 0
+32 Vaujany 331.8 4.705 detour_forced Bourg-d'Oisans snap 25
+33 Oz-en-Oisans 333.1 4.750 detour_forced Bourg-d'Oisans snap 23
+44 Le Grand-Bornand 384.1 4.795 detour_forced Albertville snap 2
+84 Livigno 234.6 4.079 detour_forced Bormio snap 93
+96 San Martino di Castrozza–Passo Rolle 323.4 4.059 ok  snap 17
+97 Folgaria–Lavarone 216.7 2.775 ok  snap 9
+98 Pejo 208.4 3.486 ok  snap 40
+99 Val Gardena 316.2 3.837 ok  snap 22
+100 Alta Badia 336.2 4.291 ok  snap 22
+101 Kronplatz 348.8 4.138 ok  snap 6
+102 3 Zinnen Dolomites 380.8 4.637 ok  snap 12
+103 Alpe di Siusi 295.5 3.444 ok  snap 31
+104 Plose 319.2 3.777 ok  snap 24
+105 Val Senales 335.6 4.079 ok  snap 12
+106 Solda 361.3 4.525 alternative_used  snap 16
+107 Belpiano–Malga San Valentino 260.8 4.470 ok  snap 4
+108 Cortina d'Ampezzo 407.2 4.633 ok  snap 7
+109 Arabba–Marmolada 347.5 4.461 ok  snap 7
+110 Civetta 342.2 4.491 ok  snap 2
+111 St. Anton am Arlberg 342.0 4.570 ok  snap 20
+112 Lech–Zürs 340.3 4.565 ok  snap 34
+113 Warth–Schröcken 356.6 4.895 detour_forced Schoppernau snap 42
+114 Ischgl 380.7 5.190 ok  snap 11
+115 Kappl 371.6 5.016 ok  snap 25
+116 Galtür 391.9 5.394 ok  snap 20
+117 Serfaus-Fiss-Ladis 279.5 4.744 ok  snap 14
+118 Nauders 255.4 4.387 ok  snap 0
+119 Sölden 471.3 5.682 detour_forced Ötztal Bahnhof snap 16
+120 Obergurgl–Hochgurgl 484.0 5.888 detour_forced Ötztal Bahnhof snap 32
+121 Vent 487.8 6.058 detour_forced Ötztal Bahnhof snap 9
+122 Kühtai 424.7 5.088 ok  snap 13
+123 Axamer Lizum 404.6 4.891 ok  snap 33
+124 Stubai Glacier 408.5 4.958 ok  snap 11
+125 Kaunertal Glacier 313.3 5.917 ok  snap 7
+126 Pitztal Glacier 325.8 5.602 ok  snap 25
+127 Schruns – Silvretta Montafon Hochjoch 313.9 4.211 ok  snap 16
+128 Gaschurn–St. Gallenkirch – Silvretta Montafon Nova 320.9 4.321 ok  snap 26
+129 Gargellen 328.3 4.440 ok  snap 17
+130 Damüls–Mellau 320.8 4.404 UNRESOLVED closed pass: Furkajoch  snap 30
+131 Kleinwalsertal 366.1 5.040 ok  snap 12
+132 Garmisch-Partenkirchen 442.9 5.352 ok  snap 27
+133 Oberstdorf 359.0 4.956 ok  snap 17
+134 Mayrhofen 455.7 5.470 ok  snap 8
+135 Hintertux Glacier 474.7 5.810 ok  snap 16
+136 Hochzillertal–Hochfügen 439.6 5.228 ok  snap 34
+137 Zell am Ziller 446.7 5.302 ok  snap 25
+138 Gerlos 465.4 5.614 ok  snap 18
+139 Königsleiten–Wald 474.1 5.775 ok  snap 21
+140 Kitzbühel 480.7 5.875 ok  snap 19
+141 Kirchberg in Tirol 473.9 5.702 ok  snap 29
+142 Söll 460.0 5.456 ok  snap 16
+143 Ellmau 469.5 5.622 ok  snap 30
+144 Scheffau 464.4 5.534 ok  snap 19
+145 Westendorf 464.4 5.544 ok  snap 18
+146 Brixen im Thale 466.4 5.585 ok  snap 27
+147 Hopfgarten im Brixental 458.8 5.432 ok  snap 15
+148 Alpbach 436.7 5.200 ok  snap 4
+149 Wildschönau 462.8 5.580 ok  snap 18
+150 Fieberbrunn 491.3 6.074 ok  snap 28
+151 Saalbach-Hinterglemm 536.8 6.857 alternative_used  snap 9
+152 Leogang 504.7 6.277 ok  snap 16
+153 Zell am See 529.0 6.747 alternative_used  snap 28
+154 Kaprun – Kitzsteinhorn 535.4 6.750 alternative_used  snap 8
+155 Wildkogel (Neukirchen–Bramberg) 494.5 6.134 ok  snap 20
+191 Grindelwald 330.8 4.527 detour_forced Lucerne snap 21
+192 Wengen 323.7 4.383 detour_forced Lucerne snap 16
+193 Mürren – Schilthorn 329.3 4.520 detour_forced Lucerne snap 0
+197 Meiringen-Hasliberg 293.1 3.911 detour_forced Lucerne snap 1

@@ -1,0 +1,215 @@
+id,resort_name,country,base_lat,base_lon,ignore_passes,force_via,coord_source
+1,Courchevel,FR,45.41503,6.63331,,,agent
+2,Méribel,FR,45.39378,6.56699,,,agent
+3,Les Menuires,FR,45.32408,6.53882,,,agent
+4,Val Thorens,FR,45.29791,6.58227,,,agent
+5,Saint-Martin-de-Belleville,FR,45.37980,6.50463,,,agent
+6,Orelle,FR,45.20737,6.54594,,,agent
+7,Tignes,FR,45.46928,6.90663,,,agent
+8,Val d'Isère,FR,45.44956,6.97874,,,agent
+9,La Plagne,FR,45.50588,6.67436,,,agent
+10,Les Arcs,FR,45.57340,6.77879,,,agent
+11,Peisey-Vallandry,FR,45.54987,6.76282,,,agent
+12,La Rosière,FR,45.62860,6.84784,,,agent
+13,Sainte-Foy-Tarentaise,FR,45.57597,6.89372,,,agent
+14,Arêches-Beaufort,FR,45.68812,6.56237,,,agent
+15,Valmorel,FR,45.46236,6.44073,,,agent
+16,Saint-François-Longchamp,FR,45.41784,6.36348,,,agent
+17,Les Saisies,FR,45.75733,6.53945,,,agent
+18,Notre-Dame-de-Bellecombe,FR,45.80840,6.51715,,,agent
+19,Praz-sur-Arly,FR,45.83792,6.57045,,,agent
+20,Le Corbier,FR,45.24016,6.26823,,,agent
+21,La Toussuire,FR,45.25577,6.26267,,,agent
+22,Saint-Sorlin-d'Arves,FR,45.21760,6.22954,,,agent
+23,Saint-Jean-d'Arves,FR,45.21493,6.26006,,,agent
+24,Valloire,FR,45.16500,6.42964,,,agent
+25,Valmeinier,FR,45.17574,6.49353,,,agent
+26,Val Cenis,FR,45.28918,6.91156,,,agent
+27,Valfréjus,FR,45.17368,6.65433,,,agent
+28,La Norma,FR,45.20145,6.69704,,,agent
+29,Les Karellis,FR,45.22857,6.40646,,,agent
+30,Bonneval-sur-Arc,FR,45.37387,7.05610,,,agent
+31,Alpe d'Huez,FR,45.09240,6.06994,,,agent
+32,Vaujany,FR,45.15740,6.07915,,,agent
+33,Oz-en-Oisans,FR,45.12802,6.07100,,,agent
+34,Les 2 Alpes,FR,45.01007,6.12559,,,agent
+35,Les 7 Laux,FR,45.25678,5.99544,,,agent
+36,Chamrousse,FR,45.12621,5.87697,,,agent
+37,Villard-de-Lans–Corrençon,FR,45.04611,5.55721,,,agent
+38,Chamonix,FR,45.91821,6.87018,,,agent
+39,Megève,FR,45.85002,6.61477,,,agent
+40,Saint-Gervais-les-Bains,FR,45.87480,6.68587,,,agent
+41,Combloux,FR,45.89164,6.62208,,,agent
+42,Les Contamines-Montjoie,FR,45.81229,6.72350,,,agent
+43,La Clusaz,FR,45.90522,6.43226,,,agent
+44,Le Grand-Bornand,FR,45.97382,6.45508,,,agent
+45,Flaine,FR,46.00413,6.69604,,,agent
+46,Les Carroz,FR,46.02471,6.64444,,,agent
+47,Samoëns,FR,46.06600,6.71177,,,agent
+48,Morillon,FR,46.08213,6.68021,,,agent
+49,Morzine,FR,46.17990,6.70194,,,agent
+50,Avoriaz,FR,46.19769,6.76800,,,agent
+51,Les Gets,FR,46.15678,6.66828,,,agent
+52,Châtel,FR,46.25439,6.82030,,,agent
+53,Praz de Lys–Sommand,FR,46.14635,6.58130,,,agent
+54,Serre Chevalier,FR,44.93253,6.59259,,,agent
+55,Montgenèvre,FR,44.93117,6.72180,,,agent
+56,Vars,FR,44.57261,6.68164,,,agent
+57,Risoul,FR,44.62287,6.63583,,,agent
+58,Les Orres,FR,44.49301,6.55710,,,agent
+59,Orcières Merlette,FR,44.69605,6.32292,,,agent
+60,Puy-Saint-Vincent,FR,44.81912,6.48565,,,agent
+61,Le Dévoluy,FR,44.67654,5.92959,,,agent
+62,La Grave,FR,45.04426,6.30311,,,agent
+63,Molines-en-Queyras–Saint-Véran,FR,44.72348,6.84727,,,agent
+64,Pra Loup,FR,44.37015,6.60250,,,agent
+65,Val d'Allos–La Foux,FR,44.29014,6.56909,,,agent
+66,Le Sauze–Super Sauze,FR,44.37315,6.68170,,,agent
+67,Auron,FR,44.22627,6.93098,,,agent
+68,Isola 2000,FR,44.18662,7.15789,,,agent
+69,Valberg,FR,44.09562,6.93014,,,agent
+70,Sestriere,IT,44.95845,6.87869,,,agent
+71,Sauze d'Oulx,IT,45.02703,6.85835,,,agent
+72,Cesana–Sansicario,IT,44.95244,6.79067,,,agent
+73,Claviere,IT,44.93880,6.75029,,,agent
+74,Bardonecchia,IT,45.07078,6.69644,,,agent
+75,Alagna Valsesia,IT,45.85388,7.93625,,,agent
+76,Prato Nevoso – Mondolè Ski,IT,44.25529,7.78559,,,agent
+77,Macugnaga,IT,45.96789,7.96815,,,agent
+78,Cervinia,IT,45.93560,7.63044,,,agent
+79,Courmayeur,IT,45.78996,6.96520,,,agent
+80,La Thuile,IT,45.71143,6.94916,,,agent
+81,Pila,IT,45.68727,7.31082,,,agent
+82,Gressoney-La-Trinité,IT,45.85973,7.81290,,,agent
+83,Champoluc,IT,45.83164,7.72600,,,agent
+84,Livigno,IT,46.53817,10.13599,,,agent
+85,Bormio,IT,46.46418,10.37237,,,agent
+86,Santa Caterina Valfurva,IT,46.41215,10.49520,,,agent
+87,Madesimo,IT,46.43353,9.35748,,,agent
+88,Passo dello Stelvio,IT,46.52862,10.45321,Umbrail;Stelvio,,agent
+89,Ponte di Legno–Passo Tonale,IT,46.25801,10.58185,,,agent
+90,Madonna di Campiglio,IT,46.22699,10.82702,,,agent
+91,Pinzolo,IT,46.16173,10.76500,,,agent
+92,Folgarida–Marilleva,IT,46.30307,10.86561,,,agent
+93,Val di Fassa,IT,46.47402,11.77447,,,agent
+94,Alpe Lusia–San Pellegrino,IT,46.36821,11.68775,,,agent
+95,Val di Fiemme–Obereggen,IT,46.29119,11.46047,,,agent
+96,San Martino di Castrozza–Passo Rolle,IT,46.25499,11.79934,,,agent
+97,Folgaria–Lavarone,IT,45.91703,11.16725,,,agent
+98,Pejo,IT,46.36304,10.66133,,,agent
+99,Val Gardena,IT,46.55519,11.76010,,,agent
+100,Alta Badia,IT,46.54957,11.87403,,,agent
+101,Kronplatz,IT,46.77666,11.95029,,,agent
+102,3 Zinnen Dolomites,IT,46.73164,12.32978,,,agent
+103,Alpe di Siusi,IT,46.53987,11.56334,,,agent
+104,Plose,IT,46.69833,11.67574,,,agent
+105,Val Senales,IT,46.75651,10.78275,,,agent
+106,Solda,IT,46.52804,10.58426,,,agent
+107,Belpiano–Malga San Valentino,IT,46.82964,10.51831,,,agent
+108,Cortina d'Ampezzo,IT,46.53833,12.13735,,,agent
+109,Arabba–Marmolada,IT,46.49718,11.87409,,,agent
+110,Civetta,IT,46.40664,12.02146,,,agent
+111,St. Anton am Arlberg,AT,47.12818,10.26286,,,agent
+112,Lech–Zürs,AT,47.20798,10.14243,,,agent
+113,Warth–Schröcken,AT,47.26002,10.17570,,,agent
+114,Ischgl,AT,47.01014,10.28801,,,agent
+115,Kappl,AT,47.06036,10.37420,,,agent
+116,Galtür,AT,46.96463,10.16223,,,agent
+117,Serfaus-Fiss-Ladis,AT,47.05717,10.61299,,,agent
+118,Nauders,AT,46.87546,10.50892,,,agent
+119,Sölden,AT,46.95997,11.00929,,,agent
+120,Obergurgl–Hochgurgl,AT,46.87572,11.03308,,,agent
+121,Vent,AT,46.86020,10.91500,,,agent
+122,Kühtai,AT,47.21172,11.01070,,,agent
+123,Axamer Lizum,AT,47.19537,11.30210,,,agent
+124,Stubai Glacier,AT,47.01334,11.16261,,,agent
+125,Kaunertal Glacier,AT,46.86382,10.71354,,,agent
+126,Pitztal Glacier,AT,46.95825,10.87147,,,agent
+127,Schruns – Silvretta Montafon Hochjoch,AT,47.07972,9.92355,,,agent
+128,Gaschurn–St. Gallenkirch – Silvretta Montafon Nova,AT,47.02214,9.96461,,,agent
+129,Gargellen,AT,46.96827,9.91887,,,agent
+130,Damüls–Mellau,AT,47.28669,9.88793,,,agent
+131,Kleinwalsertal,AT,47.35584,10.18486,,,agent
+132,Garmisch-Partenkirchen,DE,47.48962,11.09672,,,agent
+133,Oberstdorf,DE,47.40494,10.28541,,,agent
+134,Mayrhofen,AT,47.16342,11.86064,,,agent
+135,Hintertux Glacier,AT,47.10683,11.67498,,,agent
+136,Hochzillertal–Hochfügen,AT,47.28923,11.87286,,,agent
+137,Zell am Ziller,AT,47.23719,11.89944,,,agent
+138,Gerlos,AT,47.22962,12.04903,,,agent
+139,Königsleiten–Wald,AT,47.25081,12.12219,,,agent
+140,Kitzbühel,AT,47.44323,12.38936,,,agent
+141,Kirchberg in Tirol,AT,47.45038,12.33508,,,agent
+142,Söll,AT,47.49629,12.19831,,,agent
+143,Ellmau,AT,47.50784,12.29313,,,agent
+144,Scheffau,AT,47.52002,12.24895,,,agent
+145,Westendorf,AT,47.42748,12.21406,,,agent
+146,Brixen im Thale,AT,47.44948,12.24331,,,agent
+147,Hopfgarten im Brixental,AT,47.44667,12.16220,,,agent
+148,Alpbach,AT,47.39621,11.92432,,,agent
+149,Wildschönau,AT,47.40818,12.03719,,,agent
+150,Fieberbrunn,AT,47.46724,12.55113,,,agent
+151,Saalbach-Hinterglemm,AT,47.39047,12.63479,,,agent
+152,Leogang,AT,47.43925,12.71883,,,agent
+153,Zell am See,AT,47.32630,12.77236,,,agent
+154,Kaprun – Kitzsteinhorn,AT,47.22936,12.72673,,,agent
+155,Wildkogel (Neukirchen–Bramberg),AT,47.25439,12.28077,,,agent
+156,Flachau,AT,47.35343,13.38562,,,agent
+157,Wagrain,AT,47.33411,13.30834,,,agent
+158,St. Johann–Alpendorf,AT,47.32135,13.19505,,,agent
+159,Hochkönig (Maria Alm–Dienten–Mühlbach),AT,47.38974,12.90895,,,agent
+160,Bad Gastein,AT,47.11065,13.13166,,,agent
+161,Bad Hofgastein,AT,47.16921,13.09881,,,agent
+162,Großarl–Dorfgastein,AT,47.24157,13.19517,,,agent
+163,Obertauern,AT,47.24944,13.55696,,,agent
+164,Schladming,AT,47.39264,13.69331,,,agent
+166,Katschberg,AT,47.05915,13.61566,,,agent
+167,Bad Kleinkirchheim,AT,46.81230,13.79887,,,agent
+168,Nassfeld,AT,46.61147,13.27936,,,agent
+169,Mölltal Glacier,AT,46.96180,13.05720,,,coordinator
+170,Heiligenblut – Großglockner,AT,47.04051,12.84095,,,agent
+171,Champéry,CH,46.17490,6.87108,,,agent
+172,Morgins,CH,46.23676,6.85814,,,agent
+173,Verbier,CH,46.09364,7.23316,,,agent
+174,Nendaz,CH,46.18020,7.29207,,,agent
+175,Veysonnaz,CH,46.19563,7.34279,,,agent
+176,Thyon,CH,46.18195,7.37260,,,agent
+177,Zermatt,CH,46.06863,7.77533,,,agent
+178,Saas-Fee,CH,46.10978,7.93129,,,agent
+179,Saas-Grund – Hohsaas,CH,46.12851,7.93923,,,agent
+180,Crans-Montana,CH,46.30849,7.46955,,,agent
+181,Grimentz–Zinal,CH,46.17511,7.57379,,,agent
+182,Saint-Luc–Chandolin,CH,46.22040,7.59820,,,agent
+183,Aletsch Arena,CH,46.40600,8.13407,,,agent
+184,Grächen,CH,46.19665,7.84151,,,agent
+185,Lauchernalp – Lötschental,CH,46.40210,7.77843,,,agent
+186,Belalp – Blatten,CH,46.35892,7.98428,,,agent
+187,Arolla,CH,46.02606,7.48129,,,agent
+188,Villars–Gryon,CH,46.30402,7.05593,,,agent
+189,Les Diablerets – Glacier 3000,CH,46.35415,7.20531,,,agent
+190,Leysin,CH,46.34647,7.01730,,,agent
+191,Grindelwald,CH,46.62431,8.01937,,,agent
+192,Wengen,CH,46.59828,7.90880,,,agent
+193,Mürren – Schilthorn,CH,46.55545,7.90141,,,agent
+194,Gstaad,CH,46.46767,7.28214,,,agent
+195,Adelboden,CH,46.48790,7.56053,,,agent
+196,Lenk,CH,46.44184,7.45684,,,agent
+197,Meiringen-Hasliberg,CH,46.74500,8.19441,,,agent
+198,Engelberg,CH,46.81620,8.39586,,,agent
+199,Andermatt,CH,46.63757,8.59375,,,agent
+200,Sedrun,CH,46.66994,8.74283,,,agent
+201,Disentis,CH,46.70074,8.84062,,,agent
+202,Flumserberg,CH,47.09350,9.28529,,,agent
+203,Arosa,CH,46.78388,9.67944,,,agent
+204,Lenzerheide,CH,46.73980,9.55665,,,agent
+205,Laax,CH,46.82017,9.26325,,,agent
+206,St. Moritz,CH,46.48353,9.83266,,,agent
+207,Corvatsch – Silvaplana/Sils,CH,46.45515,9.81421,,,agent
+208,Diavolezza–Lagalb (Pontresina),CH,46.44174,9.98265,,,agent
+209,Obersaxen–Mundaun,CH,46.74829,9.10218,,,agent
+210,Savognin,CH,46.59415,9.59185,,,agent
+211,Scuol,CH,46.79379,10.28677,,,agent
+212,Samnaun,CH,46.95121,10.37524,,,agent
+213,Davos,CH,46.81063,9.83667,,,agent
+214,Klosters,CH,46.86900,9.88044,,,agent
+215,Vals,CH,46.61659,9.18052,,,agent

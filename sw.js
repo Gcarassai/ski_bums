@@ -1,10 +1,11 @@
 /* Service worker: network-first for everything on this origin, cache as offline fallback.
    Because every request goes to the network first, a new data commit is picked up on the
-   very next load; the cache is only used when the network is unavailable. */
-const CACHE = 'ski-bums-v1';
+   very next load; the cache is only used when the network is unavailable.
+   The data files are not precached here (the page downloads them anyway on first visit);
+   the fetch handler stores them as they are loaded. */
+const CACHE = 'ski-bums-v2';
 const SHELL = [
   './', './index.html', './css/app.css', './js/app.js',
-  './data/resorts.json', './data/meta.json',
   './assets/logo.png', './assets/manifest.webmanifest', './assets/favicon-32.png', './assets/icon-192.png',
 ];
 

@@ -62,8 +62,8 @@
 </svg>
 
 <header class="site-header" id="site-header">
-  <a class="brand" href="./" aria-label="Alpine Ski Resorts, home">
-    <img class="logo" src="assets/logo.png" alt="" width="157" height="160" decoding="async">
+  <a class="brand" href="./">
+    <img class="logo" src="assets/logo.png" alt="Ski Bums logo" width="118" height="120" decoding="async">
     <span class="titles">
       <span class="title" id="title">Alpine Ski Resorts 2026/27</span>
       <span class="subtitle" id="subtitle">Loading resorts…</span>
@@ -94,12 +94,23 @@
 
     <fieldset class="chipset" id="f-country">
       <legend>Country</legend>
-      <div class="chips" id="country-chips"></div>
+      <div class="chips" id="country-chips">
+        <label class="chip"><input type="checkbox" name="c" value="FR" checked><span class="tick"><svg class="tick" aria-hidden="true" focusable="false"><use href="#i-check"/></svg></span><svg class="flag" aria-hidden="true" focusable="false"><use href="#flag-FR"/></svg><span>FR</span><span class="sr-only">France</span><span class="cnt" data-c="FR" aria-hidden="true"></span></label>
+        <label class="chip"><input type="checkbox" name="c" value="IT" checked><span class="tick"><svg class="tick" aria-hidden="true" focusable="false"><use href="#i-check"/></svg></span><svg class="flag" aria-hidden="true" focusable="false"><use href="#flag-IT"/></svg><span>IT</span><span class="sr-only">Italy</span><span class="cnt" data-c="IT" aria-hidden="true"></span></label>
+        <label class="chip"><input type="checkbox" name="c" value="AT" checked><span class="tick"><svg class="tick" aria-hidden="true" focusable="false"><use href="#i-check"/></svg></span><svg class="flag" aria-hidden="true" focusable="false"><use href="#flag-AT"/></svg><span>AT</span><span class="sr-only">Austria</span><span class="cnt" data-c="AT" aria-hidden="true"></span></label>
+        <label class="chip"><input type="checkbox" name="c" value="CH" checked><span class="tick"><svg class="tick" aria-hidden="true" focusable="false"><use href="#i-check"/></svg></span><svg class="flag" aria-hidden="true" focusable="false"><use href="#flag-CH"/></svg><span>CH</span><span class="sr-only">Switzerland</span><span class="cnt" data-c="CH" aria-hidden="true"></span></label>
+        <label class="chip"><input type="checkbox" name="c" value="DE" checked><span class="tick"><svg class="tick" aria-hidden="true" focusable="false"><use href="#i-check"/></svg></span><svg class="flag" aria-hidden="true" focusable="false"><use href="#flag-DE"/></svg><span>DE</span><span class="sr-only">Germany</span><span class="cnt" data-c="DE" aria-hidden="true"></span></label>
+        <label class="chip"><input type="checkbox" name="c" value="SI" checked><span class="tick"><svg class="tick" aria-hidden="true" focusable="false"><use href="#i-check"/></svg></span><svg class="flag" aria-hidden="true" focusable="false"><use href="#flag-SI"/></svg><span>SI</span><span class="sr-only">Slovenia</span><span class="cnt" data-c="SI" aria-hidden="true"></span></label>
+      </div>
     </fieldset>
 
     <fieldset class="chipset" id="f-type">
       <legend>Type</legend>
-      <div class="chips" id="type-chips"></div>
+      <div class="chips" id="type-chips">
+        <label class="chip"><input type="checkbox" name="t" value="Glacier" checked><span class="tick"><svg class="tick" aria-hidden="true" focusable="false"><use href="#i-check"/></svg></span><span>Glacier</span></label>
+        <label class="chip"><input type="checkbox" name="t" value="Glacier + non-glacier" checked><span class="tick"><svg class="tick" aria-hidden="true" focusable="false"><use href="#i-check"/></svg></span><span>Glacier + non-glacier</span></label>
+        <label class="chip"><input type="checkbox" name="t" value="Non-glacier" checked><span class="tick"><svg class="tick" aria-hidden="true" focusable="false"><use href="#i-check"/></svg></span><span>Non-glacier</span></label>
+      </div>
     </fieldset>
 
     <div class="field">
@@ -167,7 +178,7 @@
   <div class="tool-right">
     <button type="button" class="tool-btn" id="copy-link" title="Copy a link to this exact view"><svg class="ic" aria-hidden="true"><use href="#i-link"/></svg><span class="only-desktop"> Copy link</span></button>
     <details class="menu only-desktop" id="col-menu">
-      <summary class="tool-btn" role="button" aria-haspopup="true"><svg class="ic" aria-hidden="true"><use href="#i-columns"/></svg> Columns</summary>
+      <summary class="tool-btn"><svg class="ic" aria-hidden="true"><use href="#i-columns"/></svg> Columns</summary>
       <div class="menu-body" id="col-body"></div>
     </details>
     <button type="button" class="tool-btn only-desktop" id="reset-top">Reset all</button>

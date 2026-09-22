@@ -5,7 +5,7 @@ Usage:
     python scripts/make_icons.py path/to/logo.png
 
 Writes into assets/:
-    logo.png              header logo, 160 px tall, transparent background
+    logo.png              header logo, 120 px tall, transparent background
     favicon-32.png        browser tab icon
     favicon-48.png        browser tab icon (high-DPI)
     apple-touch-icon.png  180 x 180, opaque background (iOS ignores transparency)
@@ -39,6 +39,11 @@ def fit(im: Image.Image, size: int, content_ratio: float = 1.0, bg=None) -> Imag
     return canvas
 
 
+def save_small(im: Image.Image, path: Path) -> None:
+    """Save as a 256-colour palette PNG with alpha (typically 3-4x smaller than RGBA)."""
+    im.quantize(256, method=Image.Quantize.FASTOCTREE).save(path, optimize=True)
+
+
 def main(src_path: str) -> None:
     src = Image.open(src_path).convert("RGBA")
     # Trim fully transparent margins so the mark fills its box.
@@ -47,17 +52,18 @@ def main(src_path: str) -> None:
         src = src.crop(bbox)
     OUT.mkdir(parents=True, exist_ok=True)
 
-    # Header logo: 160 px tall (rendered at 40 / 32 px, so crisp on 3x and 4x screens).
+    # Header logo: 120 px tall (rendered at 40 / 32 px, so still crisp on 3x screens).
     logo = src.copy()
-    logo.thumbnail((10_000, 160), Image.LANCZOS)
-    logo.save(OUT / "logo.png", optimize=True)
+    logo.thumbnail((10_000, 120), Image.LANCZOS)
+    save_small(logo, OUT / "logo.png")
+    print(f"logo intrinsic size: {logo.width} x {logo.height} (update width/height on the <img> in index.html)")
 
-    fit(src, 32, 1.0).save(OUT / "favicon-32.png", optimize=True)
-    fit(src, 48, 1.0).save(OUT / "favicon-48.png", optimize=True)
-    fit(src, 180, 0.86, BG_LIGHT).convert("RGB").save(OUT / "apple-touch-icon.png", optimize=True)
-    fit(src, 192, 1.0).save(OUT / "icon-192.png", optimize=True)
-    fit(src, 512, 1.0).save(OUT / "icon-512.png", optimize=True)
-    fit(src, 512, 0.72, BG_LIGHT).save(OUT / "icon-maskable-512.png", optimize=True)
+    save_small(fit(src, 32, 1.0), OUT / "favicon-32.png")
+    save_small(fit(src, 48, 1.0), OUT / "favicon-48.png")
+    fit(src, 180, 0.86, BG_LIGHT).convert("RGB").quantize(256).save(OUT / "apple-touch-icon.png", optimize=True)
+    save_small(fit(src, 192, 1.0), OUT / "icon-192.png")
+    save_small(fit(src, 512, 1.0), OUT / "icon-512.png")
+    save_small(fit(src, 512, 0.72, BG_LIGHT), OUT / "icon-maskable-512.png")
 
     for p in sorted(OUT.glob("*.png")):
         print(f"{p.name:24s} {p.stat().st_size / 1024:6.1f} KB")

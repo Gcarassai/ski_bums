@@ -84,7 +84,9 @@
 
   const esc = (s) => String(s ?? '').replace(/[&<>"']/g, (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]));
   const isNum = (v) => typeof v === 'number' && Number.isFinite(v);
-  const norm = (s) => String(s ?? '').normalize('NFD').replace(/[̀-ͯ]/g, '').toLowerCase();
+  // Fold diacritics, ß, typographic apostrophes and every dash variant so phone keyboards match the data.
+  const norm = (s) => String(s ?? '').normalize('NFD').replace(/[̀-ͯ]/g, '').toLowerCase()
+    .replace(/ß/g, 'ss').replace(/[‘’‛′`´]/g, "'").replace(/[‐-―−]/g, '-');
   const parseISO = (iso) => { const m = /^(\d{4})-(\d{2})-(\d{2})$/.exec(iso || ''); return m ? new Date(Date.UTC(+m[1], +m[2] - 1, +m[3])) : null; };
   const icon = (id, cls = 'ic') => `<svg class="${cls}" aria-hidden="true" focusable="false"><use href="#${id}"/></svg>`;
   const flag = (code) => `<svg class="flag" aria-hidden="true" focusable="false"><use href="#flag-${esc(code)}"/></svg>`;
@@ -160,10 +162,15 @@
     return p;
   }
   function urlFor(params) { const s = params.toString(); return location.pathname + (s ? '?' + s : '') ; }
-  function syncURL(method = 'replaceState') {
+  function listKey() { const p = stateToParams(); p.delete('resort'); return p.toString(); }
+  // URL writes are debounced (slider drags would otherwise hit Safari's 100-calls-per-30-s limit) and never throw.
+  let syncTimer = null;
+  function syncURLNow() {
+    clearTimeout(syncTimer); syncTimer = null;
     const url = urlFor(stateToParams());
-    if (url !== location.pathname + location.search) history[method](null, '', url);
+    if (url !== location.pathname + location.search) { try { history.replaceState(null, '', url); } catch { /* ignore throttling */ } }
   }
+  function syncURL() { clearTimeout(syncTimer); syncTimer = setTimeout(syncURLNow, 150); }
   function readURL() {
     const p = new URLSearchParams(location.search);
     state.q = p.get('q') || '';
@@ -191,7 +198,8 @@
       r._iso = d ? r.opening_date_2026_27 : null;
       // Sort key: real dates first (by date), then year-round, then TBD/unknown.
       r._dateKey = r.opening_date_status === 'year_round_glacier' ? '1' + (r._iso || '') : (r._iso ? '0' + r._iso : '2');
-      r._hay = norm([r.resort_name, r.local_name, r.ski_area, r.region, COUNTRY_NAME[r.country]].filter(Boolean).join(' '));
+      const hay = norm([r.resort_name, r.local_name, r.ski_area, r.region, COUNTRY_NAME[r.country]].filter(Boolean).join(' '));
+      r._hay = `${hay} ${hay.replace(/'/g, '')}`; // also match "disere" for "d'Isère"
       let slug = slugify(r.resort_name);
       if (slugs.has(slug)) slug = `${slug}-${String(r.country || '').toLowerCase()}`;
       let n = 2; const base = slug;
@@ -251,25 +259,29 @@
   function opensCell(r, long = false) {
     const st = r.opening_date_status;
     if (st === 'year_round_glacier') {
-      const when = r._date ? ` · winter season from ${fmtDateNoWeekday.format(r._date)}` : '';
-      return `<span class="yr" title="Year-round glacier skiing${esc(when)}">${icon('i-snow')}Year-round</span>`;
+      const when = r._date ? `Winter season from ${fmtDateNoWeekday.format(r._date)}` : '';
+      if (long) return `<span class="yr">${icon('i-snow')}Year-round</span>${when ? `<span class="status">${esc(when)}</span>` : ''}`;
+      return `<span class="yr" title="Year-round glacier skiing${when ? ' · ' + esc(when) : ''}">${icon('i-snow')}Year-round</span>`;
     }
     if (!r._date || st === 'TBD') return `<span class="tbd" title="Opening date to be determined">TBD</span>`;
     const short = fmtShortDate.format(r._date), full = fmtLongDate.format(r._date);
-    if (st === 'estimated_from_2025_26') return `<time class="est" datetime="${esc(r._iso)}" title="Estimated from 2025/26 season · ${esc(full)}">${esc(long ? full : short)}</time>`;
+    if (st === 'estimated_from_2025_26') return `<time class="est" datetime="${esc(r._iso)}" title="Estimated from 2025/26 season · ${esc(full)}">${esc(long ? full : short)}<span class="sr-only"> (estimated)</span></time>`;
     return `<time datetime="${esc(r._iso)}" title="${esc(full)}">${esc(long ? full : short)}</time>`;
   }
   function priceCell(r) {
     const p = fmtPrice(r);
     if (!p) return `<span class="dash" aria-label="price unknown">—</span>`;
-    if (r.price_status === 'estimated_from_2025_26') return `<span class="est" title="Estimated from 2025/26 season">${esc(p)}</span>`;
+    if (r.price_status === 'estimated_from_2025_26') return `<span class="est" title="Estimated from 2025/26 season">${esc(p)}<span class="sr-only"> (estimated)</span></span>`;
     return `<span title="${esc(PRICE_STATUS_LABEL[r.price_status] || '')}">${esc(p)}</span>`;
   }
+  // Five-segment bar drawn by one element: --full whole segments plus --frac of the next one.
+  function bar5(v) {
+    const x = isNum(v) ? Math.max(0, Math.min(5, v)) : 0;
+    return `<span class="bar" style="--full:${Math.floor(x)};--frac:${(x - Math.floor(x)).toFixed(2)}"></span>`;
+  }
   function scoreCell(v, label, notes) {
-    let segs = '';
-    for (let i = 0; i < 5; i++) segs += `<i style="--f:${Math.max(0, Math.min(1, (isNum(v) ? v : 0) - i))}"></i>`;
     const aria = `${label} ${isNum(v) ? v.toFixed(1) : 'unknown'} out of 5`;
-    return `<span class="score" role="img" aria-label="${esc(aria)}" title="${esc(notes || aria)}"><span class="bar">${segs}</span><span class="num">${fmtScore(v)}</span></span>`;
+    return `<span class="score" role="img" aria-label="${esc(aria)}" title="${esc(notes || aria)}">${bar5(v)}<span class="num">${fmtScore(v)}</span></span>`;
   }
   function confCell(r) {
     const c = r.confidence || 'unknown';
@@ -311,9 +323,14 @@
       const aria = active ? ` aria-sort="${sd === 'asc' ? 'ascending' : 'descending'}"` : '';
       const ic = active ? (sd === 'asc' ? 'i-up' : 'i-down') : 'i-down';
       const text = c.short ? `<abbr title="${esc(c.label)}">${esc(c.short)}</abbr>` : esc(c.label);
-      return `<th scope="col" class="${cls}"${aria}><button type="button" class="sort-btn" data-sort="${c.key}" aria-label="Sort by ${esc(c.label)}${active ? (sd === 'asc' ? ', currently ascending' : ', currently descending') : ''}">${text}${icon(ic)}</button></th>`;
+      const name = c.short ? `${c.short} (${c.label})` : c.label;
+      return `<th scope="col" class="${cls}"${aria}><button type="button" class="sort-btn" data-sort="${c.key}" aria-label="Sort by ${esc(name)}${active ? (sd === 'asc' ? ', currently ascending' : ', currently descending') : ''}">${text}${icon(ic)}</button></th>`;
     }).join('');
-    const trs = rows.map((r) => {
+    const force = COLUMNS.filter((c) => colPrefs[c.key] === true).map((c) => ` data-force-${c.key}=""`).join('');
+    return `<table class="grid"${force}><caption class="sr-only">Alpine ski resorts, ${rows.length} of ${DATA.length} shown</caption><thead><tr>${ths}</tr></thead><tbody>${rowsHTML(rows)}</tbody></table>`;
+  }
+  function rowsHTML(rows) {
+    return rows.map((r) => {
       const cells = [];
       const v = (k) => colVisible(k);
       if (v('resort')) {
@@ -334,27 +351,25 @@
       if (v('confidence')) cells.push(`<td class="col-confidence">${confCell(r)}</td>`);
       return `<tr>${cells.join('')}</tr>`;
     }).join('');
-    const force = COLUMNS.filter((c) => colPrefs[c.key] === true).map((c) => ` data-force-${c.key}=""`).join('');
-    return `<table class="grid"${force}><caption class="sr-only">Alpine ski resorts, ${rows.length} of ${DATA.length} shown</caption><thead><tr>${ths}</tr></thead><tbody>${trs}</tbody></table>`;
   }
 
   // ---------- Rendering: cards ----------
-  function cardsHTML(rows) {
-    const items = rows.map((r) => `
+  function cardsHTML(rows) { return `<ul class="cards" aria-label="Resorts">${cardItemsHTML(rows)}</ul>`; }
+  function cardItemsHTML(rows) {
+    return rows.map((r) => `
       <li class="card">
-        <a class="card-main" href="${esc(detailHref(r._slug))}" data-open="${esc(r._slug)}" aria-label="${esc(r.resort_name)}, open details">
+        <a class="card-main" href="${esc(detailHref(r._slug))}" data-open="${esc(r._slug)}">
           <div class="l1">${flag(r.country)}<strong>${esc(r.resort_name)}</strong>${typeBadge(r)}</div>
           <div class="l2">${opensCell(r)}<span aria-hidden="true">·</span><span class="nowrap">${esc(fmtHours(r.driving_time_h_from_milan))} from Milan</span></div>
           <div class="l3">
             <span class="score" role="img" aria-label="Freeride ${esc(fmtScore(r.freeride_score_0_5))} out of 5"><span class="lab">Freeride</span>${bar5(r.freeride_score_0_5)}<span class="num">${fmtScore(r.freeride_score_0_5)}</span></span>
             <span class="score" role="img" aria-label="Ski touring ${esc(fmtScore(r.ski_touring_score_0_5))} out of 5"><span class="lab">Touring</span>${bar5(r.ski_touring_score_0_5)}<span class="num">${fmtScore(r.ski_touring_score_0_5)}</span></span>
           </div>
+          <span class="sr-only">Open details</span>
         </a>
         <div class="card-links">${linkButtons(r, false)}</div>
       </li>`).join('');
-    return `<ul class="cards" aria-label="Resorts">${items}</ul>`;
   }
-  function bar5(v) { let s = '<span class="bar">'; for (let i = 0; i < 5; i++) s += `<i style="--f:${Math.max(0, Math.min(1, (isNum(v) ? v : 0) - i))}"></i>`; return s + '</span>'; }
 
   // ---------- Rendering: detail ----------
   function detailHTML(r) {
@@ -388,18 +403,40 @@
       <h3>Links</h3>
       <div class="biglinks">${linkButtons(r, true) || '<p class="muted">No links available.</p>'}</div>
       ${r.comments ? `<h3>Comments</h3><p class="comments">${esc(r.comments)}</p>` : ''}
-      ${sources.length ? `<h3>Sources</h3><ul class="sources">${sources.map((s) => `<li><a href="${esc(s)}" target="_blank" rel="noopener noreferrer">${esc(domainOf(s))}</a></li>`).join('')}</ul>` : ''}
+      ${sources.length ? `<h3>Sources</h3><ul class="sources">${sources.map((s, i) => `<li><a href="${esc(s)}" target="_blank" rel="noopener noreferrer" aria-label="Source ${i + 1} for ${esc(r.resort_name)}: ${esc(domainOf(s))}">${esc(domainOf(s))}</a></li>`).join('')}</ul>` : ''}
       <p class="detail-foot">Data confidence: ${esc(r.confidence || 'unknown')} · Last updated ${esc(META.generated_at || '—')}</p>`;
   }
 
   // ---------- Main render ----------
   let renderQueued = false;
   function scheduleRender() { if (renderQueued) return; renderQueued = true; requestAnimationFrame(() => { renderQueued = false; render(); }); }
+  // Rows are inserted progressively (first chunk synchronously, the rest in short tasks) so the
+  // first screen paints quickly and no single task blocks the main thread on slow phones.
+  const CHUNK = 30;
+  let renderToken = 0;
   function render() {
     state._words = norm(state.q).split(/\s+/).filter(Boolean);
     const filtered = DATA.filter((r) => matches(r));
     visibleRows = sortRows(filtered);
-    el.results.innerHTML = visibleRows.length ? (isDesktop() ? tableHTML(visibleRows) : cardsHTML(visibleRows)) : '';
+    const desktop = isDesktop();
+    const token = ++renderToken;
+    if (!visibleRows.length) el.results.innerHTML = '';
+    else {
+      const first = visibleRows.slice(0, CHUNK);
+      el.results.innerHTML = desktop ? tableHTML(first) : cardsHTML(first);
+      if (visibleRows.length > CHUNK) {
+        const container = el.results.querySelector(desktop ? 'tbody' : 'ul.cards');
+        let i = CHUNK;
+        const step = () => {
+          if (token !== renderToken || !container.isConnected) return;
+          const slice = visibleRows.slice(i, i + CHUNK);
+          container.insertAdjacentHTML('beforeend', desktop ? rowsHTML(slice) : cardItemsHTML(slice));
+          i += CHUNK;
+          if (i < visibleRows.length) setTimeout(step, 0);
+        };
+        setTimeout(step, 0);
+      }
+    }
     el.results.setAttribute('aria-busy', 'false');
     el.empty.hidden = visibleRows.length > 0 || DATA.length === 0;
     const txt = `Showing ${fmtInt.format(visibleRows.length)} of ${fmtInt.format(DATA.length)} resorts`;
@@ -428,9 +465,11 @@
   }
 
   // ---------- Controls <-> state ----------
+  // The chips are static in index.html so the filter bar has its final height at first paint;
+  // this only rebuilds them if the markup is ever missing.
   function buildChips() {
-    el.countryChips.innerHTML = COUNTRIES.map((c) => `<label class="chip"><input type="checkbox" name="c" value="${c.code}" checked><span class="tick">${icon('i-check', 'tick')}</span>${flag(c.code)}<span>${c.code}</span><span class="sr-only">${esc(c.name)}</span><span class="cnt" data-c="${c.code}" aria-hidden="true"></span></label>`).join('');
-    el.typeChips.innerHTML = TYPES.map((t) => `<label class="chip"><input type="checkbox" name="t" value="${esc(t.value)}" checked><span class="tick">${icon('i-check', 'tick')}</span><span>${esc(t.value)}</span></label>`).join('');
+    if (!el.countryChips.children.length) el.countryChips.innerHTML = COUNTRIES.map((c) => `<label class="chip"><input type="checkbox" name="c" value="${c.code}" checked><span class="tick">${icon('i-check', 'tick')}</span>${flag(c.code)}<span>${c.code}</span><span class="sr-only">${esc(c.name)}</span><span class="cnt" data-c="${c.code}" aria-hidden="true"></span></label>`).join('');
+    if (!el.typeChips.children.length) el.typeChips.innerHTML = TYPES.map((t) => `<label class="chip"><input type="checkbox" name="t" value="${esc(t.value)}" checked><span class="tick">${icon('i-check', 'tick')}</span><span>${esc(t.value)}</span></label>`).join('');
   }
   function controlsFromState() {
     el.search.value = state.q; el.searchClear.hidden = !state.q;
@@ -454,8 +493,21 @@
   }
 
   // ---------- Column chooser ----------
+  // Some columns hide automatically below a viewport width (see css); a tick in the chooser forces them on.
+  const AUTO_HIDE = { confidence: 1200, type: 1200, pistes: 1200, top: 900, country: 900 };
+  function colEffective(key) {
+    if (colPrefs[key] === true) return true;
+    if (colPrefs[key] === false) return false;
+    return !(AUTO_HIDE[key] && window.innerWidth < AUTO_HIDE[key]);
+  }
+  function fillColumnMenu() {
+    const autoHidden = COLUMNS.some((c) => colPrefs[c.key] === undefined && AUTO_HIDE[c.key] && window.innerWidth < AUTO_HIDE[c.key]);
+    el.colBody.innerHTML = COLUMNS.map((c) => `<label><input type="checkbox" data-col="${c.key}" ${colEffective(c.key) ? 'checked' : ''} ${c.fixed ? 'disabled' : ''}> ${esc(c.label)}${colPrefs[c.key] === undefined && AUTO_HIDE[c.key] && window.innerWidth < AUTO_HIDE[c.key] ? ' <span class="muted">(hidden at this width)</span>' : ''}</label>`).join('')
+      + (autoHidden ? '<p class="hint">Columns that do not fit this width are hidden automatically. Tick one to force it on.</p>' : '');
+  }
   function buildColumnMenu() {
-    el.colBody.innerHTML = COLUMNS.map((c) => `<label><input type="checkbox" data-col="${c.key}" ${colVisible(c.key) ? 'checked' : ''} ${c.fixed ? 'disabled' : ''}> ${esc(c.label)}</label>`).join('');
+    fillColumnMenu();
+    el.colMenu.addEventListener('toggle', () => { if (el.colMenu.open) fillColumnMenu(); });
     el.colBody.addEventListener('change', (e) => {
       const cb = e.target.closest('input[data-col]'); if (!cb) return;
       colPrefs[cb.dataset.col] = cb.checked;
@@ -481,44 +533,57 @@
   function currentTheme() { try { return localStorage.getItem('theme') || 'system'; } catch { return 'system'; } }
 
   // ---------- Detail dialog with history integration ----------
-  let detailPushed = false, suppressHistory = false, lastTrigger = null;
-  function openDetail(slug, { push = true, trigger = null } = {}) {
+  let detailPushed = false, suppressHistory = false, pendingFocus = null, openedAt = 0;
+  function openDetail(slug, { push = true } = {}) {
     const r = BY_SLUG.get(slug); if (!r) return false;
-    state.resort = slug; lastTrigger = trigger || document.activeElement;
+    flushSearch();
+    if (push) syncURLNow(); // make sure the list entry we go back to carries the current filters
+    state.resort = slug;
     el.detailInner.innerHTML = detailHTML(r);
     if (!el.detail.open) el.detail.showModal();
-    el.detailInner.scrollTop = 0;
-    if (push) { history.pushState(null, '', urlFor(stateToParams())); detailPushed = true; }
+    el.detailInner.scrollTop = 0; openedAt = performance.now();
+    if (push) { try { history.pushState({ detail: slug }, '', urlFor(stateToParams())); detailPushed = true; } catch { detailPushed = false; } }
     document.title = `${r.resort_name} · Alpine Ski Resorts 2026/27`;
     requestAnimationFrame(() => { $('detail-title')?.focus(); });
     return true;
   }
   function closeDetail() { if (el.detail.open) el.detail.close(); }
+  // Return focus to the link that opened the panel (it is still in the DOM because closing never re-renders the list).
+  function focusPending() {
+    if (!pendingFocus) return;
+    const t = el.results.querySelector(`a[data-open="${pendingFocus}"]`); pendingFocus = null;
+    if (t) t.focus(); else $('main').focus();
+  }
   el.detail.addEventListener('close', () => {
-    state.resort = null; document.title = 'Ski Bums · Alpine Ski Resorts 2026/27';
-    if (suppressHistory) suppressHistory = false;
-    else if (detailPushed) { detailPushed = false; history.back(); }
-    else syncURL();
-    if (lastTrigger && document.contains(lastTrigger)) lastTrigger.focus(); lastTrigger = null;
+    pendingFocus = state.resort; state.resort = null; document.title = 'Ski Bums · Alpine Ski Resorts 2026/27';
+    if (suppressHistory) { suppressHistory = false; focusPending(); }
+    else if (detailPushed) { detailPushed = false; history.back(); } // popstate restores focus
+    else { syncURLNow(); focusPending(); }
   });
   el.detail.addEventListener('click', (e) => {
     if (e.target.closest('#detail-close')) closeDetail();
-    else if (e.target === el.detail) closeDetail(); // backdrop click
+    else if (e.target === el.detail && performance.now() - openedAt > 400) closeDetail(); // backdrop click (ignore the 2nd click of a double-click)
   });
   window.addEventListener('popstate', () => {
-    readURL(); controlsFromState(); render();
-    if (state.resort && !el.detail.open) { if (!openDetail(state.resort, { push: false })) { state.resort = null; syncURL(); } }
+    const before = listKey();
+    readURL(); controlsFromState();
+    if (listKey() !== before) render(); // only re-render when the list state actually changed
+    if (state.resort && !el.detail.open) { if (!openDetail(state.resort, { push: false })) { state.resort = null; syncURLNow(); } }
     else if (!state.resort && el.detail.open) { suppressHistory = true; detailPushed = false; el.detail.close(); }
     else if (state.resort && el.detail.open) { const r = BY_SLUG.get(state.resort); if (r) el.detailInner.innerHTML = detailHTML(r); }
+    focusPending();
   });
 
   // ---------- Filters dialog (mobile modal / desktop inline) ----------
+  // Desktop: the dialog is simply marked open (no show(), which would move focus into it on every load).
   let filtersModal = false;
   function placeFilters() {
-    if (isDesktop()) { if (el.filtersDialog.open && filtersModal) el.filtersDialog.close(); if (!el.filtersDialog.open) el.filtersDialog.show(); filtersModal = false; }
-    else if (el.filtersDialog.open && !filtersModal) el.filtersDialog.close();
+    if (isDesktop()) {
+      if (filtersModal && el.filtersDialog.open) { filtersModal = false; el.filtersDialog.close(); }
+      filtersModal = false; el.filtersDialog.setAttribute('open', '');
+    } else if (!filtersModal && el.filtersDialog.hasAttribute('open')) el.filtersDialog.removeAttribute('open');
   }
-  function openFilters() { if (isDesktop()) return; if (el.filtersDialog.open) el.filtersDialog.close(); filtersModal = true; el.filtersDialog.showModal(); el.filtersClose.focus(); }
+  function openFilters() { if (isDesktop()) return; if (el.filtersDialog.hasAttribute('open')) el.filtersDialog.removeAttribute('open'); filtersModal = true; el.filtersDialog.showModal(); el.filtersClose.focus(); }
   function closeFilters() { if (filtersModal && el.filtersDialog.open) el.filtersDialog.close(); }
   el.filtersDialog.addEventListener('close', () => { if (filtersModal) { filtersModal = false; el.filtersOpen.focus(); } });
   el.filtersDialog.addEventListener('click', (e) => { if (filtersModal && e.target === el.filtersDialog) closeFilters(); });
@@ -528,14 +593,23 @@
   function toast(msg) { el.toast.textContent = msg; el.toast.classList.add('show'); clearTimeout(toastTimer); toastTimer = setTimeout(() => el.toast.classList.remove('show'), 2200); }
 
   // ---------- Wire up events ----------
+  let searchTimer = null;
+  function flushSearch() {
+    if (!searchTimer) return;
+    clearTimeout(searchTimer); searchTimer = null;
+    const q = el.search.value.trim(); if (q !== state.q) { state.q = q; render(); }
+  }
   function wire() {
-    let searchTimer = null;
-    el.search.addEventListener('input', () => { clearTimeout(searchTimer); el.searchClear.hidden = !el.search.value; searchTimer = setTimeout(() => { state.q = el.search.value.trim(); render(); }, 150); });
-    el.searchForm.addEventListener('submit', (e) => { e.preventDefault(); clearTimeout(searchTimer); state.q = el.search.value.trim(); render(); el.search.blur(); });
+    el.search.addEventListener('input', () => { clearTimeout(searchTimer); el.searchClear.hidden = !el.search.value; searchTimer = setTimeout(() => { searchTimer = null; state.q = el.search.value.trim(); render(); }, 150); });
+    el.searchForm.addEventListener('submit', (e) => { e.preventDefault(); clearTimeout(searchTimer); searchTimer = null; state.q = el.search.value.trim(); render(); el.search.blur(); });
     el.searchClear.addEventListener('click', () => { el.search.value = ''; state.q = ''; el.searchClear.hidden = true; render(); el.search.focus(); });
     el.searchToggle.addEventListener('click', () => { el.header.classList.add('search-open'); el.searchToggle.setAttribute('aria-expanded', 'true'); el.search.focus(); });
     el.search.addEventListener('blur', () => { if (!isDesktop() && !el.search.value) { el.header.classList.remove('search-open'); el.searchToggle.setAttribute('aria-expanded', 'false'); } });
-    el.search.addEventListener('keydown', (e) => { if (e.key === 'Escape') { if (el.search.value) { el.search.value = ''; state.q = ''; el.searchClear.hidden = true; render(); } else el.search.blur(); } });
+    el.search.addEventListener('keydown', (e) => {
+      if (e.key !== 'Escape') return;
+      if (el.search.value) { el.search.value = ''; state.q = ''; el.searchClear.hidden = true; render(); }
+      else { el.search.blur(); if (!isDesktop()) el.searchToggle.focus(); }
+    });
 
     el.filters.addEventListener('change', (e) => {
       const t = e.target;
@@ -576,7 +650,7 @@
         return;
       }
       const open = e.target.closest('a[data-open]');
-      if (open) { e.preventDefault(); openDetail(open.dataset.open, { trigger: open }); }
+      if (open) { e.preventDefault(); openDetail(open.dataset.open); }
     });
     el.copyLink.addEventListener('click', async () => {
       const url = location.href;
@@ -586,12 +660,17 @@
     el.theme.addEventListener('click', () => { const i = THEMES.findIndex((t) => t.v === currentTheme()); applyTheme(THEMES[(i + 1) % THEMES.length].v); });
 
     mqDesktop.addEventListener('change', () => { placeFilters(); render(); });
-    const ro = new ResizeObserver(() => { document.documentElement.style.setProperty('--header-h', `${el.header.offsetHeight}px`); });
+    // Keep the sticky table header just below the site header; use the observer's own box size to avoid a forced reflow.
+    const ro = new ResizeObserver((entries) => {
+      const box = entries[0].borderBoxSize && entries[0].borderBoxSize[0];
+      const h = box ? box.blockSize : entries[0].contentRect.height;
+      document.documentElement.style.setProperty('--header-h', `${Math.round(h)}px`);
+    });
     ro.observe(el.header);
   }
 
   // ---------- Boot ----------
-  async function loadJSON(url) { const res = await fetch(url, { cache: 'no-cache' }); if (!res.ok) throw new Error(`${url}: HTTP ${res.status}`); return res.json(); }
+  async function loadJSON(url) { const res = await fetch(url); if (!res.ok) throw new Error(`${url}: HTTP ${res.status}`); return res.json(); }
   async function boot() {
     buildChips(); buildColumnMenu(); applyTheme(currentTheme()); readURL(); controlsFromState(); placeFilters(); wire();
     try {
@@ -609,9 +688,15 @@
     el.footerSeason.textContent = `Season ${META.season || '2026/27'}`;
     el.banner.hidden = !META.sample;
     render();
-    if (state.resort && !openDetail(state.resort, { push: false })) { state.resort = null; syncURL(); }
+    if (state.resort) {
+      // Deep link: rewrite the current entry as the list, then push the detail, so the back gesture closes the sheet instead of leaving the site.
+      const slug = state.resort; state.resort = null; syncURLNow();
+      openDetail(slug, { push: true });
+    }
     if ('serviceWorker' in navigator && (location.protocol === 'https:' || ['localhost', '127.0.0.1'].includes(location.hostname))) {
-      navigator.serviceWorker.register('./sw.js').catch(() => undefined);
+      // Register once the page is idle so the shell precache never competes with first render.
+      const reg = () => navigator.serviceWorker.register('./sw.js').catch(() => undefined);
+      if (document.readyState === 'complete') setTimeout(reg, 2500); else window.addEventListener('load', () => setTimeout(reg, 2500));
     }
   }
   boot();

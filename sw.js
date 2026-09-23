@@ -1,17 +1,21 @@
 /* Service worker: network-first for everything on this origin, cache as offline fallback.
-   Because every request goes to the network first, a new data commit is picked up on the
-   very next load; the cache is only used when the network is unavailable.
-   The data files are not precached here (the page downloads them anyway on first visit);
-   the fetch handler stores them as they are loaded. */
-const CACHE = 'ski-bums-v2';
+   Every request goes to the network first, and data requests bypass the HTTP cache's
+   freshness (they revalidate with the server), so a new data commit is picked up on the
+   very next load; the cache is only used when the network is unavailable. */
+const CACHE = 'ski-bums-v3';
 const SHELL = [
-  './', './index.html', './css/app.css', './js/app.js',
-  './assets/logo.png', './assets/manifest.webmanifest', './assets/favicon-32.png', './assets/icon-192.png',
+  './index.html', './css/app.css', './js/app.js', './manifest.webmanifest',
+  './data/resorts.json', './data/meta.json',
+  './assets/logo.png', './assets/favicon-32.png', './assets/icon-192.png',
 ];
+const isData = (url) => /\/data\/[^/]+\.json$/.test(url.pathname);
 
 self.addEventListener('install', (event) => {
+  // Registration happens a couple of seconds after load, so these mostly come from the HTTP cache.
   event.waitUntil(
-    caches.open(CACHE).then((cache) => cache.addAll(SHELL).catch(() => undefined)).then(() => self.skipWaiting())
+    caches.open(CACHE)
+      .then((cache) => Promise.all(SHELL.map((u) => cache.add(u).catch(() => undefined))))
+      .then(() => self.skipWaiting())
   );
 });
 
@@ -27,19 +31,21 @@ self.addEventListener('fetch', (event) => {
   if (req.method !== 'GET') return;
   const url = new URL(req.url);
   if (url.origin !== self.location.origin) return; // never touch external links
+  const isNav = req.mode === 'navigate';
+  const netReq = isData(url) ? new Request(req, { cache: 'no-cache' }) : req; // always revalidate data
   event.respondWith(
-    fetch(req).then((res) => {
+    fetch(netReq).then((res) => {
       if (res && res.ok && res.type === 'basic') {
         const copy = res.clone();
-        caches.open(CACHE).then((cache) => cache.put(req, copy)).catch(() => undefined);
+        // Navigations are keyed by index.html so filter/deep-link query strings do not pile up copies.
+        caches.open(CACHE).then((cache) => cache.put(isNav ? './index.html' : req, copy)).catch(() => undefined);
       }
       return res;
     }).catch(async () => {
       const cache = await caches.open(CACHE);
+      if (isNav) return (await cache.match('./index.html')) || Response.error();
       const hit = await cache.match(req, { ignoreSearch: true });
-      if (hit) return hit;
-      if (req.mode === 'navigate') return (await cache.match('./index.html')) || (await cache.match('./'));
-      return Response.error();
+      return hit || Response.error();
     })
   );
 });

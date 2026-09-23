@@ -89,7 +89,7 @@
     .replace(/ß/g, 'ss').replace(/[‘’‛′`´]/g, "'").replace(/[‐-―−]/g, '-');
   const parseISO = (iso) => { const m = /^(\d{4})-(\d{2})-(\d{2})$/.exec(iso || ''); return m ? new Date(Date.UTC(+m[1], +m[2] - 1, +m[3])) : null; };
   const icon = (id, cls = 'ic') => `<svg class="${cls}" aria-hidden="true" focusable="false"><use href="#${id}"/></svg>`;
-  const flag = (code) => `<svg class="flag" aria-hidden="true" focusable="false"><use href="#flag-${esc(code)}"/></svg>`;
+  const flag = (code, named = false) => `<svg class="flag" aria-hidden="true" focusable="false"><use href="#flag-${esc(code)}"/></svg>${named ? `<span class="sr-only">${esc(COUNTRY_NAME[code] || code || '')} </span>` : ''}`;
 
   function fmtHours(h) {
     if (!isNum(h)) return '—';
@@ -270,7 +270,7 @@
   }
   function priceCell(r) {
     const p = fmtPrice(r);
-    if (!p) return `<span class="dash" aria-label="price unknown">—</span>`;
+    if (!p) return `<span class="dash" aria-hidden="true">—</span><span class="sr-only">price unknown</span>`;
     if (r.price_status === 'estimated_from_2025_26') return `<span class="est" title="Estimated from 2025/26 season">${esc(p)}<span class="sr-only"> (estimated)</span></span>`;
     return `<span title="${esc(PRICE_STATUS_LABEL[r.price_status] || '')}">${esc(p)}</span>`;
   }
@@ -295,7 +295,7 @@
   function linkButtons(r, big) {
     const name = r.resort_name; const out = [];
     const add = (href, ic, aria, tip, label, sub) => {
-      if (big) out.push(`<a class="biglink" href="${esc(href)}" target="_blank" rel="noopener noreferrer" aria-label="${esc(aria)}">${icon(ic)}<span>${esc(label)}${sub ? `<small>${esc(sub)}</small>` : ''}</span></a>`);
+      if (big) out.push(`<a class="biglink" href="${esc(href)}" target="_blank" rel="noopener noreferrer" aria-label="${esc(label)}, ${esc(name)}${sub ? `, ${esc(sub)}` : ''}">${icon(ic)}<span>${esc(label)}${sub ? `<small>${esc(sub)}</small>` : ''}</span></a>`);
       else out.push(`<a class="lnk" href="${esc(href)}" target="_blank" rel="noopener noreferrer" aria-label="${esc(aria)}" title="${esc(tip)}">${icon(ic)}</a>`);
     };
     if (isNum(r.latitude) && isNum(r.longitude)) {
@@ -314,7 +314,7 @@
 
   // ---------- Rendering: table ----------
   function colVisible(key) { return colPrefs[key] !== false; }
-  function tableHTML(rows) {
+  function tableHTML(rows, total = rows.length) {
     const { key: sk, dir: sd } = state.sort;
     const ths = COLUMNS.filter((c) => colVisible(c.key)).map((c) => {
       const cls = `col-${c.key}${c.num ? ' num' : ''}`;
@@ -327,7 +327,7 @@
       return `<th scope="col" class="${cls}"${aria}><button type="button" class="sort-btn" data-sort="${c.key}" aria-label="Sort by ${esc(name)}${active ? (sd === 'asc' ? ', currently ascending' : ', currently descending') : ''}">${text}${icon(ic)}</button></th>`;
     }).join('');
     const force = COLUMNS.filter((c) => colPrefs[c.key] === true).map((c) => ` data-force-${c.key}=""`).join('');
-    return `<table class="grid"${force}><caption class="sr-only">Alpine ski resorts, ${rows.length} of ${DATA.length} shown</caption><thead><tr>${ths}</tr></thead><tbody>${rowsHTML(rows)}</tbody></table>`;
+    return `<table class="grid"${force}><caption class="sr-only">Alpine ski resorts, ${total} of ${DATA.length} shown</caption><thead><tr>${ths}</tr></thead><tbody>${rowsHTML(rows)}</tbody></table>`;
   }
   function rowsHTML(rows) {
     return rows.map((r) => {
@@ -336,7 +336,7 @@
       if (v('resort')) {
         const local = r.local_name && norm(r.local_name) !== norm(r.resort_name) ? `<span class="sub">${esc(r.local_name)}</span>` : '';
         const area = r.ski_area && norm(r.ski_area) !== norm(r.resort_name) && norm(r.ski_area) !== norm(r.local_name || '') ? `<span class="sub">${esc(r.ski_area)}</span>` : '';
-        cells.push(`<td class="col-resort"><svg class="flag inline-flag" aria-hidden="true" focusable="false"><use href="#flag-${esc(r.country)}"/></svg><a class="name-link" href="${esc(detailHref(r._slug))}" data-open="${esc(r._slug)}">${esc(r.resort_name)}</a>${local}${area}</td>`);
+        cells.push(`<td class="col-resort"><svg class="flag inline-flag" aria-hidden="true" focusable="false"><use href="#flag-${esc(r.country)}"/></svg><span class="sr-only inline-flag-name">${esc(COUNTRY_NAME[r.country] || r.country)} </span><a class="name-link" href="${esc(detailHref(r._slug))}" data-open="${esc(r._slug)}">${esc(r.resort_name)}</a>${local}${area}</td>`);
       }
       if (v('country')) cells.push(`<td class="col-country"><span class="country-cell" title="${esc(COUNTRY_NAME[r.country] || r.country)}">${flag(r.country)}<span>${esc(r.country)}</span></span></td>`);
       if (v('type')) cells.push(`<td class="col-type">${typeBadge(r)}</td>`);
@@ -359,7 +359,7 @@
     return rows.map((r) => `
       <li class="card">
         <a class="card-main" href="${esc(detailHref(r._slug))}" data-open="${esc(r._slug)}">
-          <div class="l1">${flag(r.country)}<strong>${esc(r.resort_name)}</strong>${typeBadge(r)}</div>
+          <div class="l1">${flag(r.country, true)}<strong>${esc(r.resort_name)}</strong>${typeBadge(r)}</div>
           <div class="l2">${opensCell(r)}<span aria-hidden="true">·</span><span class="nowrap">${esc(fmtHours(r.driving_time_h_from_milan))} from Milan</span></div>
           <div class="l3">
             <span class="score" role="img" aria-label="Freeride ${esc(fmtScore(r.freeride_score_0_5))} out of 5"><span class="lab">Freeride</span>${bar5(r.freeride_score_0_5)}<span class="num">${fmtScore(r.freeride_score_0_5)}</span></span>
@@ -376,11 +376,11 @@
     const local = r.local_name && norm(r.local_name) !== norm(r.resort_name) ? esc(r.local_name) : '';
     const metaBits = [local, esc(r.region), r.ski_area && norm(r.ski_area) !== norm(r.resort_name) ? esc(r.ski_area) : ''].filter(Boolean).join(' · ');
     const price = fmtPrice(r);
-    const scoreBar = (label, v) => `<div class="bigscore"><span>${label}</span><span class="track" aria-hidden="true"><span class="fill" style="width:${isNum(v) ? (v / 5) * 100 : 0}%"></span></span><span class="val" aria-label="${label} ${esc(fmtScore(v))} out of 5">${fmtScore(v)}</span></div>`;
+    const scoreBar = (label, v) => `<div class="bigscore"><span>${label}</span><span class="track" aria-hidden="true"><span class="fill" style="width:${isNum(v) ? (v / 5) * 100 : 0}%"></span></span><span class="val">${fmtScore(v)}<span class="sr-only"> out of 5</span></span></div>`;
     const sources = String(r.sources || '').split('|').map((s) => s.trim()).filter((s) => /^https?:\/\//.test(s));
     return `
       <div class="detail-head">
-        ${flag(r.country)}
+        ${flag(r.country, true)}
         <div>
           <h2 id="detail-title" tabindex="-1">${esc(r.resort_name)}</h2>
           <p class="meta">${metaBits}</p>
@@ -423,7 +423,7 @@
     if (!visibleRows.length) el.results.innerHTML = '';
     else {
       const first = visibleRows.slice(0, CHUNK);
-      el.results.innerHTML = desktop ? tableHTML(first) : cardsHTML(first);
+      el.results.innerHTML = desktop ? tableHTML(first, visibleRows.length) : cardsHTML(first);
       if (visibleRows.length > CHUNK) {
         const container = el.results.querySelector(desktop ? 'tbody' : 'ul.cards');
         let i = CHUNK;
@@ -445,8 +445,7 @@
     const counts = {}; for (const r of DATA) if (matches(r, true)) counts[r.country] = (counts[r.country] || 0) + 1;
     el.countryChips.querySelectorAll('.cnt').forEach((span) => { span.textContent = counts[span.dataset.c] || 0; });
     const active = activeFilterCount();
-    el.filterBadge.hidden = active === 0; el.filterBadge.textContent = String(active);
-    el.filterBadge.setAttribute('aria-label', `${active} active`);
+    el.filterBadge.hidden = active === 0; $('filter-badge-n').textContent = String(active);
     const sortVal = `${state.sort.key}:${state.sort.dir}`;
     if ([...el.mobileSort.options].some((o) => o.value === sortVal)) el.mobileSort.value = sortVal;
     else { let o = el.mobileSort.querySelector('option[data-custom]'); if (!o) { o = document.createElement('option'); o.dataset.custom = '1'; el.mobileSort.appendChild(o); } o.value = sortVal; o.textContent = `Sorted by ${COLUMNS.find((c) => c.key === state.sort.key)?.label || state.sort.key}`; el.mobileSort.value = sortVal; }
@@ -473,6 +472,7 @@
   }
   function controlsFromState() {
     el.search.value = state.q; el.searchClear.hidden = !state.q;
+    if (state.q && !isDesktop()) { el.header.classList.add('search-open'); el.searchToggle.setAttribute('aria-expanded', 'true'); }
     el.countryChips.querySelectorAll('input').forEach((i) => { i.checked = state.countries.has(i.value); });
     el.typeChips.querySelectorAll('input').forEach((i) => { i.checked = state.types.has(i.value); });
     el.openBy.value = state.by; el.openByNote.hidden = !state.by; el.openByClear.hidden = !state.by;
@@ -494,7 +494,7 @@
 
   // ---------- Column chooser ----------
   // Some columns hide automatically below a viewport width (see css); a tick in the chooser forces them on.
-  const AUTO_HIDE = { confidence: 1200, type: 1200, pistes: 1200, top: 900, country: 900 };
+  const AUTO_HIDE = { confidence: 1200, type: 1300, pistes: 1400, top: 900, country: 900 };
   function colEffective(key) {
     if (colPrefs[key] === true) return true;
     if (colPrefs[key] === false) return false;
@@ -533,12 +533,12 @@
   function currentTheme() { try { return localStorage.getItem('theme') || 'system'; } catch { return 'system'; } }
 
   // ---------- Detail dialog with history integration ----------
-  let detailPushed = false, suppressHistory = false, pendingFocus = null, openedAt = 0;
+  let detailPushed = false, suppressHistory = false, pendingFocus = null, openedAt = 0, currentSlug = null;
   function openDetail(slug, { push = true } = {}) {
     const r = BY_SLUG.get(slug); if (!r) return false;
     flushSearch();
     if (push) syncURLNow(); // make sure the list entry we go back to carries the current filters
-    state.resort = slug;
+    state.resort = slug; currentSlug = slug;
     el.detailInner.innerHTML = detailHTML(r);
     if (!el.detail.open) el.detail.showModal();
     el.detailInner.scrollTop = 0; openedAt = performance.now();
@@ -555,7 +555,7 @@
     if (t) t.focus(); else $('main').focus();
   }
   el.detail.addEventListener('close', () => {
-    pendingFocus = state.resort; state.resort = null; document.title = 'Ski Bums · Alpine Ski Resorts 2026/27';
+    pendingFocus = currentSlug; currentSlug = null; state.resort = null; document.title = 'Ski Bums · Alpine Ski Resorts 2026/27';
     if (suppressHistory) { suppressHistory = false; focusPending(); }
     else if (detailPushed) { detailPushed = false; history.back(); } // popstate restores focus
     else { syncURLNow(); focusPending(); }
@@ -568,7 +568,7 @@
     const before = listKey();
     readURL(); controlsFromState();
     if (listKey() !== before) render(); // only re-render when the list state actually changed
-    if (state.resort && !el.detail.open) { if (!openDetail(state.resort, { push: false })) { state.resort = null; syncURLNow(); } }
+    if (state.resort && !el.detail.open) { if (openDetail(state.resort, { push: false })) detailPushed = true; else { state.resort = null; syncURLNow(); } }
     else if (!state.resort && el.detail.open) { suppressHistory = true; detailPushed = false; el.detail.close(); }
     else if (state.resort && el.detail.open) { const r = BY_SLUG.get(state.resort); if (r) el.detailInner.innerHTML = detailHTML(r); }
     focusPending();
@@ -633,7 +633,8 @@
     });
     el.filters.addEventListener('submit', (e) => e.preventDefault());
     el.openByClear.addEventListener('click', () => { el.openBy.value = ''; state.by = ''; el.openByNote.hidden = true; el.openByClear.hidden = true; render(); el.openBy.focus(); });
-    el.reset.addEventListener('click', resetAll); el.resetTop.addEventListener('click', resetAll); el.emptyReset.addEventListener('click', resetAll);
+    el.reset.addEventListener('click', resetAll); el.resetTop.addEventListener('click', resetAll);
+    el.emptyReset.addEventListener('click', () => { resetAll(); $('main').focus(); });
     el.filtersOpen.addEventListener('click', openFilters);
     el.filtersClose.addEventListener('click', closeFilters);
     el.filtersDone.addEventListener('click', closeFilters);

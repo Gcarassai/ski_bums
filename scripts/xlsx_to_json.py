@@ -29,6 +29,7 @@ import json
 import re
 import sys
 from pathlib import Path
+from typing import NoReturn
 
 try:
     import openpyxl
@@ -174,31 +175,50 @@ def as_opening_date(v, status, where, err):
     return iso
 
 
-def read_sidecar(path: Path, key_fields, err: Errors, label: str) -> dict:
+def read_sidecar(path: Path, key_fields, err: Errors, label: str):
+    """Return {key tuple: row} for a sidecar CSV, or None when the file is absent."""
     if not path.exists():
+        return None
+    try:
+        with path.open(encoding="utf-8-sig", newline="") as f:  # utf-8-sig also accepts Excel's UTF-8 BOM
+            reader = csv.DictReader(f)
+            missing = [k for k in key_fields if k not in (reader.fieldnames or [])]
+            if missing:
+                err.add(str(path), f"{label} file lacks columns {missing}")
+                return {}
+            return {tuple((row[k] or "").strip() for k in key_fields): row for row in reader}
+    except UnicodeDecodeError:
+        err.add(str(path), f"{label} file is not UTF-8 encoded; in Excel save it as 'CSV UTF-8'")
         return {}
-    with path.open(encoding="utf-8", newline="") as f:
-        reader = csv.DictReader(f)
-        missing = [k for k in key_fields if k not in (reader.fieldnames or [])]
-        if missing:
-            err.add(str(path), f"{label} file lacks columns {missing}")
-            return {}
-        return {tuple((row[k] or "").strip() for k in key_fields): row for row in reader}
+
+
+def season_window(season: str):
+    """'2026/27' -> (2026-08-01, 2027-06-30); None if the label is not of that form."""
+    m = re.fullmatch(r"(\d{4})/(\d{2})", season or "")
+    if not m:
+        return None
+    start = int(m.group(1))
+    return dt.date(start, 8, 1), dt.date(start + 1, 6, 30)
+
+
+def fail(msg: str) -> NoReturn:
+    print(msg, file=sys.stderr)
+    sys.exit(2)
 
 
 def load_sheet(path: Path):
     try:
         wb = openpyxl.load_workbook(path, data_only=True, read_only=True)
     except Exception as exc:  # noqa: BLE001
-        sys.exit(f"Cannot open workbook {path}: {exc}")
+        fail(f"Cannot open workbook {path}: {exc}")
     if "resorts" not in wb.sheetnames:
-        sys.exit(f"Workbook has no sheet named 'resorts' (found: {', '.join(wb.sheetnames)})")
+        fail(f"Workbook has no sheet named 'resorts' (found: {', '.join(wb.sheetnames)})")
     ws = wb["resorts"]
     rows = ws.iter_rows(values_only=True)
     header = [clean_str(h) for h in next(rows, [])]
     missing = [c for c in REQUIRED_COLUMNS if c not in header]
     if missing:
-        sys.exit(f"Sheet 'resorts' is missing required columns: {', '.join(missing)}")
+        fail(f"Sheet 'resorts' is missing required columns: {', '.join(missing)}")
     records = []
     for i, values in enumerate(rows, start=2):
         rec = {header[j]: clean_str(values[j]) for j in range(min(len(header), len(values))) if header[j]}
@@ -215,6 +235,13 @@ def convert(args) -> tuple[list[dict], Errors]:
     coords = read_sidecar(Path(args.coords), ("resort_name", "country"), err, "coordinates")
     links = read_sidecar(Path(args.links), ("country", "region"), err, "region links")
     has_col = {c: c in header for c in OPTIONAL_COLUMNS}
+    if coords is None and not (has_col["latitude"] and has_col["longitude"]):
+        err.add(str(args.coords), "coordinates sidecar not found and the workbook has no latitude/longitude columns")
+    if links is None and not (has_col["weather_url"] or has_col["avalanche_url"]):
+        err.add(str(args.links), "region links sidecar not found and the workbook has no weather_url/avalanche_url columns")
+    coords = coords or {}
+    links = links or {}
+    window = season_window(args.season)
 
     out = []
     seen = set()
@@ -231,6 +258,8 @@ def convert(args) -> tuple[list[dict], Errors]:
 
         status = as_enum(rec.get("opening_date_status"), where, "opening_date_status", err, DATE_STATUSES)
         opening = as_opening_date(rec.get("opening_date_2026_27"), status, where, err)
+        if window and opening and opening != "TBD" and not (window[0] <= dt.date.fromisoformat(opening) <= window[1]):
+            err.add(where, f"opening_date_2026_27={opening} is outside the {args.season} season ({window[0]} to {window[1]})")
 
         pmin = as_num(rec.get("ticket_price_min"), where, "ticket_price_min", err, 0, 400, optional=True)
         pmax = as_num(rec.get("ticket_price_max"), where, "ticket_price_max", err, 0, 400, optional=True)
@@ -328,6 +357,9 @@ def main(argv=None) -> int:
 
     if not Path(args.workbook).exists():
         print(f"Workbook not found: {args.workbook}", file=sys.stderr)
+        return 2
+    if args.season and not season_window(args.season):
+        print(f"--season must look like 2026/27, got {args.season!r}", file=sys.stderr)
         return 2
 
     rows, err = convert(args)

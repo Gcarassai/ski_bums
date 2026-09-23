@@ -8,7 +8,7 @@
 <meta name="color-scheme" content="light dark">
 <meta name="theme-color" content="#f6f8fa" media="(prefers-color-scheme: light)">
 <meta name="theme-color" content="#151a21" media="(prefers-color-scheme: dark)">
-<link rel="manifest" href="assets/manifest.webmanifest">
+<link rel="manifest" href="manifest.webmanifest">
 <link rel="icon" href="assets/favicon-32.png" sizes="32x32" type="image/png">
 <link rel="icon" href="assets/favicon-48.png" sizes="48x48" type="image/png">
 <link rel="apple-touch-icon" href="assets/apple-touch-icon.png">
@@ -63,7 +63,7 @@
 
 <header class="site-header" id="site-header">
   <a class="brand" href="./">
-    <img class="logo" src="assets/logo.png" alt="Ski Bums logo" width="118" height="120" decoding="async">
+    <img class="logo" src="assets/logo.png" alt="Ski Bums logo" width="120" height="120" decoding="async">
     <span class="titles">
       <span class="title" id="title">Alpine Ski Resorts 2026/27</span>
       <span class="subtitle" id="subtitle">Loading resorts…</span>
@@ -152,7 +152,7 @@
     </label>
 
     <div class="filters-foot">
-      <span class="count-copy" id="count-copy" aria-hidden="true"></span>
+      <span class="count-copy" id="count-copy" role="status"></span>
       <button type="button" class="text-btn" id="reset">Reset all</button>
       <button type="button" class="primary-btn only-mobile" id="filters-done">Show results</button>
     </div>
@@ -161,7 +161,7 @@
 
 <div class="toolbar" id="toolbar">
   <button type="button" class="tool-btn only-mobile" id="filters-open" aria-haspopup="dialog" aria-controls="filters-dialog">
-    <svg class="ic" aria-hidden="true"><use href="#i-sliders"/></svg> Filters <span class="badge-count" id="filter-badge" hidden></span>
+    <svg class="ic" aria-hidden="true"><use href="#i-sliders"/></svg> Filters <span class="badge-count" id="filter-badge" hidden><span id="filter-badge-n"></span><span class="sr-only"> active filters</span></span>
   </button>
   <label class="only-mobile sort-select">
     <span class="sr-only">Sort by</span>

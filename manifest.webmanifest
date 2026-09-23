@@ -2,7 +2,6 @@
   "name": "Alpine Ski Resorts 2026/27",
   "short_name": "Ski Bums",
   "description": "Sortable, filterable guide to major Alpine ski resorts: opening dates, prices, driving time from Milan, freeride and ski-touring scores, weather, avalanche and webcam links.",
-  "id": "./",
   "start_url": "./",
   "scope": "./",
   "display": "standalone",
